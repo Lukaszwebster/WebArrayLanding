@@ -14,7 +14,7 @@ const isHamburgerActive = ref(false)
   <div class="wrapper relative z-20">
     <div class="item-shadow w-full translate-z-0 transition-top duration-500">
       <div class="relative w-full bg-white px-[1rem] py-[0.8rem] lg:px-[4rem] md:px-[2rem]">
-        <div v-show="isHamburgerActive" class="item-shadow absolute right-0 top-14 max-w-[12rem] w-full bg-white px-[1rem] py-[2rem] md:hidden">
+        <div v-show="isHamburgerActive" class="item-shadow absolute right-0 top-14 max-w-[12rem] w-full bg-white px-[1rem] py-[2rem] lg:hidden">
           <nav>
             <img src="/logo.png" alt="">
             <ul class="flex flex-col gap-1 lg:text-[1rem] sm:text-[0.8rem]">
@@ -31,15 +31,15 @@ const isHamburgerActive = ref(false)
             <img class="" src="/logo.png" alt="logo">
           </a>
           <nav class="flex items-center">
-            <ul class="hidden gap-[0.8rem] lg:flex lg:gap-[2.190625rem] lg:text-[1rem] sm:text-[0.8rem]">
+            <ul class="mr-[4.585rem] hidden gap-[0.8rem] gap-[1.5rem] lg:flex xl:gap-[2.190625rem] sm:text-[0.8rem] xl:text-[1rem]">
               <li v-for="(item, index) in navItems" :key="index" class="rounded-[8rem] font-700">
                 <a>
                   {{ item.name }}
                 </a>
-                <img class="inline-block" :src="item.iconSrc" alt="">
+                <img class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
               </li>
             </ul>
-            <button class="hidden rounded-[1.25rem] bg-[#F89E52] px-[2.0625rem] py-[1.1875rem] text-white md:flex">
+            <button class="mr-[2.5rem] hidden rounded-[1.25rem] bg-[#F89E52] px-[1rem] py-[0.5rem] text-white lg:mr-0 md:flex xl:px-[2.0625rem] xl:py-[1.1875rem]">
               Speak With Us!
             </button>
             <div class="flex items-center items-center gap-2 sm:gap-10">
