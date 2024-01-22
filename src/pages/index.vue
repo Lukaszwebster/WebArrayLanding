@@ -11,12 +11,12 @@ function go() {
     router.push(`/hi/${encodeURIComponent(name.value)}`)
 }
 
-const { t } = useI18n()
+// const { t } = useI18n()
 </script>
 
 <template>
   <div>
-    <div text-4xl>
+    <!-- <div text-4xl>
       <div i-carbon-campsite inline-block />
     </div>
     <p>
@@ -46,11 +46,11 @@ const { t } = useI18n()
       >
         {{ t('button.go') }}
       </button>
-    </div>
+    </div> -->
   </div>
 </template>
 
-<route lang="yaml">
+<!-- <route lang="yaml">
 meta:
   layout: home
-</route>
+</route> -->
