@@ -3,8 +3,8 @@ const navItems = [
   { name: 'Management' },
   { name: 'Marketing' },
   { name: 'Increase Sales' },
-  { name: 'Services' },
-  { name: 'Plans & Pricing' },
+  { name: 'Services', iconSrc: '/arrow-icon.png' },
+  { name: 'Plans & Pricing', iconSrc: '/arrow-icon.png' },
 ]
 
 const isHamburgerActive = ref(false)
@@ -36,6 +36,7 @@ const isHamburgerActive = ref(false)
                 <a>
                   {{ item.name }}
                 </a>
+                <img class="inline-block" :src="item.iconSrc" alt="">
               </li>
             </ul>
             <button class="hidden rounded-[1.25rem] bg-[#F89E52] px-[2.0625rem] py-[1.1875rem] text-white md:flex">
