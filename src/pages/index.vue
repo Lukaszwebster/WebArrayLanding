@@ -1,65 +1,31 @@
 <script setup lang="ts">
-// defineOptions({
-//   name: 'IndexPage',
-// })
-// const user = useUserStore()
-// const name = ref(user.savedName)
-
-// const router = useRouter()
-// function go() {
-//   if (name.value)
-//     router.push(`/hi/${encodeURIComponent(name.value)}`)
-// }
-
-// const { t } = useI18n()
+const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '/twitterIcon.png', '/googleIcon.png', '/youtubeIcon.png']
 </script>
 
 <template>
   <div>
-    <section class="mt-[2.211875rem] flex flex-col">
-      <button class="mx-auto rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[1.125rem] text-[#FFF1E7] font-500">
+    <section class="mx-[0.9375rem] mt-[2.211875rem] flex flex-col">
+      <button type="button" class="mx-auto rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[1.125rem] text-[#FFF1E7] font-500">
         Social Media Marketing That Works
       </button>
-      <h1 class="mt-1.25rem text-center text-[2.2rem] font-700">
+      <h1 class="mt-1.25rem text-center text-[2.2rem] text-[#2A2A2A] font-700">
         <span class="block">Save Time</span><span class="block">Build Connections</span><span class="block">Increase Profits</span>
       </h1>
-    </section>
-
-    <!-- <div text-4xl>
-      <div i-carbon-campsite inline-block />
-    </div>
-    <p>
-      <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank">
-        Vitesse
-      </a>
-    </p>
-    <p>
-      <em text-sm opacity-75>{{ t('intro.desc') }}</em>
-    </p>
-
-    <div py-4 />
-
-    <TheInput
-      v-model="name"
-      :placeholder="t('intro.whats-your-name')"
-      autocomplete="false"
-      @keydown.enter="go"
-    />
-    <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
-
-    <div>
-      <button
-        m-3 text-sm btn
-        :disabled="!name"
-        @click="go"
-      >
-        {{ t('button.go') }}
+      <div class="mt-[2rem] flex justify-center gap-[0.4875rem]">
+        <div class="flex flex-col gap-[0.4875rem]">
+          <img src="/bakeryTop.png" alt="">
+          <img src="/bakeryBottom.png" alt="">
+        </div>
+        <img src="/beachRight.png" alt="">
+      </div>
+      <div class="mt-[2rem] flex justify-center gap-[1.25rem]">
+        <button v-for="(icon, index) in icons" :key="index">
+          <img :src="icon" alt="">
+        </button>
+      </div>
+      <button type="button" class="mt-[2.5rem] w-full rounded-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-white">
+        View Our Plans
       </button>
-    </div> -->
+    </section>
   </div>
 </template>
-
-<!-- <route lang="yaml">
-meta:
-  layout: default
-</route> -->
