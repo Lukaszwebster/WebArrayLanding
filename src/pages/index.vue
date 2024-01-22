@@ -16,6 +16,15 @@
 
 <template>
   <div>
+    <section class="mt-[2.211875rem] flex flex-col">
+      <button class="mx-auto rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[1.125rem] text-[#FFF1E7] font-500">
+        Social Media Marketing That Works
+      </button>
+      <h1 class="mt-1.25rem text-center text-[2.2rem] font-700">
+        <span class="block">Save Time</span><span class="block">Build Connections</span><span class="block">Increase Profits</span>
+      </h1>
+    </section>
+
     <!-- <div text-4xl>
       <div i-carbon-campsite inline-block />
     </div>
