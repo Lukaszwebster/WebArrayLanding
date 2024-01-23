@@ -48,26 +48,28 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
       </div>
     </section>
     <section class="relative mt-[10rem] w-full bg-[#292F3E] pb-[4rem] pt-[10rem]">
-      <div class="absolute mx-[1rem] mt-[5.625rem] flex items-center rounded-[1.25rem] bg-#1D1D25 -top-[11rem]">
-        <AppMarquee />
+      <div class="flex justify-center">
+        <div class="absolute mx-[1rem] mt-[5.625rem] flex items-center rounded-[1.25rem] bg-#1D1D25 -top-[11rem]">
+          <AppMarquee />
+        </div>
       </div>
-      <div class="mx-auto max-w-[690px] flex flex-col justify-center gap-[1.530625rem] md:flex-row">
-        <div class="mx-auto mt-[5rem] max-w-[15.625rem] w-full flex flex-col gap-[1.530625rem]">
-          <div class="mx-auto max-w-[15.625rem] w-full flex flex-col items-center justify-center gap-[0.75rem] rounded-[1.25rem] bg-white py-[4.273125rem] md:mx-0">
+      <div class="mx-auto max-w-[13.75rem] flex flex-col gap-[1.5181rem] md:max-w-[33.125rem] md:flex-row md:gap-[1.875rem]">
+        <div class="mx-auto mt-[4rem] w-full flex flex-col items-center gap-[1.5181rem] md:gap-[1.875rem]">
+          <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
             <AppCounter :start="0" :end="225" :duration="2" color="text-orange" />
             <span>Offices</span>
           </div>
-          <div class="mx-auto max-w-[15.625rem] w-full flex flex-col items-center justify-center gap-[0.75rem] rounded-[1.25rem] bg-white py-[4.273125rem] md:mx-0">
+          <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
             <AppCounter :start="0" :end="10" :duration="2" color="text-#265FDB" />
             <span>Workers</span>
           </div>
         </div>
-        <div class="mx-auto max-w-[15.625rem] w-full flex flex-col gap-[1.530625rem]">
-          <div class="mx-auto max-w-[15.625rem] w-full flex flex-col items-center justify-center gap-[0.75rem] rounded-[1.25rem] bg-white py-[4.273125rem] md:mx-0">
+        <div class="mx-auto w-full flex flex-col items-center gap-[1.5181rem] md:gap-[1.875rem]">
+          <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
             <AppCounter :start="0" :end="15" suffix="K" :duration="2" color="text-#57C0CE" />
             <span>Customers</span>
           </div>
-          <div class="mx-auto max-w-[15.625rem] w-full flex flex-col items-center justify-center gap-[0.75rem] rounded-[1.25rem] bg-white py-[4.273125rem] md:mx-0">
+          <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
             <AppCounter :start="0" :end="1300" suffix="+" :duration="2" color="text-purple" />
             <span>Projects</span>
           </div>
