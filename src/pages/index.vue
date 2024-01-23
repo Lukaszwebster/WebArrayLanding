@@ -108,5 +108,22 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         </button>
       </div>
     </section>
+    <section class="mt-[6.850625rem]">
+      <div class="flex flex-col items-center">
+        <span class="text-[1.25rem] text-[#FF7012]">Our Expertise is Your Success</span>
+        <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700">
+          Struggling to Make Engaging Content?
+        </h2>
+        <p class="max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300">
+          From the research and planning to
+          creating striking images and videos
+          for your posts, our service focuses on
+          creating a unique voice for your
+          brand that will engage your audience
+          and keep them coming back for
+          more!
+        </p>
+      </div>
+    </section>
   </div>
 </template>
