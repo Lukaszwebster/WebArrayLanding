@@ -47,8 +47,28 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         </div>
       </div>
     </section>
-    <div class="mx-[1rem] mt-[5.625rem] flex items-center rounded-[1.25rem] bg-#1D1D25">
-      <AppMarquee />
-    </div>
+    <section class="relative mt-[10rem] h-[100rem] w-full bg-[#292F3E] pt-[10rem]">
+      <div class="absolute mx-[1rem] mt-[5.625rem] flex items-center rounded-[1.25rem] bg-#1D1D25 -top-[11rem]">
+        <AppMarquee />
+      </div>
+      <div class="flex flex-col gap-[1.530625rem]">
+        <div class="mx-auto max-w-[13.75rem] w-full flex flex-col items-center justify-center gap-[0.75rem] rounded-[1.25rem] bg-white py-[4.273125rem]">
+          <AppCounter :start="0" :end="225" :duration="8" color="text-orange" />
+          <span>Offices</span>
+        </div>
+        <div class="mx-auto max-w-[13.75rem] w-full flex flex-col items-center justify-center gap-[0.75rem] rounded-[1.25rem] bg-white py-[4.273125rem]">
+          <AppCounter :start="0" :end="10" :duration="2" color="text-#265FDB" />
+          <span>Workers</span>
+        </div>
+        <div class="mx-auto max-w-[13.75rem] w-full flex flex-col items-center justify-center gap-[0.75rem] rounded-[1.25rem] bg-white py-[4.273125rem]">
+          <AppCounter :start="0" :end="15" suffix="K" :duration="1" color="text-#57C0CE" />
+          <span>Customers</span>
+        </div>
+        <div class="mx-auto max-w-[13.75rem] w-full flex flex-col items-center justify-center gap-[0.75rem] rounded-[1.25rem] bg-white py-[4.273125rem]">
+          <AppCounter :start="0" :end="1300" suffix="+" :duration="4" color="text-purple" />
+          <span>Projects</span>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
