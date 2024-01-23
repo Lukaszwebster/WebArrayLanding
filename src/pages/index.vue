@@ -4,30 +4,48 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
 
 <template>
   <div>
-    <section class="mx-[0.9375rem] mt-[2.211875rem] flex flex-col">
-      <button type="button" class="mx-auto rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[0.8rem] text-[#FFF1E7] font-500 sm:py-[0.75rem] sm:text-[1.125rem]">
-        Social Media Marketing That Works
-      </button>
-      <h1 class="mt-1.25rem text-center text-[2.2rem] text-[#2A2A2A] font-700 sm:text-[4.5rem]">
-        <span class="block">Save Time</span><span class="block">Build Connections</span><span class="block">Increase Profits</span>
-      </h1>
-      <div class="mt-[2rem] flex justify-center gap-[0.4875rem]">
-        <div class="flex flex-col gap-[0.4875rem]">
-          <img class="" src="/bakeryTopTablet.png" alt="">
-          <img class="" src="/bakeryBottomTablet.png" alt="">
+    <section class="mx-[0.9375rem] mx-auto mt-[2.211875rem] max-w-[76.875rem] flex flex-col justify-center lg:flex-row md:px-[2rem] xl:px-0">
+      <div class="w-full flex items-center justify-between">
+        <div class="mx-auto flex flex-col lg:mx-0">
+          <button type="button" class="mx-auto rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[0.8rem] text-[#FFF1E7] font-500 lg:mx-0 lg:max-w-[23.125rem] sm:py-[0.75rem] sm:text-[1.125rem]">
+            Social Media Marketing That Works
+          </button>
+          <h1 class="mt-1.25rem text-center text-[2.2rem] text-[#2A2A2A] font-700 lg:text-left lg:text-[2.5rem] sm:text-[4.5rem] xl:text-[3.75rem]">
+            <span class="block">Save Time</span><span class="block">Build Connections</span><span class="block">Increase Profits</span>
+          </h1>
+          <div class="mx-[1rem] mt-[2rem] flex justify-center gap-[0.4875rem] lg:hidden">
+            <div class="flex flex-col gap-[0.4875rem]">
+              <img class="" src="/bakeryTopTablet.png" alt="">
+              <img class="" src="/bakeryBottomTablet.png" alt="">
+            </div>
+            <div>
+              <img class="" src="/beachRightTablet.png" alt="">
+            </div>
+          </div>
+          <div class="mt-[2rem] flex justify-center gap-[1.25rem] lg:justify-left">
+            <button v-for="(icon, index) in icons" :key="index">
+              <img :src="icon" alt="">
+            </button>
+          </div>
+          <div class="mt-[2.5rem] flex items-center gap-[2.25rem]">
+            <button type="button" class="mx-auto w-full rounded-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-white lg:mx-0 sm:max-w-[14.4375rem]">
+              View Our Plans
+            </button>
+            <button type="button" class="text-[#3486FA]">
+              What We Offer
+            </button>
+          </div>
         </div>
-        <div>
-          <img class="" src="/beachRightTablet.png" alt="">
+        <div class="mt-[2rem] hidden justify-center gap-[0.4875rem] lg:mt-0 lg:flex">
+          <div class="flex flex-col gap-[0.4875rem]">
+            <img class="" src="/bakeryTopScreen.png" alt="">
+            <img class="" src="/carBottomScreen.png" alt="">
+          </div>
+          <div>
+            <img class="" src="/boatRightScreen.png" alt="">
+          </div>
         </div>
       </div>
-      <div class="mt-[2rem] flex justify-center gap-[1.25rem]">
-        <button v-for="(icon, index) in icons" :key="index">
-          <img :src="icon" alt="">
-        </button>
-      </div>
-      <button type="button" class="mx-auto mt-[2.5rem] w-full rounded-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-white sm:max-w-[14.4375rem]">
-        View Our Plans
-      </button>
     </section>
   </div>
 </template>
