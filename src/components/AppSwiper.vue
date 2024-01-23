@@ -6,11 +6,16 @@ register()
 
 <template>
   <div>
-    <swiper-container>
-      <swiper-slide>Slide 1</swiper-slide>
-      <swiper-slide>Slide 2</swiper-slide>
-      <swiper-slide>Slide 3</swiper-slide>
-      ...
+    <swiper-container slides-per-view="auto">
+      <swiper-slide>
+        <img src="/bakeryBottomTablet.png" alt="">
+      </swiper-slide>
+      <swiper-slide>
+        <img src="/bakeryBottomTablet.png" alt="">
+      </swiper-slide>
+      <swiper-slide>
+        <img src="/bakeryBottomTablet.png" alt="">
+      </swiper-slide>
     </swiper-container>
   </div>
 </template>

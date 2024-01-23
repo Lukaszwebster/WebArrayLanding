@@ -124,6 +124,7 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
           more!
         </p>
       </div>
+      <AppSwiper />
     </section>
   </div>
 </template>
