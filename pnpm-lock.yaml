@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@unhead/vue':
     specifier: ^1.8.9
@@ -35,6 +31,9 @@ dependencies:
   vue-router:
     specifier: ^4.2.5
     version: 4.2.5(vue@3.3.13)
+  vue3-marquee:
+    specifier: 4.2.0-beta.1
+    version: 4.2.0-beta.1(vue@3.3.13)
 
 devDependencies:
   '@antfu/eslint-config':
@@ -10490,6 +10489,15 @@ packages:
       typescript: 5.3.3
     dev: true
 
+  /vue3-marquee@4.2.0-beta.1(vue@3.3.13):
+    resolution: {integrity: sha512-rcqtFafNe8EQFTlxqboK21Q1MnkGzj0dwgf72a4D4FeTMflusC8ug9bgkHHGmw+zR7/SP8lcA4yUggK9+5GyJw==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      vue: ^3.2
+    dependencies:
+      vue: 3.3.13(typescript@5.3.3)
+    dev: false
+
   /vue@3.3.13(typescript@5.3.3):
     resolution: {integrity: sha512-LDnUpQvDgsfc0u/YgtAgTMXJlJQqjkxW1PVcOnJA5cshPleULDjHi7U45pl2VJYazSSvLH8UKcid/kzH8I0a0Q==}
     peerDependencies:
@@ -10912,3 +10920,7 @@ packages:
 
   /zhead@2.2.4:
     resolution: {integrity: sha512-8F0OI5dpWIA5IGG5NHUg9staDwz/ZPxZtvGVf01j7vHqSyZ0raHY+78atOVxRqb73AotX22uV1pXt3gYSstGag==}
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false

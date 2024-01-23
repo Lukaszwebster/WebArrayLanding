@@ -27,11 +27,11 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
               <img :src="icon" alt="">
             </button>
           </div>
-          <div class="mt-[2.5rem] flex items-center gap-[2.25rem]">
+          <div class="mx-[1rem] mt-[2.5rem] flex items-center gap-[1rem] lg:mx-0 xl:gap-[2.25rem]">
             <button type="button" class="mx-auto w-full rounded-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-white lg:mx-0 sm:max-w-[14.4375rem]">
               View Our Plans
             </button>
-            <button type="button" class="text-[#3486FA]">
+            <button type="button" class="hidden text-[#3486FA] lg:flex">
               What We Offer
             </button>
           </div>
@@ -47,5 +47,8 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         </div>
       </div>
     </section>
+    <div class="mx-[1rem] mt-[5.625rem] flex items-center rounded-[1.25rem] bg-#1D1D25">
+      <AppMarquee />
+    </div>
   </div>
 </template>
