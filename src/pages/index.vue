@@ -5,10 +5,10 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
 <template>
   <div>
     <section class="mx-[0.9375rem] mt-[2.211875rem] flex flex-col">
-      <button type="button" class="mx-auto rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[1.125rem] text-[#FFF1E7] font-500">
+      <button type="button" class="mx-auto rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[1.125rem] text-[#FFF1E7] font-500 sm:py-[0.75rem]">
         Social Media Marketing That Works
       </button>
-      <h1 class="mt-1.25rem text-center text-[2.2rem] text-[#2A2A2A] font-700">
+      <h1 class="mt-1.25rem text-center text-[2.2rem] text-[#2A2A2A] font-700 sm:text-[4.5rem]">
         <span class="block">Save Time</span><span class="block">Build Connections</span><span class="block">Increase Profits</span>
       </h1>
       <div class="mt-[2rem] flex justify-center gap-[0.4875rem]">
@@ -23,7 +23,7 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
           <img :src="icon" alt="">
         </button>
       </div>
-      <button type="button" class="mt-[2.5rem] w-full rounded-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-white">
+      <button type="button" class="mx-auto mt-[2.5rem] w-full rounded-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-white sm:max-w-[14.4375rem]">
         View Our Plans
       </button>
     </section>
