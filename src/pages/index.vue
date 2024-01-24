@@ -5,9 +5,9 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
 <template>
   <div>
     <section class="mx-auto mt-[2.211875rem] max-w-[76.875rem] flex flex-col justify-center px-[0.9375rem] lg:flex-row md:px-[2rem] xl:px-0">
-      <div class="w-full flex items-center justify-between">
+      <div class="max-w-[75rem] w-full flex items-center justify-between">
         <div class="mx-auto flex flex-col lg:mx-0">
-          <button type="button" class="mx-auto w-full rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[#FFF1E7] font-500 lg:mx-0 lg:max-w-[23.125rem] sm:py-[0.75rem] sm:text-[1.125rem]">
+          <button type="button" class="mx-auto max-w-[23.125rem] w-full rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[#FFF1E7] font-500 lg:mx-0 lg:max-w-[23.125rem] sm:py-[0.75rem] sm:text-[1.125rem]">
             Social Media Marketing That Works
           </button>
           <h1 class="mt-1.25rem text-center text-[2.2rem] text-[#2A2A2A] font-700 lg:text-left lg:text-[2.5rem] sm:text-[4.5rem] xl:text-[3.75rem]">
@@ -47,9 +47,9 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         </div>
       </div>
     </section>
-    <section class="relative mt-[10rem] w-full bg-[#292F3E] pb-[4rem] pt-[10rem]">
+    <section class="relative mt-[10rem] bg-[#292F3E] pb-[4rem] pt-[10rem]">
       <div class="flex justify-center">
-        <div class="absolute mx-[1rem] mt-[5.625rem] flex items-center rounded-[1.25rem] bg-#1D1D25 -top-[11rem]">
+        <div class="absolute mx-[0.9375rem] mt-[5.625rem] flex items-center rounded-[1.25rem] bg-#1D1D25 -top-[11rem] lg:max-w-[75rem]">
           <AppMarquee />
         </div>
       </div>
