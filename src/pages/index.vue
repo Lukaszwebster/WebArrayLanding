@@ -137,7 +137,7 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         </div>
         <AppSwiper />
         <div class="flex justify-center">
-          <button class="max-w-[12.125rem] flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.75rem]">
+          <button class="max-w-[12.125rem] flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.75rem] text-white">
             View More
           </button>
         </div>
