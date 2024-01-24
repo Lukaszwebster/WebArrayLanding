@@ -56,81 +56,92 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
           <AppMarquee />
         </div>
       </div>
-      <div class="mx-auto max-w-[13.75rem] flex flex-col gap-[1.5181rem] md:max-w-[33.125rem] md:flex-row md:gap-[1.875rem]">
-        <div class="mx-auto mt-[4rem] w-full flex flex-col items-center gap-[1.5181rem] md:gap-[1.875rem]">
-          <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
-            <AppCounter :start="0" :end="225" :duration="2" color="text-orange" />
-            <span>Offices</span>
+      <div class="flex flex-col lg:flex-row-reverse">
+        <div class="mx-auto max-w-[13.75rem] w-full flex flex-col gap-[1.5181rem] lg:mt-[4rem] md:max-w-[33.125rem] md:flex-row md:gap-[1.875rem]">
+          <div class="mx-auto mt-[4rem] w-full flex flex-col items-center gap-[1.5181rem] md:gap-[1.875rem]">
+            <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
+              <AppCounter :start="0" :end="225" :duration="2" color="text-orange" />
+              <span>Offices</span>
+            </div>
+            <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
+              <AppCounter :start="0" :end="10" :duration="2" color="text-#265FDB" />
+              <span>Workers</span>
+            </div>
           </div>
-          <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
-            <AppCounter :start="0" :end="10" :duration="2" color="text-#265FDB" />
-            <span>Workers</span>
+          <div class="mx-auto w-full flex flex-col items-center gap-[1.5181rem] md:gap-[1.875rem]">
+            <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
+              <AppCounter :start="0" :end="15" suffix="K" :duration="2" color="text-#57C0CE" />
+              <span>Customers</span>
+            </div>
+            <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
+              <AppCounter :start="0" :end="1300" suffix="+" :duration="2" color="text-purple" />
+              <span>Projects</span>
+            </div>
           </div>
         </div>
-        <div class="mx-auto w-full flex flex-col items-center gap-[1.5181rem] md:gap-[1.875rem]">
-          <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
-            <AppCounter :start="0" :end="15" suffix="K" :duration="2" color="text-#57C0CE" />
-            <span>Customers</span>
+        <div class="mx-auto max-w-[22.5rem] flex flex-col items-center px-[2rem] lg:max-w-[20rem] md:max-w-[45rem] xl:max-w-[38.4375rem] lg:items-start">
+          <div class="mt-[1.25rem] flex flex-col text-center text-[2rem] text-white font-700 lg:text-left">
+            <span class="mt-[4.8444375rem] text-[1.25rem] text-[#FFD437] font-500">Social Media Management is</span>
+            <h2>
+              Building
+              Brands
+            </h2>
+            <h2>
+              Creating
+              Connections
+            </h2>
+            <h2>Driving Sales</h2>
           </div>
-          <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
-            <AppCounter :start="0" :end="1300" suffix="+" :duration="2" color="text-purple" />
-            <span>Projects</span>
+          <div>
+            <p class="mt-[1.6875rem] text-center text-[1.2rem] text-[#BBB] font-300 lg:text-left">
+              Social Media is <span class="italic">more than just posting</span> and showing off how many
+              followers you have. It's a valuable
+              addition to your marketing strategy that <span class="text-[#DBDBDB] underline">builds trust</span> and <span class="text-[#DBDBDB] underline"> creates connections</span> with potential customers to <span class="text-[#DBDBDB] underline"> drive sales</span> and <span class="text-[#DBDBDB] underline"> increase your revenue</span>.
+            </p>
+            <p class="mt-[1.6875rem] text-center text-[1.2rem] text-[#BBB] font-300 lg:text-left">
+              Save your time and money by
+              partnering with us and start seeing results that give you the <span class="text-[#DBDBDB] underline"> highest return on investment</span>.
+            </p>
+            <p class="mt-[1.6875rem] text-center text-[1.2rem] text-[#BBB] font-300 lg:text-left">
+              After all; when you grow, we grow together.
+            </p>
+          </div>
+          <div class="flex flex-col lg:flex-row">
+            <button type="button" class="mx-auto mt-[0.98875rem] w-full rounded-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-white lg:mx-0 sm:max-w-[14.4375rem]">
+              Contact Us
+            </button>
+            <button type="button" class="mt-[1.5531rem] text-[#3486FA]">
+              How We Can Help
+            </button>
           </div>
         </div>
-      </div>
-      <div class="mx-auto max-w-[22.5rem] flex flex-col items-center">
-        <span class="mt-[4.8444375rem] text-[1.25rem] text-[#FFD437] font-500">Social Media Management is</span>
-        <div class="mt-[1.25rem] flex flex-col text-center text-[2.85625rem] text-white font-700">
-          <h2>
-            Building
-            Brands
-          </h2>
-          <h2>
-            Creating
-            Connections
-          </h2>
-          <h2>Driving Sales</h2>
-        </div>
-        <div>
-          <p class="mt-[1.6875rem] text-center text-[1.2rem] text-[#BBB] font-300">
-            Social Media is <span class="italic">more than just posting</span> and showing off how many
-            followers you have. It's a valuable
-            addition to your marketing strategy that <span class="text-[#DBDBDB] underline">builds trust</span> and <span class="text-[#DBDBDB] underline"> creates connections</span> with potential customers to <span class="text-[#DBDBDB] underline"> drive sales</span> and <span class="text-[#DBDBDB] underline"> increase your revenue</span>.
-          </p>
-          <p class="mt-[1.6875rem] text-center text-[1.2rem] text-[#BBB] font-300">
-            Save your time and money by
-            partnering with us and start seeing results that give you the <span class="text-[#DBDBDB] underline"> highest return on investment</span>.
-          </p>
-          <p class="mt-[1.6875rem] text-center text-[1.2rem] text-[#BBB] font-300">
-            After all; when you grow, we grow together.
-          </p>
-        </div>
-        <button type="button" class="mx-auto mt-[0.98875rem] w-full rounded-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-white lg:mx-0 sm:max-w-[14.4375rem]">
-          Contact Us
-        </button>
-        <button type="button" class="mt-[1.5531rem] text-[#3486FA]">
-          How We Can Help
-        </button>
       </div>
     </section>
-    <section class="relative mt-[6.850625rem]">
+    <section class="relative mt-[6.850625rem] px-[2rem]">
       <img class="rotating-image absolute" src="/line.png" alt="">
-      <div class="flex flex-col items-center">
-        <span class="text-[1.25rem] text-[#FF7012]">Our Expertise is Your Success</span>
-        <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700">
-          Struggling to Make Engaging Content?
-        </h2>
-        <p class="max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300">
-          From the research and planning to
-          creating striking images and videos
-          for your posts, our service focuses on
-          creating a unique voice for your
-          brand that will engage your audience
-          and keep them coming back for
-          more!
-        </p>
+      <div class="flex flex-col lg:flex-row">
+        <div class="flex flex-col items-center">
+          <span class="text-[1.25rem] text-[#FF7012]">Our Expertise is Your Success</span>
+          <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700 md:max-w-[29.1875rem]">
+            Struggling to Make Engaging Content?
+          </h2>
+          <p class="max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
+            From the research and planning to
+            creating striking images and videos
+            for your posts, our service focuses on
+            creating a <span class="text-[#191919] underline"> unique voice</span> for your
+            brand that will <span class="text-[#191919] underline"> engage your audience</span>
+            and keep them coming back for
+            more!
+          </p>
+        </div>
+        <AppSwiper />
+        <div class="flex justify-center">
+          <button class="max-w-[12.125rem] flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.75rem]">
+            View More
+          </button>
+        </div>
       </div>
-      <AppSwiper />
     </section>
   </div>
 </template>
