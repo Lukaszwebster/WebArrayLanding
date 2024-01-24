@@ -5,9 +5,9 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
 <template>
   <div>
     <section class="relative mx-auto mt-[2.211875rem] flex flex-col justify-center px-[0.9375rem] lg:flex-row md:px-[2rem] xl:px-0">
-      <img class="absolute left-[1.6875rem]" src="/ball-pink-screen.png" alt="">
-      <img class="absolute left-[16.75rem] -top-[1.5rem]" src="/ball-purple-screen.png" alt="">
-      <img class="absolute left-[1.6875rem] top-[26.25rem]" src="/ball-white-screen.png" alt="">
+      <img class="absolute left-[1.6875rem] hidden lg:block" src="/ball-pink-screen.png" alt="">
+      <img class="absolute left-[16.75rem] hidden -top-[1.5rem] lg:block" src="/ball-purple-screen.png" alt="">
+      <img class="absolute left-[0.5rem] top-[42rem] lg:left-[1.6875rem] lg:top-[31rem] xl:top-[26.25rem]" src="/ball-white-screen.png" alt="">
       <div class="max-w-[75rem] w-full flex items-center justify-between">
         <div class="mx-auto max-w-[76.875rem] flex flex-col lg:mx-0">
           <button type="button" class="mx-auto max-w-[23.125rem] w-full rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[#FFF1E7] font-500 lg:mx-0 lg:max-w-[23.125rem] sm:py-[0.75rem] sm:text-[1.125rem]">
