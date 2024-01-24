@@ -93,13 +93,13 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         </div>
         <div>
           <p class="mt-[1.6875rem] text-center text-[1.2rem] text-[#BBB] font-300">
-            Social Media is more than just posting and showing off how many
+            Social Media is <span class="italic">more than just posting</span> and showing off how many
             followers you have. It's a valuable
-            addition to your marketing strategy that builds trust and creates connections with potential customers to drive sales and increase your revenue.
+            addition to your marketing strategy that <span class="text-[#DBDBDB] underline">builds trust</span> and <span class="text-[#DBDBDB] underline"> creates connections</span> with potential customers to <span class="text-[#DBDBDB] underline"> drive sales</span> and <span class="text-[#DBDBDB] underline"> increase your revenue</span>.
           </p>
           <p class="mt-[1.6875rem] text-center text-[1.2rem] text-[#BBB] font-300">
             Save your time and money by
-            partnering with us and start seeing results that give you the highest return on investment
+            partnering with us and start seeing results that give you the <span class="text-[#DBDBDB] underline"> highest return on investment</span>.
           </p>
           <p class="mt-[1.6875rem] text-center text-[1.2rem] text-[#BBB] font-300">
             After all; when you grow, we grow together.
@@ -113,7 +113,8 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         </button>
       </div>
     </section>
-    <section class="mt-[6.850625rem]">
+    <section class="relative mt-[6.850625rem]">
+      <img class="rotating-image absolute" src="/line.png" alt="">
       <div class="flex flex-col items-center">
         <span class="text-[1.25rem] text-[#FF7012]">Our Expertise is Your Success</span>
         <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700">
@@ -133,3 +134,21 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
     </section>
   </div>
 </template>
+
+<style scoped>
+.rotating-image {
+  animation: rotateImage 5s infinite;
+}
+
+@keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+</style>
