@@ -150,6 +150,28 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         </div>
       </div>
     </section>
+    <section>
+      <div class="mt-[10.65rem] flex flex-col items-center justify-center">
+        <img class="max-w-[17.5rem]" src="/phone-img.png" alt="">
+        <div class="flex flex-col items-center">
+          <span class="text-[1.25rem] text-[#FF7012]">Worry-Free</span>
+          <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700 md:max-w-[29.1875rem]">
+            Risking Your
+            Reputation and
+            Losing Sales?
+          </h2>
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
+            Our 24/7 Inbox Management is your
+            answer to keep up with messages
+            and not miss out on potential leads.
+          </p>
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
+            By offering quick replies to your
+            audience you will elevate your brands image and help you get the sale.
+          </p>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

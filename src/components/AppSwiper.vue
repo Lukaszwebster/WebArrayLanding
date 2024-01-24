@@ -7,7 +7,7 @@ register()
 <template>
   <div>
     <swiper-container slides-per-view="auto">
-      <swiper-slide class="mr-[24px] max-w-[300px]">
+      <swiper-slide class="max-w-[300px]">
         <img src="/home-insurance.png" alt="">
       </swiper-slide>
       <swiper-slide class="max-w-[300px]">
@@ -16,9 +16,9 @@ register()
       <swiper-slide>
         <img src="/woman.png" class="max-w-[300px]" alt="">
       </swiper-slide>
-      <swiper-slide>
+      <!-- <swiper-slide>
         <img src="/barber.png" class="max-w-[300px]" alt="">
-      </swiper-slide>
+      </swiper-slide> -->
     </swiper-container>
   </div>
 </template>
