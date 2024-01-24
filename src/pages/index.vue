@@ -117,30 +117,32 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         </div>
       </div>
     </section>
-    <section class="relative mt-[6.850625rem] px-[2rem]">
-      <img class="rotating-image absolute" src="/line.png" alt="">
-      <div class="flex flex-col lg:flex-row">
-        <div class="flex flex-col items-center">
-          <span class="text-[1.25rem] text-[#FF7012]">Our Expertise is Your Success</span>
-          <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700 md:max-w-[29.1875rem]">
-            Struggling to Make Engaging Content?
-          </h2>
-          <p class="max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
-            From the research and planning to
-            creating striking images and videos
-            for your posts, our service focuses on
-            creating a <span class="text-[#191919] underline"> unique voice</span> for your
-            brand that will <span class="text-[#191919] underline"> engage your audience</span>
-            and keep them coming back for
-            more!
-          </p>
+    <section class="relative mt-[6.850625rem]">
+      <div class="px-[2rem]">
+        <img class="rotating-image absolute" src="/line.png" alt="">
+        <div class="flex flex-col lg:flex-row">
+          <div class="flex flex-col items-center">
+            <span class="text-[1.25rem] text-[#FF7012]">Our Expertise is Your Success</span>
+            <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700 md:max-w-[29.1875rem]">
+              Struggling to Make Engaging Content?
+            </h2>
+            <p class="max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
+              From the research and planning to
+              creating striking images and videos
+              for your posts, our service focuses on
+              creating a <span class="text-[#191919] underline"> unique voice</span> for your
+              brand that will <span class="text-[#191919] underline"> engage your audience</span>
+              and keep them coming back for
+              more!
+            </p>
+          </div>
         </div>
-        <AppSwiper />
-        <div class="flex justify-center">
-          <button class="max-w-[12.125rem] flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.75rem] text-white">
-            View More
-          </button>
-        </div>
+      </div>
+      <AppSwiper class="mt-[2.28rem]" />
+      <div class="flex justify-center">
+        <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.75rem] text-white">
+          View More
+        </button>
       </div>
     </section>
   </div>
