@@ -123,11 +123,7 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
           <img class="rotating-image absolute" src="/line.png" alt="">
           <div class="flex flex-col justify-center lg:flex-row">
             <div class="flex flex-col items-center lg:items-start">
-              <!-- <span class="text-[1.25rem] text-[#FF7012]">Our Expertise is Your Success</span>
-              <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700 md:max-w-[29.1875rem] lg:text-left">
-                Struggling to Make Engaging Content?
-              </h2> -->
-              <AppPageHeader subtitle="Our Expertise is Your Success" title="Struggling to Make Engaging Content?" />
+              <AppPageHeader wrapper-class="!items-start" subtitle="Our Expertise is Your Success" title="Struggling to Make Engaging Content?" />
               <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 lg:max-w-[23.1875rem] md:max-w-[42.3125rem] md:text-left">
                 From the research and planning to
                 creating striking images and videos
@@ -154,13 +150,8 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
       <div class="mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
         <img class="max-w-[17.5rem] lg:max-w-[34.0625rem]" src="/phone-img.png" alt="">
         <div class="flex flex-col items-center lg:max-w-[32.8125rem] md:items-start">
-          <!-- <span class="text-[1.25rem] text-[#FF7012]">Worry-Free</span>
-          <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700 md:max-w-[29.1875rem] md:text-left">
-            Risking Your
-            Reputation and
-            Losing Sales?
-          </h2> -->
           <AppPageHeader
+            wrapper-class="lg:!items-start"
             class="mt-[3.75rem]"
             subtitle="Worry-Free" title=" Risking Your
             Reputation and
@@ -222,6 +213,7 @@ Your Audience?"
         <img class="max-w-[17.5rem] lg:max-w-[34.0625rem]" src="/social-trolls.png" alt="">
         <div class="flex flex-col items-center lg:max-w-[32.8125rem] md:items-start">
           <AppPageHeader
+            wrapper-class="!lg:items-start"
             subtitle="Keeping You Covered"
             title=" Social Gossiping
             Slowing You Down?"
