@@ -7,14 +7,14 @@ register()
 <template>
   <div>
     <swiper-container slides-per-view="auto">
-      <swiper-slide class="max-w-[300px]">
+      <swiper-slide class="mr-[1rem] max-w-[300px]">
         <img src="/home-insurance.png" alt="">
       </swiper-slide>
-      <swiper-slide class="max-w-[300px]">
+      <swiper-slide class="mr-[1rem] max-w-[300px]">
         <img src="/pistachio-madness.png" alt="">
       </swiper-slide>
       <swiper-slide>
-        <img src="/woman.png" class="max-w-[300px]" alt="">
+        <img src="/woman.png" class="mr-[1rem] max-w-[300px]" alt="">
       </swiper-slide>
       <!-- <swiper-slide>
         <img src="/barber.png" class="max-w-[300px]" alt="">

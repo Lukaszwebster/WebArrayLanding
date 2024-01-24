@@ -8,7 +8,9 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppCounter: typeof import('./components/AppCounter.vue')['default']
+    AppInfo: typeof import('./components/AppInfo.vue')['default']
     AppMarquee: typeof import('./components/AppMarquee.vue')['default']
+    AppPageHeader: typeof import('./components/AppPageHeader.vue')['default']
     AppSwiper: typeof import('./components/AppSwiper.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

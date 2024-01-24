@@ -4,11 +4,11 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
 
 <template>
   <div>
-    <section class="relative mx-auto mt-[2.211875rem] flex flex-col justify-center px-[0.9375rem] lg:flex-row md:px-[2rem] xl:px-0">
+    <section class="relative mx-auto mt-[2.211875rem] flex flex-col justify-center px-[0.9375rem] lg:flex-row md:px-[2rem] xl:px-[6.5625rem]">
       <img class="absolute left-[1.6875rem] hidden lg:block" src="/ball-pink-screen.png" alt="">
       <img class="absolute left-[16.75rem] hidden -top-[1.5rem] lg:block" src="/ball-purple-screen.png" alt="">
       <img class="absolute left-[0.5rem] top-[42rem] lg:left-[1.6875rem] lg:top-[31rem] xl:top-[26.25rem]" src="/ball-white-screen.png" alt="">
-      <div class="max-w-[75rem] w-full flex items-center justify-between">
+      <div class="max-w-[90rem] w-full flex items-center justify-between">
         <div class="mx-auto max-w-[76.875rem] flex flex-col lg:mx-0">
           <button type="button" class="mx-auto max-w-[23.125rem] w-full rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[#FFF1E7] font-500 lg:mx-0 lg:max-w-[23.125rem] sm:py-[0.75rem] sm:text-[1.125rem]">
             Social Media Marketing That Works
@@ -50,13 +50,13 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         </div>
       </div>
     </section>
-    <section class="relative mt-[10rem] bg-[#292F3E] pb-[4rem] pt-[10rem]">
+    <section class="relative mt-[10rem] flex flex-col items-center bg-[#292F3E] px-[0.9375rem] pb-[4rem] pt-[10rem] md:px-[2rem] xl:px-[6.5625rem]">
       <div class="flex justify-center">
         <div class="absolute mx-[0.9375rem] mt-[5.625rem] flex items-center rounded-[1.25rem] bg-#1D1D25 -top-[11rem] lg:max-w-[75rem]">
           <AppMarquee />
         </div>
       </div>
-      <div class="flex flex-col lg:flex-row-reverse">
+      <div class="max-w-[90rem] w-full flex flex-col items-center justify-center lg:flex-row-reverse">
         <div class="mx-auto max-w-[13.75rem] w-full flex flex-col gap-[1.5181rem] lg:mt-[4rem] md:max-w-[33.125rem] md:flex-row md:gap-[1.875rem]">
           <div class="mx-auto mt-[4rem] w-full flex flex-col items-center gap-[1.5181rem] md:gap-[1.875rem]">
             <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
@@ -79,7 +79,7 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
             </div>
           </div>
         </div>
-        <div class="mx-auto max-w-[22.5rem] flex flex-col items-center px-[2rem] lg:max-w-[20rem] md:max-w-[45rem] xl:max-w-[38.4375rem] lg:items-start">
+        <div class="mx-auto max-w-[22.5rem] flex flex-col">
           <div class="mt-[1.25rem] flex flex-col text-center text-[2rem] text-white font-700 lg:text-left">
             <span class="mt-[4.8444375rem] text-[1.25rem] text-[#FFD437] font-500">Social Media Management is</span>
             <h2>
@@ -117,17 +117,18 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         </div>
       </div>
     </section>
-    <section class="relative mt-[6.850625rem]">
-      <div class="flex flex-col lg:flex-row">
-        <div class="px-[2rem] lg:max-w-[25.625rem]">
+    <section class="relative mt-[6.850625rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="mx-auto max-w-[90rem] flex flex-col gap-[2.5rem] lg:flex-row">
+        <div class="lg:max-w-[25.625rem]">
           <img class="rotating-image absolute" src="/line.png" alt="">
           <div class="flex flex-col justify-center lg:flex-row">
-            <div class="flex flex-col items-center">
-              <span class="text-[1.25rem] text-[#FF7012]">Our Expertise is Your Success</span>
-              <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700 md:max-w-[29.1875rem]">
+            <div class="flex flex-col items-center lg:items-start">
+              <!-- <span class="text-[1.25rem] text-[#FF7012]">Our Expertise is Your Success</span>
+              <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700 md:max-w-[29.1875rem] lg:text-left">
                 Struggling to Make Engaging Content?
-              </h2>
-              <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
+              </h2> -->
+              <AppPageHeader subtitle="Our Expertise is Your Success" title="Struggling to Make Engaging Content?" />
+              <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 lg:max-w-[23.1875rem] md:max-w-[42.3125rem] md:text-left">
                 From the research and planning to
                 creating striking images and videos
                 for your posts, our service focuses on
@@ -139,9 +140,8 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
             </div>
           </div>
         </div>
-
         <div class="flex flex-col items-center">
-          <AppSwiper class="mt-[2.28rem]" />
+          <!-- <AppSwiper class="mt-[2.28rem]" /> -->
           <div class="flex justify-center">
             <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.75rem] text-white">
               View More
@@ -150,16 +150,22 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         </div>
       </div>
     </section>
-    <section>
-      <div class="mt-[10.65rem] flex flex-col items-center justify-center">
-        <img class="max-w-[17.5rem]" src="/phone-img.png" alt="">
-        <div class="flex flex-col items-center">
-          <span class="text-[1.25rem] text-[#FF7012]">Worry-Free</span>
-          <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700 md:max-w-[29.1875rem]">
+    <section class="px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
+        <img class="max-w-[17.5rem] lg:max-w-[34.0625rem]" src="/phone-img.png" alt="">
+        <div class="flex flex-col items-center lg:max-w-[32.8125rem] md:items-start">
+          <!-- <span class="text-[1.25rem] text-[#FF7012]">Worry-Free</span>
+          <h2 class="max-w-[19.125rem] text-center text-[2.85625rem] font-700 md:max-w-[29.1875rem] md:text-left">
             Risking Your
             Reputation and
             Losing Sales?
-          </h2>
+          </h2> -->
+          <AppPageHeader
+            class="mt-[3.75rem]"
+            subtitle="Worry-Free" title=" Risking Your
+            Reputation and
+            Losing Sales?"
+          />
           <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
             Our 24/7 Inbox Management is your
             answer to keep up with messages
@@ -169,6 +175,74 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
             By offering quick replies to your
             audience you will elevate your brands image and help you get the sale.
           </p>
+          <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+            Start Replying Faster
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="mt-[7.484375rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row-reverse lg:gap-[6.875rem]">
+        <img class="md:hidden lg:max-w-[34.0625rem]" src="/success-img.png" alt="">
+        <img class="hidden lg:max-w-[34.0625rem] md:flex" src="/success-img-tablet.png" alt="">
+        <div class="mt-[3.75rem] flex flex-col lg:items-start md:items-center">
+          <AppPageHeader
+            wrapper-class="!items-start"
+            subtitle="Thinking &quot;Outside The Box&quot;" title="Troubles Growing
+Your Audience?"
+            title-class="text-left !text-[2.1875rem]"
+          />
+          <p class="mt-[1.74625rem] text-[1.2rem] text-[#727272] font-300 md:text-center lg:text-left">
+            <span class="text-[#191919] underline"> Attract new followers</span> that are
+            <span class="text-[#191919] underline"> relevant </span> to your objectives by
+            reaching <span class="text-[#191919] underline"> outside your social media</span>
+            bubble, and you'll start to see a
+            <span class="text-[#191919] underline"> quicker return on your investment.</span>
+          </p>
+          <p class="mt-[1.74625rem] text-[1.2rem] text-[#727272] font-300 md:text-center lg:text-left">
+            Along with <span class="text-[#191919] underline"> captivating visuals</span>, our
+            teams perform countless <span class="text-[#191919] underline"> hours of research and planning</span> to deliver <span class="text-[#191919] underline">optimized marketing campaigns </span>  that
+            target your <span class="text-[#191919] underline"> ideal audience</span> who are
+            most likely to <span class="text-[#191919] underline"> convert into leads</span>.
+          </p>
+          <p class="mt-[1.74625rem] text-[1.2rem] text-[#727272] font-300 md:text-center lg-text-left">
+            By thoroughly planning your paid
+            <span class="text-[#191919] underline"> Social Media Advertising</span> campaign,
+            we are able to ensure that every
+            penny of your <span class="text-[#191919] underline"> marketing budget is well spent</span>.
+          </p>
+          <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+            Start Driving Sales
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
+        <img class="max-w-[17.5rem] lg:max-w-[34.0625rem]" src="/social-trolls.png" alt="">
+        <div class="flex flex-col items-center lg:max-w-[32.8125rem] md:items-start">
+          <AppPageHeader
+            subtitle="Keeping You Covered"
+            title=" Social Gossiping
+            Slowing You Down?"
+          />
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
+            Staying on top of how your brand is
+            being used is an important aspect to
+            <span class="text-[#191919] underline"> protect your identity and reputation.</span>
+          </p>
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
+            Our sophisticated <span class="text-[#191919] underline"> threat monitoring</span>
+            system enables us to <span class="text-[#191919] underline"> quickly identify threats</span> towards your brand and deal with them to <span class="text-[#191919] underline"> prevent damage</span> to your
+            reputation.
+          </p>
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
+            The most common threats we
+            encounter:
+          </p>
+          <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+            Start Replying Faster
+          </button>
         </div>
       </div>
     </section>
