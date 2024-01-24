@@ -174,8 +174,8 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
     </section>
     <section class="mt-[7.484375rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
       <div class="mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row-reverse lg:gap-[6.875rem]">
-        <img class="md:hidden lg:max-w-[34.0625rem]" src="/success-img.png" alt="">
-        <img class="hidden lg:max-w-[34.0625rem] md:flex" src="/success-img-tablet.png" alt="">
+        <img class="md:hidden" src="/success-img.png" alt="">
+        <img class="hidden md:flex" src="/success-img-tablet.png" alt="">
         <div class="mt-[3.75rem] flex flex-col lg:items-start md:items-center">
           <AppPageHeader
             wrapper-class="!items-start"
@@ -210,7 +210,7 @@ Your Audience?"
     </section>
     <section class="px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
       <div class="mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
-        <img class="max-w-[17.5rem] lg:max-w-[34.0625rem]" src="/social-trolls.png" alt="">
+        <img src="/social-trolls.png" alt="">
         <div class="flex flex-col items-center lg:max-w-[32.8125rem] md:items-start">
           <AppPageHeader
             wrapper-class="!lg:items-start"
