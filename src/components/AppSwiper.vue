@@ -13,6 +13,12 @@ register()
       <swiper-slide class="max-w-[300px]">
         <img src="/pistachio-madness.png" alt="">
       </swiper-slide>
+      <swiper-slide>
+        <img src="/woman.png" class="max-w-[300px]" alt="">
+      </swiper-slide>
+      <swiper-slide>
+        <img src="/barber.png" class="max-w-[300px]" alt="">
+      </swiper-slide>
     </swiper-container>
   </div>
 </template>
