@@ -105,30 +105,30 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           <AppMarquee />
         </div>
       </div>
-      <div class="max-w-[90rem] w-full flex flex-col items-center justify-center lg:flex-row-reverse">
-        <div class="mx-auto max-w-[13.75rem] w-full flex flex-col gap-[1.5181rem] lg:mt-[4rem] md:max-w-[33.125rem] md:flex-row md:gap-[1.875rem]">
-          <div class="mx-auto mt-[4rem] w-full flex flex-col items-center gap-[1.5181rem] md:gap-[1.875rem]">
-            <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
+      <div class="max-w-[90rem] w-full flex flex-col items-center justify-center lg:grid lg:grid-cols-2 lg:flex-row-reverse">
+        <div class="mx-auto max-w-[13.75rem] w-full flex flex-col gap-[1.875rem] lg:order-2 lg:mx-0 lg:mt-[4rem] lg:max-w-none md:max-w-[33.125rem] md:flex-row lg:justify-center">
+          <div class="mx-auto mt-[4rem] w-full flex flex-col items-center gap-[1.5181rem] lg:mx-0 lg:w-auto">
+            <div class="h-[15.625rem] w-[15.625rem] flex flex-col items-center justify-center rounded-[1.25rem] bg-white">
               <AppCounter :start="0" :end="225" :duration="2" color="text-orange" />
               <span>Offices</span>
             </div>
-            <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
+            <div class="h-[15.625rem] w-[15.625rem] flex flex-col items-center justify-center rounded-[1.25rem] bg-white">
               <AppCounter :start="0" :end="10" :duration="2" color="text-#265FDB" />
               <span>Workers</span>
             </div>
           </div>
-          <div class="mx-auto w-full flex flex-col items-center gap-[1.5181rem] md:gap-[1.875rem]">
-            <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
+          <div class="mx-auto w-full flex flex-col items-center gap-[1.5181rem] lg:mx-0 lg:w-auto md:gap-[1.875rem]">
+            <div class="h-[15.625rem] w-[15.625rem] flex flex-col items-center justify-center rounded-[1.25rem] bg-white">
               <AppCounter :start="0" :end="15" suffix="K" :duration="2" color="text-#57C0CE" />
               <span>Customers</span>
             </div>
-            <div class="w-full flex flex-col items-center justify-center rounded-[1.25rem] bg-white py-[4.25rem] md:py-[5rem]">
+            <div class="h-[15.625rem] w-[15.625rem] flex flex-col items-center justify-center rounded-[1.25rem] bg-white">
               <AppCounter :start="0" :end="1300" suffix="+" :duration="2" color="text-purple" />
               <span>Projects</span>
             </div>
           </div>
         </div>
-        <div class="mx-auto max-w-[22.5rem] flex flex-col">
+        <div class="mx-auto flex flex-col lg:mx-0">
           <div class="mt-[1.25rem] flex flex-col text-center text-[2rem] text-white font-700 lg:text-left">
             <span class="mt-[4.8444375rem] text-[1.25rem] text-[#FFD437] font-500">Social Media Management is</span>
             <h2>
@@ -172,7 +172,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           <img class="rotating-image absolute" src="/line.png" alt="">
           <div class="flex flex-col justify-center lg:flex-row">
             <div class="flex flex-col items-center lg:items-start">
-              <AppPageHeader wrapper-class="!items-start" subtitle="Our Expertise is Your Success" title="Struggling to Make Engaging Content?" />
+              <AppPageHeader wrapper-class="" subtitle="Our Expertise is Your Success" title="Struggling to Make Engaging Content?" />
               <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 lg:max-w-[23.1875rem] md:max-w-[42.3125rem] md:text-left">
                 From the research and planning to
                 creating striking images and videos
@@ -186,7 +186,20 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           </div>
         </div>
         <div class="flex flex-col items-center">
-          <AppSwiper class="mt-[2.28rem] max-w-screen" />
+          <AppSwiper class="mt-[2.28rem] max-w-screen" autoplay-delay="2000" slides-per-view="auto" space-between="20">
+            <swiper-slide class="max-w-[300px]">
+              <img src="/home-insurance.png" alt="">
+            </swiper-slide>
+            <swiper-slide class="max-w-[300px]">
+              <img src="/pistachio-madness.png" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="/woman.png" class="max-w-[300px]" alt="">
+            </swiper-slide>
+            <swiper-slide>
+              <img class="max-w-[300px]" src="/barber.png" alt="">
+            </swiper-slide>
+          </AppSwiper>
           <div class="flex justify-center">
             <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.75rem] text-white">
               View More
@@ -195,8 +208,8 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
     </section>
-    <section class="px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
-      <div class="mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
+    <section class="px-[0.9375rem] pt-[8.28125rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
         <img class="max-w-[17.5rem] lg:max-w-[34.0625rem]" src="/phone-img.png" alt="">
         <div class="flex flex-col items-center lg:max-w-[32.8125rem] md:items-start">
           <AppPageHeader
@@ -250,9 +263,11 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             we are able to ensure that every
             penny of your <span class="text-[#191919] underline"> marketing budget is well spent</span>.
           </p>
-          <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
-            Start Driving Sales
-          </button>
+          <div class="flex justify-center">
+            <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+              Start Driving Sales
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -287,15 +302,47 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
     </section>
-    <section class="bg-[#292F3E] px-[0.9375rem] pb-[2.1875rem] pt-[7.490625rem] md:px-[2rem] xl:px-[6.5625rem]">
-      <div class="mx-auto max-w-[90rem]">
+    <section class="bg-[#292F3E] pb-[2.1875rem] pt-[7.490625rem]">
+      <div class="mx-auto max-w-[90rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
         <AppPageHeader
           subtitle="Visually Impressive"
           title="We Can't Wait To Redefine Your Brand"
           title-class="text-white !text-[2.1875rem] !text-center"
         />
-        <AppSwiper class="mt-[4.375rem] max-w-screen" />
-        <AppSwiper class="max-w-screen" />
+      </div>
+      <AppSwiper class="mt-[4.375rem] max-w-screen" autoplay-delay="2000" space-between="20" slides-per-view="auto">
+        <swiper-slide class="max-w-[19.125rem] lg:max-w-[410px]">
+          <img src="/swiper1.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="max-w-[19.125rem] lg:max-w-[410px]">
+          <img src="/swiper2.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="max-w-[19.125rem] lg:max-w-[410px]">
+          <img src="/swiper3.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="max-w-[19.125rem] lg:max-w-[410px]">
+          <img src="/swiper4.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="max-w-[19.125rem] lg:max-w-[410px]">
+          <img src="/swiper5.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="max-w-[19.125rem] lg:max-w-[410px]">
+          <img src="/swiper1.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="max-w-[19.125rem] lg:max-w-[410px]">
+          <img src="/swiper2.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="max-w-[19.125rem] lg:max-w-[410px]">
+          <img src="/swiper3.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="max-w-[19.125rem] lg:max-w-[410px]">
+          <img src="/swiper4.png" alt="">
+        </swiper-slide>
+        <swiper-slide class="max-w-[19.125rem] lg:max-w-[410px]">
+          <img src="/swiper5.png" alt="">
+        </swiper-slide>
+      </AppSwiper>
+      <div class="flex flex-col items-center px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
         <h2 class="mt-[1.4375rem] text-center text-[1.5rem] text-white font-700">
           What Are You Waiting For?
         </h2>
@@ -316,22 +363,61 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           printing and typesetting industry. Lorem
           Ipsum has been the industry's standard.
         </p>
-        <img class="mt-[4.035rem]" src="/company-img.png" alt="">
-        <h2 class="text-center text-[3.125rem] font-700">
-          All Your
-          Questions Are
-          Here
-        </h2>
-        <ul>
-          <li v-for="(item, index) in questionsList" :key="index" class="mt-[1rem] flex gap-[0.9375rem] text-#959EB6">
-            <img class="h-min" src="/check-icon.png" alt="">
-            {{ item }}
-          </li>
-        </ul>
-        <button class="mt-[3.70625rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
-          Discover More
-        </button>
+        <div class="flex flex-col items-center lg:flex-row lg:gap-[5.3125rem]">
+          <img class="mt-[4.035rem]" src="/company-img.png" alt="">
+          <div class="flex flex-col items-center lg:items-start">
+            <h2 class="mt-[3.125rem] text-center text-[3.125rem] font-700 lg:text-left">
+              All Your
+              Questions Are
+              Here
+            </h2>
+            <ul>
+              <li v-for="(item, index) in questionsList" :key="index" class="mt-[1rem] flex gap-[0.9375rem] text-[1.125rem] text-#959EB6">
+                <img class="h-min" src="/check-icon.png" alt="">
+                {{ item }}
+              </li>
+            </ul>
+            <button class="mt-[3.70625rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+              Discover More
+            </button>
+          </div>
+        </div>
       </div>
+    </section>
+    <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="mx-auto max-w-[90rem] lg:grid lg:grid-cols-2">
+        <div class="flex justify-center">
+          <img class="lg:hidden" src="/bakery2.png" alt="">
+          <img class="hidden lg:flex" src="/bakery2-screen.png" alt="">
+        </div>
+        <div>
+          <AppPageHeader
+            class="mt-[3.125rem]"
+            title-class="!text-[2.1875rem]"
+            wrapper-class="!items-start"
+            subtitle="What We Do" title="We design and develop web and mobile applications for our clients worldwide"
+          />
+          <p class="mt-[1.2875rem] text-center text-[#727272] lg:max-w-[31.125rem] lg:text-left">
+            Lorem ipsum dolor sit amet, sed nulla ante
+            amet, elementum tincidunt arcu sed laoreet,
+            natoque ac eget imperdiet. Ac scelerisque
+            nibh dolores consectetuer,
+          </p>
+        </div>
+      </div>
+      <h2 class="mt-[8.6875rem] text-center text-[2.1875rem] font-700 md:max-w-[29.1875rem] md:text-left">
+        Worldwide Best
+        Digital Marketing
+        Agency
+      </h2>
+      <p class="mt-[1.2875rem] text-center text-[#727272]">
+        Lorem Ipsum is simply dummy text of the
+        printing and typesetting industry. Lorem
+        Ipsum has been the industry's standard
+        dummy text ever since the 1500s, when an
+        unknown printer took a galley of type and
+      </p>
+      <TheForm />
     </section>
   </div>
 </template>

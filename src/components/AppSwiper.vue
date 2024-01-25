@@ -4,21 +4,14 @@ import { register } from 'swiper/element/bundle'
 register()
 </script>
 
+<script lang="ts">
+export default { inheritAttrs: false }
+</script>
+
 <template>
-  <div>
-    <swiper-container slides-per-view="auto">
-      <swiper-slide class="mr-[1rem] max-w-[300px]">
-        <img src="/home-insurance.png" alt="">
-      </swiper-slide>
-      <swiper-slide class="mr-[1rem] max-w-[300px]">
-        <img src="/pistachio-madness.png" alt="">
-      </swiper-slide>
-      <swiper-slide>
-        <img src="/woman.png" class="mr-[1rem] max-w-[300px]" alt="">
-      </swiper-slide>
-      <!-- <swiper-slide>
-        <img src="/barber.png" class="max-w-[300px]" alt="">
-      </swiper-slide> -->
+  <div :class="$attrs.class">
+    <swiper-container v-bind="$attrs">
+      <slot />
     </swiper-container>
   </div>
 </template>

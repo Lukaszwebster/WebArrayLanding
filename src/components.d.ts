@@ -17,6 +17,7 @@ declare module 'vue' {
     TheBars: typeof import('./components/TheBars.vue')['default']
     TheCounter: typeof import('./components/TheCounter.vue')['default']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
+    TheForm: typeof import('./components/TheForm.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']
     TheTopBar: typeof import('./components/TheTopBar.vue')['default']
   }
