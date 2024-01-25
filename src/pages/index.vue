@@ -47,6 +47,8 @@ const bars = [
     class: 'border-#FFB6FF bg-#FFF6FF ',
   },
 ]
+
+const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to double your business', 'Free page speed insights tool to find out exactly', 'Seo quotes to inspire your campaign']
 </script>
 
 <template>
@@ -226,8 +228,7 @@ const bars = [
         <div class="mt-[3.75rem] flex flex-col lg:items-start md:items-center">
           <AppPageHeader
             wrapper-class="!items-start"
-            subtitle="Thinking &quot;Outside The Box&quot;" title="Troubles Growing
-Your Audience?"
+            subtitle="Thinking &quot;Outside The Box&quot;" title="Troubles Growing Your Audience?"
             title-class="text-left !text-[2.1875rem]"
           />
           <p class="mt-[1.74625rem] text-[1.2rem] text-[#727272] font-300 md:text-center lg:text-left">
@@ -255,8 +256,8 @@ Your Audience?"
         </div>
       </div>
     </section>
-    <section class="px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
-      <div class="mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
+    <section class="px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
         <img src="/social-trolls.png" alt="">
         <div class="flex flex-col items-center lg:max-w-[32.8125rem] md:items-start">
           <AppPageHeader
@@ -284,6 +285,52 @@ Your Audience?"
             Protect Your Brand
           </button>
         </div>
+      </div>
+    </section>
+    <section class="bg-[#292F3E] px-[0.9375rem] pb-[2.1875rem] pt-[7.490625rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="mx-auto max-w-[90rem]">
+        <AppPageHeader
+          subtitle="Visually Impressive"
+          title="We Can't Wait To Redefine Your Brand"
+          title-class="text-white !text-[2.1875rem] !text-center"
+        />
+        <AppSwiper class="mt-[4.375rem] max-w-screen" />
+        <AppSwiper class="max-w-screen" />
+        <h2 class="mt-[1.4375rem] text-center text-[1.5rem] text-white font-700">
+          What Are You Waiting For?
+        </h2>
+        <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+          Protect Your Brand
+        </button>
+      </div>
+    </section>
+    <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="mx-auto max-w-[90rem]">
+        <AppPageHeader
+
+          title-class="!text-[2rem] !text-center !md:text-[2.5rem] !max-w-none"
+          subtitle="Our Company" title="We Create Creative Designs For Every Web Page"
+        />
+        <p class="text-center text-[#727272]">
+          Lorem Ipsum is simply dummy text of the
+          printing and typesetting industry. Lorem
+          Ipsum has been the industry's standard.
+        </p>
+        <img class="mt-[4.035rem]" src="/company-img.png" alt="">
+        <h2 class="text-center text-[3.125rem] font-700">
+          All Your
+          Questions Are
+          Here
+        </h2>
+        <ul>
+          <li v-for="(item, index) in questionsList" :key="index" class="mt-[1rem] flex gap-[0.9375rem] text-#959EB6">
+            <img class="h-min" src="/check-icon.png" alt="">
+            {{ item }}
+          </li>
+        </ul>
+        <button class="mt-[3.70625rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+          Discover More
+        </button>
       </div>
     </section>
   </div>
