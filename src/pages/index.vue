@@ -1,5 +1,52 @@
 <script setup lang="ts">
 const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '/twitterIcon.png', '/googleIcon.png', '/youtubeIcon.png']
+
+const bars = [
+  {
+    text: 'Brand Impersonation',
+    class: 'bg-#FFFAF1 border-#FFD78D',
+  },
+  {
+    text: 'Compromised Account',
+    class: 'bg-#FFE border-#FFEF3E',
+  },
+  {
+    text: 'Scams',
+    class: 'bg-#FFFAF1 border-#FFD78D',
+
+  },
+  {
+    text: 'Hi-jacked Posts',
+    class: 'bg-#F6FCFF border-#C0D4F1',
+
+  },
+  {
+    text: 'Bad Sentiment',
+    class: 'bg-#FFE border-#FFEF3E',
+
+  },
+  {
+    text: 'Bad Reviews',
+    class: 'bg-#FFF6FA border-#FFB6D8',
+
+  },
+  {
+    text: 'Competitor Envy',
+    class: 'bg-#F7FFF7 border-#CFE2CF',
+  },
+  {
+    text: 'Low Social Authority',
+    class: 'bg-#FFF6F6 border-#FFAFAF',
+  },
+  {
+    text: 'Information Inaccuracy',
+    class: 'bg-#FCF9FF border-#DAC0FF',
+  },
+  {
+    text: 'Missed Messages',
+    class: 'border-#FFB6FF bg-#FFF6FF ',
+  },
+]
 </script>
 
 <template>
@@ -232,8 +279,9 @@ Your Audience?"
             The most common threats we
             encounter:
           </p>
+          <TheBars v-for="(item, index) in bars" :key="index" :text="item.text" :class="item.class" />
           <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
-            Start Replying Faster
+            Protect Your Brand
           </button>
         </div>
       </div>
