@@ -405,32 +405,32 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           </p>
         </div>
       </div>
-      <div class="flex flex-col md:flex-col-reverse">
-        <div class="mt-[4.375rem] flex flex-col items-center">
-          <h2 class="text-center text-[2.1875rem] font-700 md:text-[2.5rem]">
+      <div class="flex flex-col lg:flex-row md:flex-col-reverse lg:justify-between">
+        <div class="mt-[4.375rem] flex flex-col items-center lg:max-w-[522px]">
+          <h2 class="text-center text-[2.1875rem] font-700 lg:text-left md:text-[2.5rem]">
             Worldwide Best
             Digital Marketing
             Agency
           </h2>
-          <p class="mt-[1.2875rem] text-center text-[#727272]">
+          <p class="mt-[1.2875rem] text-center text-[#727272] lg:text-left">
             Lorem Ipsum is simply dummy text of the
             printing and typesetting industry. Lorem
             Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an
             unknown printer took a galley of type and
           </p>
-          <div class="hidden w-full justify-left gap-[3.875rem] md:flex">
-            <div class="flex items-center justify-left gap-[0.9375rem]">
+          <div class="mt-[3.09375rem] hidden w-full justify-left gap-[3.875rem] md:flex">
+            <div class="flex items-center gap-[0.9375rem]">
               <img src="/consultation-icon1.png" alt="">
-              <span>Faster Order Processing</span>
+              <span class="text-[1.125rem] font-600">Faster Order Processing</span>
             </div>
             <div class="flex items-center gap-[0.9375rem]">
               <img src="/consultation-icon2.png" alt="">
-              <span>Processing Accuracy</span>
+              <span class="text-[1.125rem] font-600">Processing Accuracy</span>
             </div>
           </div>
         </div>
-        <TheForm />
+        <TheForm class="max-w-[482px] lg:w-full" />
       </div>
     </section>
   </div>
