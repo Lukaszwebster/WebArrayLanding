@@ -477,11 +477,11 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     </section>
     <TheFaq />
     <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]">
-      <div class="flex flex-col">
+      <div class="flex flex-col items-center">
         <h2 class="text-center text-[3.29375rem] text-[#2A2A2A] font-700">
           Accelerate
         </h2>
-        <h2 class="text-center text-[2.04375rem] text-[#FF7012] font-700">
+        <h2 class="text-[2.04375rem] text-[#FF7012] font-700">
           Your Social Strategy
         </h2>
         <p class="text-center">
@@ -491,6 +491,18 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       <form>
         <input type="text" placeholder="Enter your e-mail address">
       </form>
+      <button type="button" class="mx-auto w-full rounded-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-white lg:mx-0 sm:max-w-[14.4375rem]">
+        View Our Plans
+      </button>
+      <p class="mt-[3.0325rem] text-center text-[0.75rem]">
+        Upon supplying us with your e-mail, we will send you a link
+        to download this PDF. We will also follow up with you within 5
+        days to see if there is any way we can help you and we'll
+        sign you up to receive updated tips and tricks for growing
+        your social media but don't worry, we only send this
+        newsletter once a month, and you can easily unsubscribe
+        from all communications at any time.
+      </p>
     </section>
   </div>
 </template>
