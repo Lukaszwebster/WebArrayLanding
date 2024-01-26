@@ -16,6 +16,7 @@ declare module 'vue' {
     RouterView: typeof import('vue-router')['RouterView']
     TheBars: typeof import('./components/TheBars.vue')['default']
     TheCounter: typeof import('./components/TheCounter.vue')['default']
+    TheFaq: typeof import('./components/TheFaq.vue')['default']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
     TheForm: typeof import('./components/TheForm.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']
