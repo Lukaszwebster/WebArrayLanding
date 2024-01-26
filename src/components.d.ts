@@ -11,7 +11,6 @@ declare module 'vue' {
     AppMarquee: typeof import('./components/AppMarquee.vue')['default']
     AppPageHeader: typeof import('./components/AppPageHeader.vue')['default']
     AppSwiper: typeof import('./components/AppSwiper.vue')['default']
-    README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheAbout: typeof import('./components/TheAbout.vue')['default']
