@@ -5,6 +5,8 @@ defineProps<{
   subtitleClass?: string
   titleClass?: string
   wrapperClass?: string
+  description?: string
+  descriptionClass?: string
 }>()
 </script>
 
@@ -17,5 +19,8 @@ defineProps<{
     <h2 :class="titleClass" class="text-center text-[2.85625rem] font-700 md:max-w-[29.1875rem] md:text-left">
       {{ title }}
     </h2>
+    <p :class="descriptionClass" class="mt-[1.2875rem] text-center text-[#727272] lg:text-left">
+      {{ description }}
+    </p>
   </div>
 </template>

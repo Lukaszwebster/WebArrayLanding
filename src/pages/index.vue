@@ -406,19 +406,15 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
       <div class="flex flex-col lg:flex-row md:flex-col-reverse lg:justify-between">
-        <div class="mt-[4.375rem] flex flex-col items-center lg:max-w-[522px]">
-          <h2 class="text-center text-[2.1875rem] font-700 lg:text-left md:text-[2.5rem]">
-            Worldwide Best
-            Digital Marketing
-            Agency
-          </h2>
-          <p class="mt-[1.2875rem] text-center text-[#727272] lg:text-left">
-            Lorem Ipsum is simply dummy text of the
+        <div class="mt-[4.375rem] flex flex-col items-center lg:max-w-[522px] lg:items-start">
+          <AppPageHeader
+            subtitle="95% Accuracy" title-class="!text-[2.1875rem] !md:text-[2.5rem] !md:text-center !lg:text-left" subtitle-class="hidden lg:flex" title="Worldwide Best Digital Marketing Agency" wrapper-class="!lg:items-start"
+            description=" Lorem Ipsum is simply dummy text of the
             printing and typesetting industry. Lorem
             Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an
-            unknown printer took a galley of type and
-          </p>
+            unknown printer took a galley of type and"
+          />
           <div class="mt-[3.09375rem] hidden w-full justify-left gap-[3.875rem] md:flex">
             <div class="flex items-center gap-[0.9375rem]">
               <img src="/consultation-icon1.png" alt="">
@@ -430,9 +426,56 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             </div>
           </div>
         </div>
-        <TheForm class="max-w-[482px] lg:w-full" />
+        <TheForm class="mx-auto max-w-[482px] w-full lg:mx-0 lg:w-full" />
       </div>
     </section>
+    <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <AppPageHeader
+        title="Meet The Squad" title-class="!text-[2.1875rem] !lg:text-[3.25rem]" description="Lorem ipsum dolor sit amet, sed nulla anteamet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores" description-class="!max-w-[36.5625rem] !lg:text-center"
+      />
+      <AppSwiper class="mt-[4.375rem] max-w-screen lg:flex" autoplay-delay="2000" space-between="20" slides-per-view="1" pagination="true">
+        <swiper-slide class="max-w-[360px] md:max-w-[330px]">
+          <div class="relative">
+            <img class="rounded-[1.25rem]" src="/teamMember1.png" alt="">
+            <div class="absolute bottom-0 left-0 rounded-tr-[1.25rem] bg-white px-[1.875rem] pb-[1.25rem] pt-[1.5rem]">
+              <p class="font-700">
+                Ryan Vetrovs
+              </p>
+              <p class="text-[#737373]">
+                CEO Kawasaki Inc.
+              </p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide class="max-w-[360px] md:max-w-[330px]">
+          <div class="relative">
+            <img class="rounded-[1.25rem]" src="/teamMember2.png" alt="">
+            <div class="absolute bottom-0 left-0 rounded-tr-[1.25rem] bg-white px-[1.875rem] pb-[1.25rem] pt-[1.5rem]">
+              <p class="font-700">
+                Emerson Saris
+              </p>
+              <p class="text-[#737373]">
+                CEO Kawasaki Inc.
+              </p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide class="max-w-[360px] md:max-w-[330px]">
+          <div class="relative">
+            <img class="rounded-[1.25rem]" src="/teamMember3.png" alt="">
+            <div class="absolute bottom-0 left-0 rounded-tr-[1.25rem] bg-white px-[1.875rem] pb-[1.25rem] pt-[1.5rem]">
+              <p class="font-700">
+                Lindsey Schleifer
+              </p>
+              <p class="text-[#737373]">
+                CEO Kawasaki Inc.
+              </p>
+            </div>
+          </div>
+        </swiper-slide>
+      </AppSwiper>
+    </section>
+    <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]" />
   </div>
 </template>
 
