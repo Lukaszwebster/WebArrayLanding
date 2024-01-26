@@ -23,6 +23,7 @@ declare module 'vue' {
     TheHero: typeof import('./components/TheHero.vue')['default']
     TheInfoSquares: typeof import('./components/TheInfoSquares.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']
+    TheSquad: typeof import('./components/TheSquad.vue')['default']
     TheTopBar: typeof import('./components/TheTopBar.vue')['default']
   }
 }
