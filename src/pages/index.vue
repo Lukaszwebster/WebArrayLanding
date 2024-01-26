@@ -330,12 +330,17 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           Find out how to make social media work for you. We'll send you a PDF that explains different marketing strategies to help your business grow.
         </p>
       </div>
-      <form>
-        <input type="text" placeholder="Enter your e-mail address">
-      </form>
-      <button type="button" class="mx-auto w-full rounded-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-white lg:mx-0 sm:max-w-[14.4375rem]">
-        View Our Plans
-      </button>
+      <div class="justify-center lg-flex">
+        <div>
+          <form>
+            <input type="text" placeholder="Enter your e-mail address">
+          </form>
+
+          <button type="button" class="mx-auto w-full rounded-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-white lg:mx-0 sm:max-w-[14.4375rem]">
+            View Our Plans
+          </button>
+        </div>
+      </div>
       <p class="mt-[3.0325rem] text-center text-[0.75rem]">
         Upon supplying us with your e-mail, we will send you a link
         to download this PDF. We will also follow up with you within 5
