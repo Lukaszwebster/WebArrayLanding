@@ -476,6 +476,22 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       </AppSwiper>
     </section>
     <TheFaq />
+    <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="flex flex-col">
+        <h2 class="text-center text-[3.29375rem] text-[#2A2A2A] font-700">
+          Accelerate
+        </h2>
+        <h2 class="text-center text-[2.04375rem] text-[#FF7012] font-700">
+          Your Social Strategy
+        </h2>
+        <p class="text-center">
+          Find out how to make social media work for you. We'll send you a PDF that explains different marketing strategies to help your business grow.
+        </p>
+      </div>
+      <form>
+        <input type="text" placeholder="Enter your e-mail address">
+      </form>
+    </section>
   </div>
 </template>
 
