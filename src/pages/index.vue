@@ -193,8 +193,8 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             <swiper-slide class="max-w-[300px]">
               <img src="/pistachio-madness.png" alt="">
             </swiper-slide>
-            <swiper-slide>
-              <img src="/woman.png" class="max-w-[300px]" alt="">
+            <swiper-slide class="max-w-[300px]">
+              <img src="/woman.png" alt="">
             </swiper-slide>
             <swiper-slide>
               <img class="max-w-[300px]" src="/barber.png" alt="">
@@ -405,19 +405,33 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           </p>
         </div>
       </div>
-      <h2 class="mt-[8.6875rem] text-center text-[2.1875rem] font-700 md:max-w-[29.1875rem] md:text-left">
-        Worldwide Best
-        Digital Marketing
-        Agency
-      </h2>
-      <p class="mt-[1.2875rem] text-center text-[#727272]">
-        Lorem Ipsum is simply dummy text of the
-        printing and typesetting industry. Lorem
-        Ipsum has been the industry's standard
-        dummy text ever since the 1500s, when an
-        unknown printer took a galley of type and
-      </p>
-      <TheForm />
+      <div class="flex flex-col md:flex-col-reverse">
+        <div class="mt-[4.375rem] flex flex-col items-center">
+          <h2 class="text-center text-[2.1875rem] font-700 md:text-[2.5rem]">
+            Worldwide Best
+            Digital Marketing
+            Agency
+          </h2>
+          <p class="mt-[1.2875rem] text-center text-[#727272]">
+            Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and
+          </p>
+          <div class="hidden w-full justify-left gap-[3.875rem] md:flex">
+            <div class="flex items-center justify-left gap-[0.9375rem]">
+              <img src="/consultation-icon1.png" alt="">
+              <span>Faster Order Processing</span>
+            </div>
+            <div class="flex items-center gap-[0.9375rem]">
+              <img src="/consultation-icon2.png" alt="">
+              <span>Processing Accuracy</span>
+            </div>
+          </div>
+        </div>
+        <TheForm />
+      </div>
     </section>
   </div>
 </template>
