@@ -433,7 +433,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       <AppPageHeader
         title="Meet The Squad" title-class="!text-[2.1875rem] !lg:text-[3.25rem]" description="Lorem ipsum dolor sit amet, sed nulla anteamet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores" description-class="!max-w-[36.5625rem] !lg:text-center"
       />
-      <AppSwiper class="mt-[4.375rem] max-w-screen lg:flex" autoplay-delay="2000" space-between="20" slides-per-view="1" pagination="true">
+      <AppSwiper class="mt-[4.375rem] max-w-screen" autoplay-delay="2000" space-between="20" slides-per-view="1" pagination="true">
         <swiper-slide class="max-w-[360px] md:max-w-[330px]">
           <div class="relative">
             <img class="rounded-[1.25rem]" src="/teamMember1.png" alt="">
@@ -475,7 +475,21 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </swiper-slide>
       </AppSwiper>
     </section>
-    <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]" />
+    <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="mx-auto max-w-[90rem]">
+        <img src="/faq-img.png" alt="">
+        <h2 class="text-[2.1875rem] font-700">
+          All Your Questions Are Here
+        </h2>
+        <p class="mt-[2.45rem] text-[1.5rem]">
+          & Knock Me Directly to Know More
+        </p>
+        <p class="text-[#727272]">
+          Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed
+          laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer,
+        </p>
+      </div>
+    </section>
   </div>
 </template>
 
