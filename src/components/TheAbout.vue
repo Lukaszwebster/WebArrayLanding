@@ -1,5 +1,5 @@
 <template>
-  <section class="relative mt-[10rem] flex flex-col items-center bg-[#292F3E] px-[0.9375rem] pb-[4rem] pt-[10rem] md:px-[2rem] xl:px-[6.5625rem]">
+  <section class="relative mt-[10rem] flex flex-col items-center bg-[#292F3E] px-[0.9375rem] pb-[4rem] pt-[11.548775rem] md:px-[2rem] xl:px-[6.5625rem]">
     <div class="flex justify-center">
       <div class="absolute mx-[0.9375rem] mt-[5.625rem] flex items-center rounded-[1.25rem] bg-#1D1D25 -top-[11rem] 2xl:max-w-[90rem] lg:max-w-[75rem]">
         <AppMarquee />
