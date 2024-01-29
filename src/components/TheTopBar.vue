@@ -13,7 +13,7 @@ const isHamburgerActive = ref(false)
 <template>
   <div class="wrapper relative z-20">
     <div class="item-shadow w-full">
-      <div class="relative mx-auto w-full bg-white px-[1rem] py-[0.8rem] lg:px-[2rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="relative mx-auto w-full px-[1rem] py-[0.8rem] lg:px-[2rem] md:px-[2rem] xl:px-[6.5625rem]">
         <div v-show="isHamburgerActive" class="item-shadow absolute right-0 top-14 max-w-[12rem] w-full bg-white px-[1rem] py-[2rem] lg:hidden">
           <nav>
             <img src="/logo.png" alt="">
