@@ -5,7 +5,7 @@ import { Vue3Marquee } from 'vue3-marquee'
 <template>
   <div>
     <Vue3Marquee>
-      <div class="flex items-center gap-[2rem] py-[4rem]">
+      <div class="flex items-center gap-[2rem] py-[4rem] lg:gap-[4rem]">
         <img class="ml-[2rem]" src="/entrepreneur-logo.png">
         <img src="/google-logo.png">
         <img src="/facebook-logo.png">
