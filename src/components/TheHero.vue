@@ -3,12 +3,14 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
 </script>
 
 <template>
-  <section class="relative mx-auto mt-[2.211875rem] flex flex-col justify-center px-[0.9375rem] lg:flex-row md:px-[2rem] xl:px-[6.5625rem] lg:pt-[1.81rem]">
-    <img class="absolute hidden md:left-[3.84rem] md:top-[0] md:block" src="/ball-pink-screen.png" alt="">
-    <img class="absolute hidden md:left-[12.14375rem] md:top-[0.4rem] -z-10 md:block" src="/ball-purple-screen.png" alt="">
-    <img class="absolute bottom-[5rem] left-[0.5rem] lg:left-[1.6875rem] lg:top-[31rem] md:bottom-[4rem] md:left-[1.8rem] xl:top-[26.25rem]" src="/ball-white-screen.png" alt="">
-    <img class="absolute top-[13.08rem] hidden md:left-[5.08rem] -z-10 md:block" src="/ball-green-screen.png" alt="">
-    <div class="max-w-[90rem] w-full flex items-center justify-between">
+  <section class="mx-auto mt-[2.211875rem] flex flex-col justify-center px-[0.9375rem] lg:flex-row md:px-[2rem] xl:px-[6.5625rem] lg:pt-[1.81rem]">
+    <div class="relative max-w-[90rem] w-full flex items-center justify-between">
+      <img class="absolute hidden md:left-[3.84rem] md:top-[0] md:block" src="/ball-pink-screen.png" alt="">
+      <img class="absolute hidden md:left-[12.14375rem] md:top-[0.4rem] -z-10 md:block" src="/ball-purple-screen.png" alt="">
+      <img class="absolute bottom-[5rem] left-[0.5rem] lg:left-[1.6875rem] lg:top-[31rem] md:bottom-[4rem] md:left-[1.8rem] xl:top-[26.25rem]" src="/ball-white-screen.png" alt="">
+      <img class="absolute top-[13.08rem] hidden md:left-[5.08rem] -z-10 md:block" src="/ball-green-screen.png" alt="">
+      <img class="absolute bottom-[0.4rem] right-[8rem] hidden md:block lg:hidden" src="/line-hero.png" alt="">
+      <img class="absolute bottom-[18rem] right-[5.8rem] hidden -z-10 md:block lg:hidden" src="/line2-hero.png" alt="">
       <div class="mx-auto max-w-[76.875rem] flex flex-col lg:mx-0 lg:pt-[1.294375rem]">
         <button type="button" class="mx-auto max-w-[23.125rem] w-full rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[#FFF1E7] font-500 lg:mx-0 lg:max-w-[23.125rem] sm:py-[0.75rem] sm:text-[1.125rem]">
           Social Media Marketing That Works
