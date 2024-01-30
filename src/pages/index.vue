@@ -54,12 +54,13 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     <TheHero />
     <TheAbout />
     <section class="relative mt-[6.850625rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
-      <div class="mx-auto max-w-[90rem] flex flex-col gap-[2.5rem] lg:flex-row">
+      <div class="mx-auto max-w-[90rem] flex flex-col lg:flex-row lg:gap-[2.5rem]">
         <div class="lg:max-w-[25.625rem]">
-          <img class="rotating-image absolute" src="/line.png" alt="">
+          <img class="rotating-image absolute -top-[5rem] xl:left-[1rem] xxl:left-[28rem] xl:-top-[3rem]" src="/line.png" alt="">
+          <img class="rotating-image absolute left-[9rem] hidden -bottom-[3rem] lg:left-[20rem] xxl:left-[48rem] md:block" src="/line3.png" alt="">
           <div class="flex flex-col justify-center lg:flex-row">
             <div class="flex flex-col items-center lg:items-start">
-              <AppPageHeader wrapper-class="" subtitle="Our Expertise is Your Success" title="Struggling to Make Engaging Content?" />
+              <AppPageHeader wrapper-class="lg:items-start flex flex-col" title-class="!lg:max-w-none" subtitle="Our Expertise is Your Success" title="Struggling to Make Engaging Content?" />
               <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 lg:max-w-[23.1875rem] md:max-w-[42.3125rem] md:text-left">
                 From the research and planning to
                 creating striking images and videos
@@ -73,7 +74,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           </div>
         </div>
         <div class="flex flex-col items-center">
-          <AppSwiper class="mt-[2.28rem] max-w-screen" autoplay-delay="2000" slides-per-view="auto" space-between="20">
+          <AppSwiper class="mt-[2.28rem] max-w-screen md:mt-[1rem]" autoplay-delay="2000" slides-per-view="auto" space-between="20">
             <swiper-slide class="max-w-[300px]">
               <img src="/home-insurance.png" alt="">
             </swiper-slide>
@@ -83,16 +84,16 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             <swiper-slide class="max-w-[300px]">
               <img src="/woman.png" alt="">
             </swiper-slide>
-            <swiper-slide>
-              <img class="max-w-[300px]" src="/barber.png" alt="">
+            <swiper-slide class="max-w-[300px]">
+              <img src="/barber.png" alt="">
             </swiper-slide>
           </AppSwiper>
-          <div class="flex justify-center">
-            <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.75rem] text-white">
-              View More
-            </button>
-          </div>
         </div>
+      </div>
+      <div class="mx-auto max-w-[90rem] flex justify-center lg:justify-left">
+        <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.75rem] text-white md:mt-[3.48125rem] md:max-w-[12.125rem]">
+          View More
+        </button>
       </div>
     </section>
     <section class="px-[0.9375rem] pt-[8.28125rem] md:px-[2rem] xl:px-[6.5625rem]">
@@ -356,7 +357,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
 
 <style scoped>
 .rotating-image {
-  animation: rotateImage 5s infinite;
+  animation: rotateImage 2s infinite;
 }
 
 @keyframes rotateImage {

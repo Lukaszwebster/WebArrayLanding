@@ -57,7 +57,7 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
 
 <style scoped>
 .rotating-image {
-  animation: rotateImage 5s infinite;
+  animation: rotateImage 2s infinite;
 }
 
 @keyframes rotateImage {
