@@ -129,8 +129,8 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     </section>
     <section class="mt-[7.484375rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
       <div class="relative mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row-reverse xl:gap-[6.875rem]">
-        <img class="floating-image absolute bottom-0 left-[18rem] hidden lg:block" src="/line5.png" alt="">
-        <img class="rotating-image absolute right-[30rem] -top-[3rem]" src="/line6.png" alt="">
+        <img class="floating-image absolute left-[18rem] hidden xl:bottom-0 lg:block lg:-bottom-[2rem]" src="/line5.png" alt="">
+        <img class="rotating-image absolute hidden lg:right-[30rem] xl:right-[30rem] lg:block lg:-top-[1rem] xl:-top-[3rem]" src="/line6.png" alt="">
         <img class="md:hidden" src="/success-img.png" alt="">
         <img class="hidden lg:max-w-[36.5625rem] md:flex" src="/success-img-tablet.png" alt="">
         <div class="mt-[3.75rem] flex flex-col lg:items-start md:items-center">
