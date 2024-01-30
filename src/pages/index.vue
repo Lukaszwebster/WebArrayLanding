@@ -127,7 +127,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
     </section>
-    <section class="mt-[7.484375rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
+    <section class="mt-[7.484375rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem] lg:pb-[7.5rem]">
       <div class="relative mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row-reverse xl:gap-[6.875rem]">
         <img class="floating-image absolute left-[18rem] hidden xl:bottom-0 lg:block lg:-bottom-[2rem]" src="/line5.png" alt="">
         <img class="rotating-image absolute hidden lg:right-[30rem] xl:right-[30rem] lg:block lg:-top-[1rem] xl:-top-[3rem]" src="/line6.png" alt="">
@@ -168,12 +168,14 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       </div>
     </section>
     <section class="px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[6.5625rem] lg:pt-[6.88rem]">
-      <div class="mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
+      <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
+        <img class="rotating-image absolute bottom-[10rem] left-[2rem] hidden lg:block" src="/small-line.png" alt="">
+        <img class="rotating-image absolute hidden -right-[5rem] -top-[5rem] lg:block" src="/large-line.png" alt="">
         <img src="/social-trolls.png" alt="">
         <div class="flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
           <AppPageHeader
             subtitle-class="!text-[1.125rem]"
-            title-class="!text-[2rem] xs:!text-[2.1875rem] !lg:text-[3.25rem] !md:text-center !lg:text-left"
+            title-class="!text-[2rem] xs:!text-[2.1875rem] !lg:text-[2.8rem]  xl:!lg:text-[3.25rem] !md:text-center !lg:text-left"
             wrapper-class="!lg:items-start"
             subtitle="Keeping You Covered"
             title=" Social Gossiping
