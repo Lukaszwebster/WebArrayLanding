@@ -195,7 +195,9 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             The most common threats we
             encounter:
           </p>
-          <TheBars v-for="(item, index) in bars" :key="index" :text="item.text" :class="item.class" />
+          <div>
+            <TheBars v-for="(item, index) in bars" :key="index" :text="item.text" :bar-class="item.class" />
+          </div>
           <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
             Protect Your Brand
           </button>
