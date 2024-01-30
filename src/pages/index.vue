@@ -33,6 +33,10 @@ const bars = [
     class: 'bg-#F7FFF7 border-#CFE2CF',
   },
   {
+    text: 'False Media',
+    class: 'bg-F6FCFF border-C0D4F1',
+  },
+  {
     text: 'Low Social Authority',
     class: 'bg-#FFF6F6 border-#FFAFAF',
   },
@@ -169,7 +173,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     </section>
     <section class="px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[6.5625rem] lg:pt-[6.88rem]">
       <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
-        <img class="rotating-image absolute bottom-[10rem] left-[2rem] hidden lg:block" src="/small-line.png" alt="">
+        <img class="rotating-image absolute bottom-[8rem] left-[2rem] hidden lg:block" src="/small-line.png" alt="">
         <img class="rotating-image absolute hidden -right-[0.8rem] -top-[7rem] lg:block" src="/large-line.png" alt="">
         <img src="/social-trolls.png" alt="">
         <div class="flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
@@ -195,7 +199,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             The most common threats we
             encounter:
           </p>
-          <div>
+          <div class="mt-[1.24rem] flex flex-wrap justify-center gap-[0.38rem] lg:justify-left">
             <TheBars v-for="(item, index) in bars" :key="index" :text="item.text" :bar-class="item.class" />
           </div>
           <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
@@ -204,12 +208,12 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
     </section>
-    <section class="bg-[#292F3E] pb-[2.1875rem] pt-[7.490625rem]">
+    <section class="bg-[#292F3E] pb-[2.1875rem] pt-[7.490625rem] lg:pb-[6.91rem]">
       <div class="mx-auto max-w-[90rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
         <AppPageHeader
           subtitle="Visually Impressive"
           title="We Can't Wait To Redefine Your Brand"
-          title-class="text-white !text-[2.1875rem] !text-center"
+          title-class="text-white !text-[2.1875rem] !lg:text-[3.25rem] !text-center lg:max-w-[34rem]"
         />
       </div>
       <AppSwiper class="mt-[4.375rem] max-w-screen" autoplay-delay="2000" space-between="20" slides-per-view="auto">
@@ -244,11 +248,11 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           <img src="/swiper5.png" alt="">
         </swiper-slide>
       </AppSwiper>
-      <div class="flex flex-col items-center px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
-        <h2 class="mt-[1.4375rem] text-center text-[1.5rem] text-white font-700">
+      <div class="flex flex-col items-center px-[0.9375rem] lg:items-start md:px-[2rem] xl:px-[6.5625rem]">
+        <h2 class="mt-[1.4375rem] text-center text-[1.5rem] text-white font-700 lg:mt-[6.87rem] lg:text-left lg:text-[3.25rem]">
           What Are You Waiting For?
         </h2>
-        <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+        <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white lg:hidden">
           Protect Your Brand
         </button>
       </div>
