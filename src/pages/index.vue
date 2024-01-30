@@ -167,22 +167,24 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
     </section>
-    <section class="px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[6.5625rem]">
+    <section class="px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[6.5625rem] lg:pt-[6.88rem]">
       <div class="mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
         <img src="/social-trolls.png" alt="">
-        <div class="flex flex-col items-center lg:max-w-[32.8125rem] md:items-start">
+        <div class="flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
           <AppPageHeader
+            subtitle-class="!text-[1.125rem]"
+            title-class="!text-[2rem] xs:!text-[2.1875rem] !lg:text-[3.25rem] !md:text-center !lg:text-left"
             wrapper-class="!lg:items-start"
             subtitle="Keeping You Covered"
             title=" Social Gossiping
             Slowing You Down?"
           />
-          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] lg:text-left">
             Staying on top of how your brand is
             being used is an important aspect to
             <span class="text-[#191919] underline"> protect your identity and reputation.</span>
           </p>
-          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 lg:max-w-[31.3125rem] md:max-w-[42.3125rem] lg:text-left">
             Our sophisticated <span class="text-[#191919] underline"> threat monitoring</span>
             system enables us to <span class="text-[#191919] underline"> quickly identify threats</span> towards your brand and deal with them to <span class="text-[#191919] underline"> prevent damage</span> to your
             reputation.
