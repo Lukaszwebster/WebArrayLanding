@@ -16,12 +16,11 @@ export default defineConfig({
   ],
   theme: {
     breakpoints: {
-      xs: '320px',
-      sm: '390px',
+      xs: '390px',
+      sm: '640px',
       md: '768px',
       lg: '1024px',
-      xl: '1500px',
-      xxl: '1920px',
+      xl: '1280px',
     },
   },
   presets: [

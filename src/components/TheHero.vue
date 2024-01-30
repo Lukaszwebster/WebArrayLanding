@@ -13,7 +13,7 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
       <img class="absolute bottom-[0.4rem] right-[6.4rem] hidden md:block lg:hidden" src="/line-hero.png" alt="">
       <img class="absolute bottom-[18rem] right-[3.8rem] hidden -z-10 md:block lg:hidden" src="/line2-hero.png" alt="">
       <div class="mx-auto max-w-[76.875rem] flex flex-col lg:mx-0 lg:pt-[1.294375rem]">
-        <button type="button" class="xs:text-[0.8rem] mx-auto max-w-[23.125rem] w-full rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[#FFF1E7] font-500 lg:mx-0 lg:max-w-[23.125rem] sm:py-[0.75rem] sm:text-[1.125rem]">
+        <button type="button" class="mx-auto max-w-[23.125rem] w-full rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[0.8rem] text-[#FFF1E7] font-500 lg:mx-0 lg:max-w-[23.125rem] sm:py-[0.75rem] sm:text-[1.125rem] xs:text-[1.125rem]">
           Social Media Marketing That Works
         </button>
         <h1 class="mt-1.25rem text-center text-[2.2rem] text-[#2A2A2A] font-700 lg:text-left lg:text-[2.5rem] sm:text-[4.5rem] xl:text-[3.75rem]">
