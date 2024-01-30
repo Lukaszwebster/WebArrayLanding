@@ -170,7 +170,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     <section class="px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[6.5625rem] lg:pt-[6.88rem]">
       <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
         <img class="rotating-image absolute bottom-[10rem] left-[2rem] hidden lg:block" src="/small-line.png" alt="">
-        <img class="rotating-image absolute hidden -right-[5rem] -top-[5rem] lg:block" src="/large-line.png" alt="">
+        <img class="rotating-image absolute hidden -right-[0.8rem] -top-[7rem] lg:block" src="/large-line.png" alt="">
         <img src="/social-trolls.png" alt="">
         <div class="flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
           <AppPageHeader
