@@ -10,8 +10,8 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
       <img class="absolute hidden lg:left-[7rem] md:left-[10rem] md:top-[0.4rem] -z-10 md:block lg:-top-[1rem]" src="/ball-purple-screen.png" alt="">
       <img class="absolute bottom-[5rem] -left-[0.4rem] lg:left-[1.6875rem] lg:top-[31rem] md:bottom-[4rem] xl:top-[26.25rem] -z-10 lg:-left-[5rem] md:-left-[1rem]" src="/ball-white-screen.png" alt="">
       <img class="absolute top-[13.08rem] hidden md:left-[3.2rem] -z-10 md:block" src="/ball-green-screen.png" alt="">
-      <img class="absolute bottom-[0.4rem] right-[6.4rem] hidden md:block lg:hidden" src="/line-hero.png" alt="">
-      <img class="absolute bottom-[18rem] right-[3.8rem] hidden -z-10 md:block lg:hidden" src="/line2-hero.png" alt="">
+      <img class="floating-image absolute bottom-[0.4rem] right-[6.4rem] hidden md:block lg:hidden" src="/line-hero.png" alt="">
+      <img class="rotating-image absolute bottom-[18rem] right-[3.8rem] hidden -z-10 md:block lg:hidden" src="/line2-hero.png" alt="">
       <div class="mx-auto max-w-[76.875rem] flex flex-col lg:mx-0 lg:pt-[1.294375rem]">
         <button type="button" class="mx-auto max-w-[23.125rem] w-full rounded-[2rem] bg-[#F89E52] px-[1.3125rem] py-[1.4375rem] text-[0.8rem] text-[#FFF1E7] font-500 lg:mx-0 lg:max-w-[23.125rem] sm:py-[0.75rem] sm:text-[1.125rem] xs:text-[1.125rem]">
           Social Media Marketing That Works
@@ -54,3 +54,36 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
     </div>
   </section>
 </template>
+
+<style scoped>
+.rotating-image {
+  animation: rotateImage 5s infinite;
+}
+
+@keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.floating-image {
+  animation: moveLeftToRight 2s ease-in-out infinite;
+}
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+</style>
