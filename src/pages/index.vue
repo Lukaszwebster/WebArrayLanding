@@ -97,40 +97,48 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       </div>
     </section>
     <section class="px-[0.9375rem] pt-[8.28125rem] md:px-[2rem] xl:px-[6.5625rem]">
-      <div class="mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
-        <img class="max-w-[17.5rem] lg:max-w-[34.0625rem]" src="/phone-img.png" alt="">
-        <div class="flex flex-col items-center lg:max-w-[32.8125rem] md:items-start">
+      <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
+        <img class="floating-image absolute bottom-[1rem] right-[4rem] hidden md:block lg:-bottom-[8rem] xl:-bottom-[1rem]" src="/line5.png" alt="">
+        <div class="relative">
+          <img class="rotating-image absolute right-1rem md:right-[4rem] -z-10 lg:-right-[24rem] lg:-top-[5rem] md:-top-[4rem] xl:-right-[30rem] xl:-top-[2rem]" src="/line2-hero.png" alt="">
+          <img class="max-w-[17.5rem] md:max-w-[34.0625rem]" src="/phone-img.png" alt="">
+        </div>
+        <div class="flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
           <AppPageHeader
+            title-class="md:!text-center md:!max-w-none !lg:text-left"
             wrapper-class="lg:!items-start"
             class="mt-[3.75rem]"
             subtitle="Worry-Free" title=" Risking Your
             Reputation and
             Losing Sales?"
           />
-          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] lg:text-left">
             Our 24/7 Inbox Management is your
             answer to keep up with messages
             and not miss out on potential leads.
           </p>
-          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] md:text-left">
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] lg:text-left">
             By offering quick replies to your
             audience you will elevate your brands image and help you get the sale.
           </p>
-          <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+          <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white md:mt-[2.29rem]">
             Start Replying Faster
           </button>
         </div>
       </div>
     </section>
     <section class="mt-[7.484375rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
-      <div class="mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row-reverse lg:gap-[6.875rem]">
+      <div class="relative mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row-reverse xl:gap-[6.875rem]">
+        <img class="floating-image absolute bottom-0 left-[18rem] hidden lg:block" src="/line5.png" alt="">
+        <img class="rotating-image absolute right-[30rem] -top-[3rem]" src="/line6.png" alt="">
         <img class="md:hidden" src="/success-img.png" alt="">
-        <img class="hidden md:flex" src="/success-img-tablet.png" alt="">
+        <img class="hidden lg:max-w-[36.5625rem] md:flex" src="/success-img-tablet.png" alt="">
         <div class="mt-[3.75rem] flex flex-col lg:items-start md:items-center">
           <AppPageHeader
-            wrapper-class="!items-start"
+            wrapper-class="!items-start !md:items-center !lg:items-start"
+            subtitle-class="md:!text-[1.125rem]"
             subtitle="Thinking &quot;Outside The Box&quot;" title="Troubles Growing Your Audience?"
-            title-class="text-left !text-[2.1875rem]"
+            title-class="text-left md:!text-center !lg:text-left !text-[2.1875rem]"
           />
           <p class="mt-[1.74625rem] text-[1.2rem] text-[#727272] font-300 md:text-center lg:text-left">
             <span class="text-[#191919] underline"> Attract new followers</span> that are
@@ -369,6 +377,21 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+
+.floating-image {
+  animation: moveLeftToRight 2s ease-in-out infinite;
+}
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 </style>
