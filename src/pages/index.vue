@@ -262,8 +262,9 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </button>
       </div>
     </section>
-    <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]">
+    <section class="relative px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]">
       <div class="mx-auto max-w-[90rem]">
+        <img class="absolute right-0 top-[4rem] z-10 xl:-top-[2rem]" src="/company-shape.png" alt="">
         <AppPageHeader
 
           title-class="!text-[2rem] !text-center !md:text-[2.5rem] !max-w-none"
@@ -275,7 +276,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           Ipsum has been the industry's standard.
         </p>
         <div class="flex flex-col items-center lg:flex-row lg:gap-[5.3125rem]">
-          <img class="mt-[4.035rem]" src="/company-img.png" alt="">
+          <img class="z-20 mt-[4.035rem]" src="/company-img.png" alt="">
           <div class="flex flex-col items-center lg:items-start">
             <h2 class="mt-[3.125rem] text-center text-[3.125rem] font-700 lg:text-left">
               All Your
@@ -288,7 +289,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
                 {{ item }}
               </li>
             </ul>
-            <button class="mt-[3.70625rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+            <button class="z-20 mt-[3.70625rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
               Discover More
             </button>
           </div>
