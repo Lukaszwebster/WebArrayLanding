@@ -176,10 +176,10 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         <img class="rotating-image absolute bottom-[8rem] left-[2rem] hidden lg:block" src="/small-line.png" alt="">
         <img class="rotating-image absolute hidden -right-[0.8rem] -top-[7rem] lg:block" src="/large-line.png" alt="">
         <img src="/social-trolls.png" alt="">
-        <img class="absolute left-[8rem] top-[5rem]" src="/exclamation.png" alt="">
+        <img class="absolute left-[8rem] top-[5rem] hidden lg:block" src="/exclamation.png" alt="">
 
-        <img id="icon1" class="floating-icon absolute left-[30rem] z-10" src="/purple-dot.png" alt="">
-        <img id="icon2" class="floating-icon absolute top-[4rem]" src="/purple-robot.png" alt="">
+        <img id="icon1" class="floating-icon absolute left-[30rem] z-10 hidden xl:block" src="/purple-dot.png" alt="">
+        <img id="icon2" class="floating-icon absolute top-[4rem] hidden xl:block" src="/purple-robot.png" alt="">
 
         <div class="z-20 flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
           <AppPageHeader
