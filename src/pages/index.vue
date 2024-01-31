@@ -176,6 +176,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         <img class="rotating-image absolute bottom-[8rem] left-[2rem] hidden lg:block" src="/small-line.png" alt="">
         <img class="rotating-image absolute hidden -right-[0.8rem] -top-[7rem] lg:block" src="/large-line.png" alt="">
         <img src="/social-trolls.png" alt="">
+        <img class="absolute left-[8rem] top-[5rem]" src="/exclamation.png" alt="">
         <div class="flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
           <AppPageHeader
             subtitle-class="!text-[1.125rem]"
@@ -403,5 +404,21 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
   100% {
     transform: translateX(0);
   }
+}
+
+.scroll-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+animated-img {
+  width: 100%;
+  transition: transform 0.5s ease-out;
 }
 </style>
