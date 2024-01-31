@@ -171,13 +171,17 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
     </section>
-    <section class="px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[6.5625rem] lg:pt-[6.88rem]">
+    <section class="floating-section px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[6.5625rem] lg:pt-[6.88rem]">
       <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
         <img class="rotating-image absolute bottom-[8rem] left-[2rem] hidden lg:block" src="/small-line.png" alt="">
         <img class="rotating-image absolute hidden -right-[0.8rem] -top-[7rem] lg:block" src="/large-line.png" alt="">
         <img src="/social-trolls.png" alt="">
         <img class="absolute left-[8rem] top-[5rem]" src="/exclamation.png" alt="">
-        <div class="flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
+
+        <img id="icon1" class="floating-icon absolute left-[30rem] z-10" src="/purple-dot.png" alt="">
+        <img id="icon2" class="floating-icon absolute top-[4rem]" src="/purple-robot.png" alt="">
+
+        <div class="z-20 flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
           <AppPageHeader
             subtitle-class="!text-[1.125rem]"
             title-class="!text-[2rem] xs:!text-[2.1875rem] !lg:text-[2.8rem]  xl:!lg:text-[3.25rem] !md:text-center !lg:text-left"
@@ -201,7 +205,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             encounter:
           </p>
           <div class="mt-[1.24rem] flex flex-wrap justify-center gap-[0.38rem] lg:justify-left">
-            <TheBars v-for="(item, index) in bars" :key="index" :text="item.text" :bar-class="item.class" />
+            <TheBars v-for="(item, index) in bars" :key="index" class="z-20" :text="item.text" :bar-class="item.class" />
           </div>
           <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
             Protect Your Brand
@@ -406,19 +410,48 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
   }
 }
 
-.scroll-section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#icon1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  animation: floatAnimationDot 10s infinite alternate;
+}
+#icon2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  animation: floatAnimationRobot 10s infinite alternate;
 }
 
-.image-container {
-  overflow: hidden;
+@keyframes floatAnimationDot {
+  0%,
+  100% {
+    transform: translate(400%, -400%);
+  }
+  25% {
+    transform: translate(200%, -30%);
+  }
+  50% {
+    transform: translate(1000%, 400%);
+  }
+  75% {
+    transform: translate(300%, 500%);
+  }
 }
 
-animated-img {
-  width: 100%;
-  transition: transform 0.5s ease-out;
+@keyframes floatAnimationRobot {
+  0%,
+  100% {
+    transform: translate(-200%, 200%);
+  }
+  25% {
+    transform: translate(-200%, 300%);
+  }
+  50% {
+    transform: translate(200%, 1000%);
+  }
+  75% {
+    transform: translate(800%, -200%);
+  }
 }
 </style>
