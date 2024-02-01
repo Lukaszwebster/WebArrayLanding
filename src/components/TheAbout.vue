@@ -10,15 +10,19 @@
       <div class="mx-auto flex flex-col lg:mx-0 lg:max-w-[24rem] xl:max-w-none">
         <div class="mt-[1.25rem] flex flex-col text-center text-[2rem] text-white font-700 lg:text-left">
           <span class="mt-[4.8444375rem] text-[1rem] text-[#FFD437] font-500 xs:text-[1.25rem]">Social Media Management is</span>
-          <h2>
-            Building
-            Brands
-          </h2>
-          <h2>
-            Creating
-            Connections
-          </h2>
-          <h2>Driving Sales</h2>
+          <div class="mt-[1.25rem] text-[2.85625rem] leading-[3.425625rem]">
+            <h2>
+              Building
+              Brands
+            </h2>
+            <h2>
+              Creating
+              Connections
+            </h2>
+            <h2>
+              Driving Sales
+            </h2>
+          </div>
         </div>
         <div>
           <p class="mt-[1.6875rem] text-center text-[1.2rem] text-[#BBB] font-300 lg:text-left">
