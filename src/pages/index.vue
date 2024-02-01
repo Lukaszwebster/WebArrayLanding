@@ -363,7 +363,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </p>
       </div>
       <div class="justify-center lg-flex">
-        <div class="mt-[3.48875rem]">
+        <div class="item-shadow mt-[3.48875rem]">
           <form>
             <input class="w-full border rounded-t-[1.25rem] px-[1.14rem] py-[1.2rem]" type="text" placeholder="Enter your e-mail address">
           </form>
@@ -461,5 +461,9 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
   75% {
     transform: translate(800%, -200%);
   }
+}
+
+.item-shadow {
+  box-shadow: 0px 15px 30px 0px rgba(61, 90, 125, 0.08);
 }
 </style>

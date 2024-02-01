@@ -15,7 +15,7 @@ const firstListItems = ['Home', 'About', 'Contact', 'Service']
       <h2 class="text-[1.25rem] text-white font-700">
         Primary Pages
       </h2>
-      <div class="mt-[1.0625rem] flex flex-col items-center">
+      <div class="mt-[1.0625rem] flex flex-col items-center gap-[0.6875rem]">
         <ul v-for="(item, index) in firstListItems" :key="index">
           <li class="text-[#C5C7CB]">
             {{ item }}
@@ -27,7 +27,7 @@ const firstListItems = ['Home', 'About', 'Contact', 'Service']
       <h2 class="text-[1.25rem] text-white font-700">
         Primary Pages
       </h2>
-      <div class="mt-[1.0625rem] flex flex-col items-center">
+      <div class="mt-[1.0625rem] flex flex-col items-center gap-[0.6875rem]">
         <ul v-for="(item, index) in firstListItems" :key="index">
           <li class="text-[#C5C7CB]">
             {{ item }}
