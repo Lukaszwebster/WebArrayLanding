@@ -301,7 +301,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
     </section>
-    <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]">
+    <section class="px-[0.9375rem] pt-[5.051875rem] md:px-[2rem] xl:px-[6.5625rem]">
       <div class="mx-auto max-w-[90rem] lg:grid lg:grid-cols-2">
         <div class="flex justify-center">
           <img class="lg:hidden" src="/bakery2.png" alt="">
@@ -310,8 +310,9 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         <div>
           <AppPageHeader
             class="mt-[3.125rem]"
-            title-class="!text-[2.1875rem]"
-            wrapper-class="!items-start"
+            title-class="!text-[2.1875rem] !leading-[2.625rem]"
+            wrapper-class="md:!items-start"
+            subtitle-class="!text-[1.125rem]"
             subtitle="What We Do" title="We design and develop web and mobile applications for our clients worldwide"
           />
           <p class="mt-[1.2875rem] text-center text-[#727272] lg:max-w-[31.125rem] lg:text-left">
@@ -323,9 +324,9 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
       <div class="flex flex-col lg:flex-row md:flex-col-reverse lg:justify-between">
-        <div class="mt-[4.375rem] flex flex-col items-center lg:max-w-[522px] lg:items-start">
+        <div class="mt-[8.724375rem] flex flex-col items-center lg:max-w-[522px] lg:items-start">
           <AppPageHeader
-            subtitle="95% Accuracy" title-class="!text-[2.1875rem] !md:text-[2.5rem] !md:text-center !lg:text-left" subtitle-class="hidden lg:flex" title="Worldwide Best Digital Marketing Agency" wrapper-class="!lg:items-start"
+            subtitle="95% Accuracy" title-class="!text-[2.1875rem] !leading-[2.4rem] !md:text-[2.5rem] !md:text-center !lg:text-left" subtitle-class="hidden lg:flex" title="Worldwide Best Digital Marketing Agency" wrapper-class="!lg:items-start"
             description=" Lorem Ipsum is simply dummy text of the
             printing and typesetting industry. Lorem
             Ipsum has been the industry's standard
