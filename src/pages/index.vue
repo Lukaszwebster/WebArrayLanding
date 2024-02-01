@@ -301,8 +301,8 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
     </section>
-    <section class="px-[0.9375rem] pt-[5.051875rem] md:px-[2rem] xl:px-[6.5625rem]">
-      <div class="mx-auto max-w-[90rem] lg:grid lg:grid-cols-2">
+    <section class="relative px-[0.9375rem] pt-[5.051875rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="z-20 mx-auto max-w-[90rem] lg:grid lg:grid-cols-2">
         <div class="flex justify-center">
           <img class="lg:hidden" src="/bakery2.png" alt="">
           <img class="hidden lg:flex" src="/bakery2-screen.png" alt="">
@@ -323,7 +323,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           </p>
         </div>
       </div>
-      <div class="flex flex-col lg:flex-row md:flex-col-reverse lg:justify-between">
+      <div class="z-20 flex flex-col lg:flex-row md:flex-col-reverse lg:justify-between">
         <div class="mt-[8.724375rem] flex flex-col items-center lg:max-w-[522px] lg:items-start">
           <AppPageHeader
             subtitle="95% Accuracy" title-class="!text-[2.1875rem] !leading-[2.4rem] !md:text-[2.5rem] !md:text-center !lg:text-left" subtitle-class="hidden lg:flex" title="Worldwide Best Digital Marketing Agency" wrapper-class="!lg:items-start"
@@ -358,7 +358,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         <h2 class="text-[2.04375rem] text-[#FF7012] font-700">
           Your Social Strategy
         </h2>
-        <p class="text-center">
+        <p class="text-center text-[1.25rem] font-300 leading-[1.25875rem]">
           Find out how to make social media work for you. We'll send you a PDF that explains different marketing strategies to help your business grow.
         </p>
       </div>
