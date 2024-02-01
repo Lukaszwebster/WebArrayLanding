@@ -315,7 +315,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             subtitle-class="!text-[1.125rem]"
             subtitle="What We Do" title="We design and develop web and mobile applications for our clients worldwide"
           />
-          <p class="mt-[1.2875rem] text-center text-[#727272] lg:max-w-[31.125rem] lg:text-left">
+          <p class="mt-[1.2875rem] text-center text-[#727272] leading-[1.7rem] lg:max-w-[31.125rem] lg:text-left">
             Lorem ipsum dolor sit amet, sed nulla ante
             amet, elementum tincidunt arcu sed laoreet,
             natoque ac eget imperdiet. Ac scelerisque
@@ -332,6 +332,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an
             unknown printer took a galley of type and"
+            description-class="leading-[1.7rem]"
           />
           <div class="mt-[3.09375rem] hidden w-full justify-left gap-[3.875rem] md:flex">
             <div class="flex items-center gap-[0.9375rem]">
