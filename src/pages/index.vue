@@ -363,17 +363,17 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </p>
       </div>
       <div class="justify-center lg-flex">
-        <div>
+        <div class="mt-[3.48875rem]">
           <form>
-            <input type="text" placeholder="Enter your e-mail address">
+            <input class="w-full border rounded-t-[1.25rem] px-[1.14rem] py-[1.2rem]" type="text" placeholder="Enter your e-mail address">
           </form>
 
-          <button type="button" class="mx-auto w-full rounded-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-white lg:mx-0 sm:max-w-[14.4375rem]">
-            View Our Plans
+          <button type="button" class="mx-auto w-full rounded-b-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-[1.25rem] text-white font-300 lg:mx-0 sm:max-w-[14.4375rem]">
+            Download PDF
           </button>
         </div>
       </div>
-      <p class="mt-[3.0325rem] text-center text-[0.75rem]">
+      <p class="mt-[3.0325rem] text-center text-[0.75rem] text-gray font-300">
         Upon supplying us with your e-mail, we will send you a link
         to download this PDF. We will also follow up with you within 5
         days to see if there is any way we can help you and we'll
