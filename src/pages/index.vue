@@ -266,11 +266,13 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       <div class="mx-auto max-w-[90rem]">
         <img class="absolute right-0 top-[4rem] z-10 xl:-top-[2rem]" src="/company-shape.png" alt="">
         <AppPageHeader
-
-          title-class="!text-[2rem] !text-center !md:text-[2.5rem] !max-w-none"
+          title-class="!text-[2rem] !text-center !md:text-[2.5rem] !max-w-none !lg:text-[3.25rem]"
+          subtitle-class="!text-[1.125rem]"
           subtitle="Our Company" title="We Create Creative Designs For Every Web Page"
+          description-class="!mt-0 "
+          wrapper-class="!lg:max-w-[54.375rem] lg:mx-auto"
         />
-        <p class="text-center text-[#727272]">
+        <p class="text-center text-[#727272] lg:mx-auto lg:max-w-[42rem] lg:text-[1.2rem]">
           Lorem Ipsum is simply dummy text of the
           printing and typesetting industry. Lorem
           Ipsum has been the industry's standard.
@@ -278,7 +280,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         <div class="flex flex-col items-center lg:flex-row lg:gap-[5.3125rem]">
           <img class="z-20 mt-[4.035rem]" src="/company-img.png" alt="">
           <div class="flex flex-col items-center lg:items-start">
-            <h2 class="mt-[3.125rem] text-center text-[3.125rem] font-700 lg:text-left">
+            <h2 class="mt-[3.125rem] text-center text-[3.125rem] font-700 leading-[3.75rem] lg:max-w-[19.875rem] md:max-w-[43.125rem] lg:text-left">
               All Your
               Questions Are
               Here
