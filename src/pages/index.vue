@@ -64,7 +64,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           <img class="rotating-image absolute left-[9rem] hidden -bottom-[3rem] lg:left-[20rem] xxl:left-[48rem] md:block" src="/line3.png" alt="">
           <div class="flex flex-col justify-center lg:flex-row">
             <div class="flex flex-col items-center lg:items-start">
-              <AppPageHeader wrapper-class="lg:items-start flex flex-col" title-class="!lg:max-w-none" subtitle="Our Expertise is Your Success" title="Struggling to Make Engaging Content?" />
+              <AppPageHeader wrapper-class="lg:items-start flex flex-col" title-class="!lg:max-w-none !leading-[3.425625rem]" subtitle="Our Expertise is Your Success" title="Struggling to Make Engaging Content?" />
               <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 lg:max-w-[23.1875rem] md:max-w-[42.3125rem] md:text-left">
                 From the research and planning to
                 creating striking images and videos
@@ -109,21 +109,21 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
         <div class="flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
           <AppPageHeader
-            title-class="md:!text-center md:!max-w-none !lg:text-left"
+            title-class="md:!text-center md:!max-w-none !lg:text-left !text-[2rem] !leading-[2.4rem]"
             wrapper-class="lg:!items-start"
             class="mt-[3.75rem]"
             subtitle="Worry-Free" title=" Risking Your
             Reputation and
             Losing Sales?"
           />
-          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] lg:text-left">
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-[1.2rem] text-[#727272] font-300 leading-[2.04rem] md:max-w-[42.3125rem] lg:text-left">
             Our 24/7 Inbox Management is your
             answer to keep up with messages
             and not miss out on potential leads.
           </p>
-          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] lg:text-left">
-            By offering quick replies to your
-            audience you will elevate your brands image and help you get the sale.
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 leading-[2.04rem] md:max-w-[42.3125rem] lg:text-left">
+            By offering <span class="text-[#191919] underline"> quick replies</span> to your
+            audience you will<span class="underline">  elevate your</span><span class="text-[#191919] underline">  brands image</span> and help you <span class="text-[#191919] underline"> get the sale</span>
           </p>
           <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white md:mt-[2.29rem]">
             Start Replying Faster
@@ -132,7 +132,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       </div>
     </section>
     <section class="mt-[7.484375rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem] lg:pb-[7.5rem]">
-      <div class="relative mx-auto mt-[10.65rem] max-w-[90rem] flex flex-col items-center justify-between lg:flex-row-reverse xl:gap-[6.875rem]">
+      <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row-reverse xl:gap-[6.875rem]">
         <img class="floating-image absolute left-[18rem] hidden xl:bottom-0 lg:block lg:-bottom-[2rem]" src="/line5.png" alt="">
         <img class="rotating-image absolute hidden lg:right-[30rem] xl:right-[30rem] lg:block lg:-top-[1rem] xl:-top-[3rem]" src="/line6.png" alt="">
         <img class="md:hidden" src="/success-img.png" alt="">
@@ -140,9 +140,9 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         <div class="mt-[3.75rem] flex flex-col lg:items-start md:items-center">
           <AppPageHeader
             wrapper-class="!items-start !md:items-center !lg:items-start"
-            subtitle-class="md:!text-[1.125rem]"
+            subtitle-class="!text-[1.125rem]"
             subtitle="Thinking &quot;Outside The Box&quot;" title="Troubles Growing Your Audience?"
-            title-class="text-left md:!text-center !lg:text-left !text-[2.1875rem]"
+            title-class="text-left md:!text-center !lg:text-left !text-[2.1875rem] !leading-[2.625rem]"
           />
           <p class="mt-[1.74625rem] text-[1.2rem] text-[#727272] font-300 md:text-center lg:text-left">
             <span class="text-[#191919] underline"> Attract new followers</span> that are
@@ -190,7 +190,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             title=" Social Gossiping
             Slowing You Down?"
           />
-          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] lg:text-left">
+          <p class="max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] lg:text-left">
             Staying on top of how your brand is
             being used is an important aspect to
             <span class="text-[#191919] underline"> protect your identity and reputation.</span>
@@ -262,24 +262,27 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </button>
       </div>
     </section>
-    <section class="relative px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]">
+    <section class="relative pt-[10.4675rem]">
       <div class="mx-auto max-w-[90rem]">
-        <img class="absolute right-0 top-[4rem] z-10 xl:-top-[2rem]" src="/company-shape.png" alt="">
-        <AppPageHeader
-          title-class="!text-[2rem] !text-center !md:text-[2.5rem] !max-w-none !lg:text-[3.25rem]"
-          subtitle-class="!text-[1.125rem]"
-          subtitle="Our Company" title="We Create Creative Designs For Every Web Page"
-          description-class="!mt-0 "
-          wrapper-class="!lg:max-w-[54.375rem] lg:mx-auto"
-        />
-        <p class="text-center text-[#727272] lg:mx-auto lg:max-w-[42rem] lg:text-[1.2rem]">
-          Lorem Ipsum is simply dummy text of the
-          printing and typesetting industry. Lorem
-          Ipsum has been the industry's standard.
-        </p>
-        <div class="flex flex-col items-center lg:flex-row lg:gap-[5.3125rem]">
-          <img class="z-20 mt-[4.035rem]" src="/company-img.png" alt="">
-          <div class="flex flex-col items-center lg:items-start">
+        <div class="px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
+          <img class="absolute right-0 top-[4rem] z-10 xl:-top-[2rem]" src="/company-shape.png" alt="">
+          <AppPageHeader
+            title-class="!text-[2rem] !text-center !md:text-[2.5rem] !max-w-none !lg:text-[3.25rem]"
+            subtitle-class="!text-[1.125rem]"
+            subtitle="Our Company" title="We Create Creative Designs For Every Web Page"
+            description-class="!mt-0 "
+            wrapper-class="!lg:max-w-[54.375rem] lg:mx-auto"
+          />
+          <p class="text-center text-[#727272] lg:mx-auto lg:max-w-[42rem] lg:text-[1.2rem]">
+            Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard.
+          </p>
+        </div>
+        <div class="flex flex-col items-center lg:flex-row lg:gap-[5.3125rem] md:px-[2rem] xl:px-[6.5625rem]">
+          <img class="z-20 mt-[4.035rem] hidden md-block" src="/company-img-desktop.png" alt="">
+          <img class="z-20 mt-[4.035rem] md:hidden" src="/company-img-mobile.png" alt="">
+          <div class="flex flex-col items-center px-[0.9375rem] lg:items-start md:px-[2rem] xl:px-[6.5625rem]">
             <h2 class="mt-[3.125rem] text-center text-[3.125rem] font-700 leading-[3.75rem] lg:max-w-[19.875rem] md:max-w-[43.125rem] lg:text-left">
               All Your
               Questions Are
