@@ -25,10 +25,10 @@ const activeElement = ref()
     <div class="mx-auto max-w-[90rem] flex flex-col lg:flex-row">
       <div>
         <img src="/faq-img.png" alt="">
-        <h2 class="text-[2.1875rem] font-700">
+        <h2 class="text-center text-[2.1875rem] font-700">
           All Your Questions Are Here
         </h2>
-        <p class="mt-[2.45rem] text-[1.5rem]">
+        <p class="mt-[2.45rem] text-center text-[1.5rem]">
           & Knock Me Directly to Know More
         </p>
         <p class="text-[#727272]">
