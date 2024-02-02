@@ -1,5 +1,5 @@
 <template>
-  <section class="px-[0.9375rem] pt-[5.625rem] md:px-[2rem] xl:px-[6.5625rem]">
+  <section class="px-[0.9375rem] pt-[5.625rem] md:px-[2rem] xl:px-[7.5rem]">
     <AppPageHeader
       title="Meet The Squad" title-class="!text-[2.1875rem] !lg:text-[3.25rem] mt-0" description="Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores" description-class="!max-w-[36.5625rem] !lg:text-center !leading-[1.7rem]"
     />

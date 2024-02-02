@@ -57,7 +57,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
   <div>
     <TheHero />
     <TheAbout />
-    <section class="relative mt-[6.850625rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
+    <section class="relative mt-[6.850625rem] px-[0.9375rem] md:px-[2rem] xl:px-[7.5rem]">
       <div class="mx-auto max-w-[90rem] flex flex-col lg:flex-row lg:gap-[2.5rem]">
         <div class="lg:max-w-[25.625rem]">
           <img class="rotating-image absolute -top-[5rem] xl:left-[1rem] xxl:left-[28rem] xl:-top-[3rem]" src="/line.png" alt="">
@@ -100,7 +100,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </button>
       </div>
     </section>
-    <section class="px-[0.9375rem] pt-[8.28125rem] md:px-[2rem] xl:px-[6.5625rem]">
+    <section class="px-[0.9375rem] pt-[8.28125rem] md:px-[2rem] xl:px-[7.5rem]">
       <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
         <img class="floating-image absolute bottom-[1rem] right-[4rem] hidden md:block lg:-bottom-[8rem] xl:-bottom-[1rem]" src="/line5.png" alt="">
         <div class="relative">
@@ -131,7 +131,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
     </section>
-    <section class="mt-[7.484375rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem] lg:pb-[7.5rem]">
+    <section class="mt-[7.484375rem] px-[0.9375rem] md:px-[2rem] xl:px-[7.5rem] lg:pb-[7.5rem]">
       <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row-reverse xl:gap-[6.875rem]">
         <img class="floating-image absolute left-[18rem] hidden xl:bottom-0 lg:block lg:-bottom-[2rem]" src="/line5.png" alt="">
         <img class="rotating-image absolute hidden lg:right-[30rem] xl:right-[30rem] lg:block lg:-top-[1rem] xl:-top-[3rem]" src="/line6.png" alt="">
@@ -171,7 +171,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
     </section>
-    <section class="floating-section px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[6.5625rem] lg:pt-[6.88rem]">
+    <section class="floating-section px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[7.5rem] lg:pt-[6.88rem]">
       <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
         <img class="rotating-image absolute bottom-[8rem] left-[2rem] hidden lg:block" src="/small-line.png" alt="">
         <img class="rotating-image absolute hidden -right-[0.8rem] -top-[7rem] lg:block" src="/large-line.png" alt="">
@@ -214,7 +214,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       </div>
     </section>
     <section class="bg-[#292F3E] pb-[2.1875rem] pt-[7.490625rem] lg:pb-[6.91rem]">
-      <div class="mx-auto max-w-[90rem] px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="mx-auto max-w-[90rem] px-[0.9375rem] md:px-[2rem] xl:px-[7.5rem]">
         <AppPageHeader
           subtitle="Visually Impressive"
           title="We Can't Wait To Redefine Your Brand"
@@ -253,7 +253,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           <img src="/swiper5.png" alt="">
         </swiper-slide>
       </AppSwiper>
-      <div class="flex flex-col items-center px-[0.9375rem] lg:items-start md:px-[2rem] xl:px-[6.5625rem]">
+      <div class="flex flex-col items-center px-[0.9375rem] lg:items-start md:px-[2rem] xl:px-[7.5rem]">
         <h2 class="mt-[1.4375rem] text-center text-[1.5rem] text-white font-700 lg:mt-[6.87rem] lg:text-left lg:text-[3.25rem]">
           What Are You Waiting For?
         </h2>
@@ -264,7 +264,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     </section>
     <section class="relative pt-[10.4675rem]">
       <div class="mx-auto max-w-[90rem]">
-        <div class="px-[0.9375rem] md:px-[2rem] xl:px-[6.5625rem]">
+        <div class="px-[0.9375rem] md:px-[2rem] xl:px-[7.5rem]">
           <img class="absolute right-0 top-[4rem] z-10 xl:-top-[2rem]" src="/company-shape.png" alt="">
           <AppPageHeader
             title-class="!text-[2rem] !text-center !md:text-[2.5rem] !max-w-none !lg:text-[3.25rem]"
@@ -279,10 +279,10 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             Ipsum has been the industry's standard.
           </p>
         </div>
-        <div class="flex flex-col items-center lg:flex-row lg:gap-[5.3125rem] md:px-[2rem] xl:px-[6.5625rem]">
+        <div class="flex flex-col items-center lg:flex-row lg:gap-[5.3125rem] md:px-[2rem] xl:px-[7.5rem]">
           <img class="z-20 mt-[4.035rem] hidden md-block" src="/company-img-desktop.png" alt="">
           <img class="z-20 mt-[4.035rem] md:hidden" src="/company-img-mobile.png" alt="">
-          <div class="flex flex-col items-center px-[0.9375rem] lg:items-start md:px-[2rem] xl:px-[6.5625rem]">
+          <div class="flex flex-col items-center px-[0.9375rem] lg:items-start md:px-[2rem] xl:px-[7.5rem]">
             <h2 class="mt-[3.125rem] text-center text-[3.125rem] font-700 leading-[3.75rem] lg:max-w-[19.875rem] md:max-w-[43.125rem] lg:text-left">
               All Your
               Questions Are
@@ -301,7 +301,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
     </section>
-    <section class="relative px-[0.9375rem] pt-[5.051875rem] md:px-[2rem] xl:px-[6.5625rem]">
+    <section class="relative px-[0.9375rem] pt-[5.051875rem] md:px-[2rem] xl:px-[7.5rem]">
       <div class="z-20 mx-auto max-w-[90rem] lg:grid lg:grid-cols-2">
         <div class="flex justify-center">
           <img class="lg:hidden" src="/bakery2.png" alt="">
@@ -350,7 +350,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     </section>
     <TheSquad />
     <TheFaq />
-    <section class="px-[0.9375rem] pb-[4.98625rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]">
+    <section class="px-[0.9375rem] pb-[4.98625rem] pt-[10.4675rem] md:px-[2rem] xl:px-[7.5rem]">
       <div class="flex flex-col items-center">
         <h2 class="text-center text-[3.29375rem] text-[#2A2A2A] font-700">
           Accelerate

@@ -3,12 +3,12 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
 </script>
 
 <template>
-  <section class="mx-auto mt-[2.211875rem] flex flex-col justify-center px-[0.9375rem] lg:flex-row md:px-[2rem] xl:px-[6.5625rem] lg:pt-[1.81rem]">
+  <section class="mx-auto mt-[2.211875rem] flex flex-col justify-center px-[0.9375rem] pb-[10.57875rem] lg:flex-row md:px-[2rem] xl:px-[7.5rem] lg:pb-[12.4375rem] lg:pt-[1.81rem] md:pb-[11.1875rem]">
     <div class="relative max-w-[90rem] w-full flex items-center justify-between">
       <img class="absolute hidden -left-[7.8rem] -top-[10rem] -z-10 lg:block" src="/vector-hero.png" alt="">
-      <img class="absolute hidden md:left-[1rem] md:top-[0] md:block lg:-left-[5rem] lg:-top-[2rem]" src="/ball-pink-screen.png" alt="">
+      <img class="absolute hidden md:left-[1rem] md:top-[0] md:block lg:-left-[1rem] lg:-top-[3rem] xl:-left-[5rem] xl:-top-[2rem]" src="/ball-pink-screen.png" alt="">
       <img class="absolute hidden lg:left-[7rem] md:left-[10rem] md:top-[0.4rem] -z-10 md:block lg:-top-[1rem]" src="/ball-purple-screen.png" alt="">
-      <img class="absolute bottom-[5rem] -left-[0.4rem] lg:left-[1.6875rem] lg:top-[31rem] md:bottom-[4rem] xl:top-[26.25rem] -z-10 lg:-left-[5rem] md:-left-[1rem]" src="/ball-white-screen.png" alt="">
+      <img class="absolute bottom-[5rem] -left-[0.4rem] lg:left-[1rem] lg:top-[32rem] md:bottom-[4rem] xl:top-[26.25rem] -z-10 md:-left-[1rem] xl:-left-[5rem]" src="/ball-white-screen.png" alt="">
       <img class="absolute top-[13.08rem] hidden md:left-[3.2rem] -z-10 md:block" src="/ball-green-screen.png" alt="">
       <img class="floating-image absolute bottom-[0.4rem] right-[6.4rem] hidden md:block lg:hidden" src="/line-hero.png" alt="">
       <img class="rotating-image absolute bottom-[18rem] right-[3.8rem] hidden -z-10 md:block lg:hidden" src="/line2-hero.png" alt="">
@@ -19,8 +19,8 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
         <h1 class="mt-1.25rem text-center text-[2.2rem] text-[#2A2A2A] font-700 lg:text-left lg:text-[2.5rem] sm:text-[4.5rem] xl:text-[3.75rem]">
           <span class="block">Save Time</span><span class="block">Build Connections</span><span class="block">Increase Profits</span>
         </h1>
-        <div class="mt-[2rem] flex justify-center gap-[0.4875rem] lg:hidden">
-          <div class="flex flex-col gap-[0.4875rem]">
+        <div class="mt-[2rem] flex justify-center gap-[0.4875rem] lg:hidden md:gap-[1rem]">
+          <div class="flex flex-col gap-[0.4875rem] md:gap-[1rem]">
             <img class="" src="/bakeryTopTablet.png" alt="">
             <img class="" src="/bakeryBottomTablet.png" alt="">
           </div>
@@ -42,8 +42,8 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
           </button>
         </div>
       </div>
-      <div class="mt-[2rem] hidden justify-center gap-[0.4875rem] lg:mt-0 lg:flex">
-        <div class="flex flex-col gap-[0.4875rem]">
+      <div class="mt-[2rem] hidden justify-center gap-[1rem] lg:mt-0 lg:flex">
+        <div class="flex flex-col gap-[1rem]">
           <img class="" src="/bakeryTopScreen.png" alt="">
           <img class="" src="/carBottomScreen.png" alt="">
         </div>

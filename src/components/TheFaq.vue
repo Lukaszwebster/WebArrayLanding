@@ -21,7 +21,7 @@ const activeElement = ref()
 </script>
 
 <template>
-  <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[6.5625rem]">
+  <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[7.5rem]">
     <div class="mx-auto max-w-[90rem] flex flex-col lg:flex-row">
       <div>
         <img src="/faq-img.png" alt="">
