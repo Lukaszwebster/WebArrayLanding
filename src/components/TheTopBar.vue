@@ -14,7 +14,7 @@ const isHamburgerActive = ref(false)
   <div class="wrapper relative z-20">
     <div class="item-shadow w-full !lg:shadow-none">
       <div class="relative mx-auto w-full px-[1rem] py-[0.8rem] lg:px-[2rem] lg:py-[1.46875rem] md:px-[2rem] xl:px-[7.5rem]">
-        <div v-show="isHamburgerActive" class="item-shadow absolute right-0 top-14 max-w-[12rem] w-full bg-white px-[1rem] py-[2rem] lg:hidden">
+        <div v-show="isHamburgerActive" class="item-shadow absolute right-0 top-14 max-w-[18.75rem] w-full bg-white px-[1rem] py-[2rem] lg:hidden">
           <nav>
             <img src="/logo.png" alt="">
             <ul class="flex flex-col gap-1 lg:text-[1rem] sm:text-[0.8rem]">
