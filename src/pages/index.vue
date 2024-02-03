@@ -109,14 +109,14 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
         <div class="flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
           <AppPageHeader
-            title-class="md:!text-center md:!max-w-none !lg:text-left !text-[2rem] !leading-[2.4rem]"
+            title-class="md:!text-center md:!max-w-none md:!leading-[3rem] !lg:text-left !text-[2rem] !leading-[2.4rem] !md:text-[2.5rem]"
             wrapper-class="lg:!items-start"
             class="mt-[3.75rem]"
             subtitle="Worry-Free" title=" Risking Your
             Reputation and
             Losing Sales?"
           />
-          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-[1.2rem] text-[#727272] font-300 leading-[2.04rem] md:max-w-[42.3125rem] lg:text-left">
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-[1.2rem] text-[#727272] font-300 leading-[2.04rem] md:max-w-[42.3125rem] md:text-center lg:text-left">
             Our 24/7 Inbox Management is your
             answer to keep up with messages
             and not miss out on potential leads.
@@ -125,7 +125,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             By offering <span class="text-[#191919] underline"> quick replies</span> to your
             audience you will<span class="underline">  elevate your</span><span class="text-[#191919] underline">  brands image</span> and help you <span class="text-[#191919] underline"> get the sale</span>
           </p>
-          <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white md:mt-[2.29rem]">
+          <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white md:mt-[2.29rem] md:max-w-[17.4375rem]">
             Start Replying Faster
           </button>
         </div>
@@ -142,7 +142,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             wrapper-class="!items-start !md:items-center !lg:items-start"
             subtitle-class="!text-[1.125rem]"
             subtitle="Thinking &quot;Outside The Box&quot;" title="Troubles Growing Your Audience?"
-            title-class="text-left md:!text-center !lg:text-left !text-[2.1875rem] !leading-[2.625rem]"
+            title-class="text-left md:!text-center !lg:text-left md:!text-[2.8125rem] !text-[2.1875rem] !leading-[2.625rem] md:!leading-[3.375rem] md:!max-w-none"
           />
           <p class="mt-[1.74625rem] text-[1.2rem] text-[#727272] font-300 md:text-center lg:text-left">
             <span class="text-[#191919] underline"> Attract new followers</span> that are
@@ -177,9 +177,8 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         <img class="rotating-image absolute hidden -right-[0.8rem] -top-[7rem] lg:block" src="/large-line.png" alt="">
         <img src="/social-trolls.png" alt="">
         <img class="absolute left-[8rem] top-[5rem] hidden lg:block" src="/exclamation.png" alt="">
-
-        <img id="icon1" class="floating-icon absolute left-[30rem] z-10 hidden xl:block" src="/purple-dot.png" alt="">
-        <img id="icon2" class="floating-icon absolute top-[4rem] hidden xl:block" src="/purple-robot.png" alt="">
+        <img id="icon1" class="floating-icon absolute left-[30rem] z-10 hidden md:block" src="/purple-dot.png" alt="">
+        <img id="icon2" class="floating-icon absolute top-[4rem] hidden md:block" src="/purple-robot.png" alt="">
 
         <div class="z-20 flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
           <AppPageHeader
@@ -430,36 +429,70 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
   height: 50px;
   animation: floatAnimationRobot 10s infinite alternate;
 }
+@media (min-width: 768px) {
+  @keyframes floatAnimationDot {
+    0%,
+    100% {
+      transform: translate(200%, -200%);
+    }
+    25% {
+      transform: translate(20%, -30%);
+    }
+    50% {
+      transform: translate(100%, 400%);
+    }
+    75% {
+      transform: translate(300%, 100%);
+    }
+  }
 
-@keyframes floatAnimationDot {
-  0%,
-  100% {
-    transform: translate(400%, -400%);
-  }
-  25% {
-    transform: translate(200%, -30%);
-  }
-  50% {
-    transform: translate(1000%, 400%);
-  }
-  75% {
-    transform: translate(300%, 500%);
+  @keyframes floatAnimationRobot {
+    0%,
+    100% {
+      transform: translate(-200%, 200%);
+    }
+    25% {
+      transform: translate(-200%, 300%);
+    }
+    50% {
+      transform: translate(200%, 400%);
+    }
+    75% {
+      transform: translate(400%, -200%);
+    }
   }
 }
+@media (min-width: 1280px) {
+  @keyframes floatAnimationDot {
+    0%,
+    100% {
+      transform: translate(400%, -400%);
+    }
+    25% {
+      transform: translate(200%, -30%);
+    }
+    50% {
+      transform: translate(1000%, 400%);
+    }
+    75% {
+      transform: translate(300%, 500%);
+    }
+  }
 
-@keyframes floatAnimationRobot {
-  0%,
-  100% {
-    transform: translate(-200%, 200%);
-  }
-  25% {
-    transform: translate(-200%, 300%);
-  }
-  50% {
-    transform: translate(200%, 1000%);
-  }
-  75% {
-    transform: translate(800%, -200%);
+  @keyframes floatAnimationRobot {
+    0%,
+    100% {
+      transform: translate(-200%, 200%);
+    }
+    25% {
+      transform: translate(-200%, 300%);
+    }
+    50% {
+      transform: translate(200%, 1000%);
+    }
+    75% {
+      transform: translate(800%, -200%);
+    }
   }
 }
 
