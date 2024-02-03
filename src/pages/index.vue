@@ -353,17 +353,17 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     <TheFaq />
     <section class="px-[0.9375rem] pb-[4.98625rem] pt-[10.4675rem] md:px-[2rem] xl:px-[7.5rem]">
       <div class="flex flex-col items-center">
-        <h2 class="text-center text-[3.29375rem] text-[#2A2A2A] font-700">
+        <h2 class="text-center text-[3.29375rem] text-[#2A2A2A] font-700 md:text-[4.43125rem] md:leading-[3.545rem]">
           Accelerate
         </h2>
-        <h2 class="text-[2.04375rem] text-[#FF7012] font-700">
+        <h2 class="text-[2.04375rem] text-[#FF7012] font-700 md:text-[3.075rem]">
           Your Social Strategy
         </h2>
-        <p class="text-center text-[1.25rem] font-300 leading-[1.25875rem]">
+        <p class="text-center text-[1.25rem] font-300 leading-[1.25875rem] md:text-[1.4875rem] md:leading-[1.48625rem]">
           Find out how to make social media work for you. We'll send you a PDF that explains different marketing strategies to help your business grow.
         </p>
       </div>
-      <div class="justify-center lg-flex">
+      <div class="justify-center md:hidden">
         <div class="item-shadow mt-[3.48875rem]">
           <form>
             <input class="w-full border rounded-t-[1.25rem] px-[1.14rem] py-[1.2rem]" type="text" placeholder="Enter your e-mail address">
@@ -374,7 +374,16 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           </button>
         </div>
       </div>
-      <p class="mt-[3.0325rem] text-center text-[0.75rem] text-gray font-300">
+      <div class="item-shadow mx-auto mt-[4.3425rem] max-w-[33.46875rem] flex items-center justify-between border border-[#EFEFEF] rounded-[1.5rem] py-[1rem] pl-[2rem] pr-[1rem]">
+        <img src="/label.png" alt="">
+        <form>
+          <input type="text" placeholder="Enter your e-mail">
+        </form>
+        <button class="w-full rounded-[1.25rem] bg-[#3482FF] py-[1rem] text-[1.25rem] text-white font-300 lg:mx-0 sm:max-w-[14.4375rem]">
+          Download PDF
+        </button>
+      </div>
+      <p class="mt-[3.0325rem] text-center text-[0.75rem] text-gray font-300 md:text-[0.8125rem] md:leading-[1.384375rem]">
         Upon supplying us with your e-mail, we will send you a link
         to download this PDF. We will also follow up with you within 5
         days to see if there is any way we can help you and we'll
