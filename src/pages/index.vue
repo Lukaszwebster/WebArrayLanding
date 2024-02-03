@@ -353,7 +353,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     <TheFaq />
     <section class="px-[0.9375rem] pb-[4.98625rem] pt-[10.4675rem] md:px-[2rem] xl:px-[7.5rem]">
       <div class="flex flex-col items-center">
-        <h2 class="text-center text-[3.29375rem] text-[#2A2A2A] font-700 md:text-[4.43125rem] xl:text-[6rem] md:leading-[3.545rem]">
+        <h2 class="text-center text-[2rem] text-[#2A2A2A] font-700 md:text-[4.43125rem] xl:text-[6rem] xs:text-[3.29375rem] md:leading-[3.545rem]">
           Accelerate
         </h2>
         <h2 class="text-[1.2rem] text-[#FF7012] font-700 md:text-[3.075rem] xl:text-[4.5rem] xs:text-[2.04375rem]">
