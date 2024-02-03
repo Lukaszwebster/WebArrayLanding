@@ -1,5 +1,5 @@
 <template>
-  <section class="relative flex flex-col items-center bg-[#292F3E] px-[0.9375rem] pb-[4rem] pt-[11.548775rem] md:px-[2rem] xl:px-[7.5rem] lg:pt-[4rem] md:pb-[7.5rem]">
+  <section class="relative flex flex-col items-center bg-[#292F3E] px-[0.9375rem] pb-[4rem] pt-[11.548775rem] md:px-[2rem] xl:px-[7.5rem] lg:pt-[4rem] md:pb-[7.5rem] xl:pt-[12.4775rem]">
     <div class="flex justify-center">
       <div class="2xl:max-w-[90rem] absolute mx-[0.9375rem] mt-[5.625rem] flex items-center rounded-[1.25rem] bg-#1D1D25 -top-[11rem] md:mx-[2rem] lg:max-w-[75rem]">
         <AppMarquee />
@@ -9,8 +9,8 @@
       <TheInfoSquares />
       <div class="mx-auto flex flex-col lg:mx-0">
         <div class="lg:max-w-[24rem] xl:max-w-none">
-          <div class="mt-[1.25rem] flex flex-col text-center text-[2rem] text-white font-700 lg:text-left">
-            <span class="mt-[4.8444375rem] text-[1rem] text-[#FFD437] font-500 xs:text-[1.25rem]">Social Media Management is</span>
+          <div class="mt-[1.25rem] flex flex-col text-center text-[2rem] text-white font-700 xl:mt-0 lg:text-left">
+            <span class="mt-[4.8444375rem] text-[1rem] text-[#FFD437] font-500 xl:mt-0 xs:text-[1.25rem]">Social Media Management is</span>
             <div class="mt-[1.25rem] text-[2rem] leading-[3.425625rem] xs:text-[2.85625rem]">
               <h2>
                 Building

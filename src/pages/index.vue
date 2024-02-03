@@ -312,7 +312,6 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           <AppPageHeader
             class="mt-[3.125rem]"
             title-class="!text-[2.1875rem] !md:text-[2.8125rem] !md:max-w-none !leading-[2.625rem] !md:text-center !md:leading-[3.375rem]"
-            wrapper-class=""
             subtitle-class="!text-[1.125rem]"
             subtitle="What We Do" title="We design and develop web and mobile applications for our clients worldwide"
           />
@@ -324,7 +323,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           </p>
         </div>
       </div>
-      <div class="z-20 flex flex-col lg:flex-row md:flex-col-reverse lg:justify-between">
+      <div class="z-20 mx-auto max-w-[90rem] flex flex-col lg:flex-row md:flex-col-reverse lg:justify-between">
         <div class="mt-[8.724375rem] flex flex-col items-center lg:max-w-[522px] lg:items-start">
           <AppPageHeader
             subtitle="95% Accuracy" title-class="!md:leading-[3rem] !text-[2.1875rem] !md:max-w-none !leading-[2.4rem] !md:text-[2.5rem] !md:text-center !lg:text-left" subtitle-class="hidden lg:flex" title="Worldwide Best Digital Marketing Agency" wrapper-class="!lg:items-start"
