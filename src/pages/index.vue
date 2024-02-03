@@ -473,6 +473,39 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     }
   }
 }
+@media (min-width: 1024px) {
+  @keyframes floatAnimationDot {
+    0%,
+    100% {
+      transform: translate(400%, -400%);
+    }
+    25% {
+      transform: translate(200%, -30%);
+    }
+    50% {
+      transform: translate(800%, 400%);
+    }
+    75% {
+      transform: translate(300%, 500%);
+    }
+  }
+
+  @keyframes floatAnimationRobot {
+    0%,
+    100% {
+      transform: translate(200%, 200%);
+    }
+    25% {
+      transform: translate(400%, 300%);
+    }
+    50% {
+      transform: translate(800%, 1000%);
+    }
+    75% {
+      transform: translate(400%, -200%);
+    }
+  }
+}
 @media (min-width: 1280px) {
   @keyframes floatAnimationDot {
     0%,
