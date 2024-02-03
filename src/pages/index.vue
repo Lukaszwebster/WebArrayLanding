@@ -132,19 +132,19 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       </div>
     </section>
     <section class="mt-[7.484375rem] px-[0.9375rem] md:px-[2rem] xl:px-[7.5rem] lg:pb-[7.5rem]">
-      <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row-reverse xl:gap-[6.875rem]">
+      <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row-reverse">
         <img class="floating-image absolute left-[18rem] hidden xl:bottom-0 lg:block lg:-bottom-[2rem]" src="/line5.png" alt="">
         <img class="rotating-image absolute hidden lg:right-[30rem] xl:right-[30rem] lg:block lg:-top-[1rem] xl:-top-[3rem]" src="/line6.png" alt="">
         <img class="md:hidden" src="/success-img.png" alt="">
         <img class="hidden lg:max-w-[36.5625rem] md:flex" src="/success-img-tablet.png" alt="">
-        <div class="mt-[3.75rem] flex flex-col lg:items-start md:items-center">
+        <div class="mt-[3.75rem] flex flex-col xl:max-w-[36.5625rem] lg:items-start md:items-center">
           <AppPageHeader
             wrapper-class="!items-start !md:items-center !lg:items-start"
             subtitle-class="!text-[1.125rem]"
             subtitle="Thinking &quot;Outside The Box&quot;" title="Troubles Growing Your Audience?"
-            title-class="text-left md:!text-center !lg:text-left md:!text-[2.8125rem] !text-[2.1875rem] !leading-[2.625rem] md:!leading-[3.375rem] md:!max-w-none"
+            title-class="text-left md:!text-center !lg:text-left md:!text-[2.8125rem] !text-[2.1875rem] !leading-[2.625rem] md:!leading-[3.375rem] md:!max-w-none !xl:text-[3.25rem] !xl:leading-[3.9rem]"
           />
-          <p class="mt-[1.74625rem] text-[1.2rem] text-[#727272] font-300 md:text-center lg:text-left">
+          <p class="mt-[1.74625rem] text-[1.2rem] text-[#727272] font-300 leading-[2.04rem] md:text-center lg:text-left">
             <span class="text-[#191919] underline"> Attract new followers</span> that are
             <span class="text-[#191919] underline"> relevant </span> to your objectives by
             reaching <span class="text-[#191919] underline"> outside your social media</span>
@@ -173,7 +173,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     </section>
     <section class="floating-section px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[7.5rem] md:pb-[7.5rem] md:pt-[6.88rem]">
       <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
-        <img class="rotating-image absolute bottom-[8rem] left-[2rem] hidden lg:block" src="/small-line.png" alt="">
+        <img class="rotating-image absolute bottom-[8rem] left-[2rem] hidden xl:bottom-[7rem] lg:block" src="/small-line.png" alt="">
         <img class="rotating-image absolute hidden -right-[0.8rem] -top-[7rem] lg:block" src="/large-line.png" alt="">
         <img src="/social-trolls.png" alt="">
         <img class="absolute left-[8rem] top-[5rem] hidden lg:block" src="/exclamation.png" alt="">
@@ -182,8 +182,8 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
 
         <div class="z-20 flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
           <AppPageHeader
-            subtitle-class="!text-[1.125rem]"
-            title-class="!text-[2rem] !md:text-[2.8125rem] xs:!text-[2.1875rem] !lg:text-[2.8rem]  xl:!lg:text-[3.25rem] !md:text-center !lg:text-left !md:max-w-none !md:leading-[3.375rem]"
+            subtitle-class="!text-[1.125rem] !xl:text-[1.25rem]"
+            title-class="!text-[2rem] !md:text-[2.8125rem] xs:!text-[2.1875rem] !lg:text-[2.8rem]  !lg:text-[3.25rem] !md:text-center !lg:text-left !md:max-w-none !md:leading-[3.375rem] !xl:leading-[3.9rem] !xl:max-w-[32.0625rem]"
             wrapper-class="!lg:items-start "
             subtitle="Keeping You Covered"
             title=" Social Gossiping
@@ -218,7 +218,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           subtitle="Visually Impressive"
           subtitle-class="!md:text-[1.125rem]"
           title="We Can't Wait To Redefine Your Brand"
-          title-class="text-white !text-[2.1875rem] !md:text-[2.8125rem] !lg:text-[3.25rem] !text-center lg:max-w-[34rem] !md:max-w-[29.4375rem] !md:leading-[3.375rem]"
+          title-class="text-white !text-[2.1875rem] !md:text-[2.8125rem] !lg:text-[3.25rem] !text-center lg:max-w-[34rem] !xl:max-w-[35rem] !md:max-w-[29.4375rem] !md:leading-[3.375rem]"
         />
       </div>
       <AppSwiper class="mt-[4.375rem] max-w-screen" autoplay-delay="2000" space-between="20" slides-per-view="auto">
@@ -267,13 +267,13 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         <div class="px-[0.9375rem] md:px-[2rem] xl:px-[7.5rem]">
           <img class="absolute right-0 top-[4rem] z-10 xl:-top-[2rem]" src="/company-shape.png" alt="">
           <AppPageHeader
-            title-class="!text-[2rem] !text-center !md:text-[2.5rem] !max-w-none !lg:text-[3.25rem] !md:leading-[3rem]"
+            title-class="!text-[2rem] !text-center !md:text-[2.5rem] !max-w-none !lg:text-[3.25rem] !md:leading-[3rem] !xl:max-w-[50.4375rem] !xl:leading-[3.9rem]"
             subtitle-class="!text-[1.125rem]"
             subtitle="Our Company" title="We Create Creative Designs For Every Web Page"
             description-class="!mt-0 "
             wrapper-class="!lg:max-w-[54.375rem] lg:mx-auto"
           />
-          <p class="text-center text-[#727272] lg:mx-auto lg:max-w-[42rem] lg:text-[1.2rem] md:leading-[1.7rem]">
+          <p class="text-center text-[#727272] lg:mx-auto xl:mt-[1.8125rem] lg:max-w-[42rem] lg:text-[1.2rem] md:leading-[1.7rem] !xl:leading-[2.0375rem]">
             Lorem Ipsum is simply dummy text of the
             printing and typesetting industry. Lorem
             Ipsum has been the industry's standard.
@@ -282,7 +282,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         <div class="flex flex-col items-center lg:flex-row lg:gap-[5.3125rem] md:px-[2rem] xl:px-[7.5rem]">
           <img class="z-20 mt-[4.035rem] hidden md-block" src="/company-img-desktop.png" alt="">
           <img class="z-20 mt-[4.035rem] md:hidden" src="/company-img-mobile.png" alt="">
-          <div class="flex flex-col items-center px-[0.9375rem] lg:items-start md:px-[2rem] xl:px-[7.5rem]">
+          <div class="flex flex-col items-center px-[0.9375rem] lg:items-start md:px-[2rem] xl:px-0">
             <h2 class="mt-[3.125rem] text-center text-[3.125rem] font-700 leading-[3.75rem] lg:max-w-[19.875rem] md:max-w-[43.125rem] lg:text-left">
               All Your
               Questions Are
@@ -302,20 +302,21 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       </div>
     </section>
     <section class="relative px-[0.9375rem] pt-[5.051875rem] md:px-[2rem] xl:px-[7.5rem]">
-      <div class="z-20 mx-auto max-w-[90rem] lg:grid lg:grid-cols-2">
+      <div class="z-20 mx-auto max-w-[90rem] lg:grid lg:grid-cols-2 xl:gap-[4.4375rem]">
         <div class="relative flex justify-center">
           <img class="md:hidden" src="/bakery2.png" alt="">
-          <img class="md:block lg:hidden" src="/bakery2-tablet.png" alt="">
+          <img class="hidden md:block lg:hidden" src="/bakery2-tablet.png" alt="">
           <img class="hidden lg:flex" src="/bakery2-screen.png" alt="">
         </div>
         <div>
           <AppPageHeader
             class="mt-[3.125rem]"
-            title-class="!text-[2.1875rem] !md:text-[2.8125rem] !md:max-w-none !leading-[2.625rem] !md:text-center !md:leading-[3.375rem]"
-            subtitle-class="!text-[1.125rem]"
+            title-class="!text-[2.1875rem] !md:text-[2.8125rem] !md:max-w-none !leading-[2.625rem] !md:text-center !md:leading-[3.375rem] !xl:text-left !xl:text-[3.25rem] !xl:leading-[3.9rem]"
+            subtitle-class="!text-[1.125rem] "
             subtitle="What We Do" title="We design and develop web and mobile applications for our clients worldwide"
+            wrapper-class="!xl:items-start"
           />
-          <p class="mt-[1.2875rem] text-center text-[#727272] leading-[1.7rem] lg:max-w-[31.125rem] lg:text-left">
+          <p class="mt-[1.2875rem] text-center text-[#727272] leading-[1.7rem] lg:max-w-[31.125rem] lg:text-left xl:text-[1.2rem] xl:leading-[2.0375rem]">
             Lorem ipsum dolor sit amet, sed nulla ante
             amet, elementum tincidunt arcu sed laoreet,
             natoque ac eget imperdiet. Ac scelerisque
@@ -324,7 +325,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
       <div class="z-20 mx-auto max-w-[90rem] flex flex-col lg:flex-row md:flex-col-reverse lg:justify-between">
-        <div class="mt-[8.724375rem] flex flex-col items-center lg:max-w-[522px] lg:items-start">
+        <div class="mt-[8.724375rem] flex flex-col items-center xl:mt-0 lg:max-w-[522px] lg:items-start">
           <AppPageHeader
             subtitle="95% Accuracy" title-class="!md:leading-[3rem] !text-[2.1875rem] !md:max-w-none !leading-[2.4rem] !md:text-[2.5rem] !md:text-center !lg:text-left" subtitle-class="hidden lg:flex" title="Worldwide Best Digital Marketing Agency" wrapper-class="!lg:items-start"
             description=" Lorem Ipsum is simply dummy text of the
@@ -332,7 +333,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             Ipsum has been the industry's standard
             dummy text ever since the 1500s, when an
             unknown printer took a galley of type and"
-            description-class="leading-[1.7rem]"
+            description-class="leading-[1.7rem] !xl:text-[1.2rem] !xl:max-w-[27.9375rem]"
           />
           <div class="mt-[3.09375rem] hidden w-full justify-left gap-[3.875rem] md:flex">
             <div class="flex items-center gap-[0.9375rem]">
@@ -352,13 +353,13 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     <TheFaq />
     <section class="px-[0.9375rem] pb-[4.98625rem] pt-[10.4675rem] md:px-[2rem] xl:px-[7.5rem]">
       <div class="flex flex-col items-center">
-        <h2 class="text-center text-[3.29375rem] text-[#2A2A2A] font-700 md:text-[4.43125rem] md:leading-[3.545rem]">
+        <h2 class="text-center text-[3.29375rem] text-[#2A2A2A] font-700 md:text-[4.43125rem] xl:text-[6rem] md:leading-[3.545rem]">
           Accelerate
         </h2>
-        <h2 class="text-[2.04375rem] text-[#FF7012] font-700 md:text-[3.075rem]">
+        <h2 class="text-[1.2rem] text-[#FF7012] font-700 md:text-[3.075rem] xl:text-[4.5rem] xs:text-[2.04375rem]">
           Your Social Strategy
         </h2>
-        <p class="text-center text-[1.25rem] font-300 leading-[1.25875rem] md:text-[1.4875rem] md:leading-[1.48625rem]">
+        <p class="text-center text-[1.25rem] font-300 leading-[1.25875rem] xl:max-w-[65.375rem] md:text-[1.4875rem] xl:text-[1.8rem] md:leading-[1.48625rem] xl:leading-[1.8rem]">
           Find out how to make social media work for you. We'll send you a PDF that explains different marketing strategies to help your business grow.
         </p>
       </div>
@@ -367,13 +368,12 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           <form>
             <input class="w-full border rounded-t-[1.25rem] px-[1.14rem] py-[1.2rem]" type="text" placeholder="Enter your e-mail address">
           </form>
-
-          <button type="button" class="mx-auto w-full rounded-b-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-[1.25rem] text-white font-300 lg:mx-0 sm:max-w-[14.4375rem]">
+          <button type="button" class="mx-auto w-full rounded-b-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-[1.25rem] text-white font-300">
             Download PDF
           </button>
         </div>
       </div>
-      <div class="item-shadow mx-auto mt-[4.3425rem] max-w-[33.46875rem] flex items-center justify-between border border-[#EFEFEF] rounded-[1.5rem] py-[1rem] pl-[2rem] pr-[1rem]">
+      <div class="item-shadow mx-auto mt-[4.3425rem] hidden max-w-[33.46875rem] items-center justify-between border border-[#EFEFEF] rounded-[1.5rem] py-[1rem] pl-[2rem] pr-[1rem] xl:max-w-[36.52375rem] md:flex">
         <img src="/label.png" alt="">
         <form>
           <input type="text" placeholder="Enter your e-mail">
@@ -382,7 +382,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           Download PDF
         </button>
       </div>
-      <p class="mt-[3.0325rem] text-center text-[0.75rem] text-gray font-300 md:text-[0.8125rem] md:leading-[1.384375rem]">
+      <p class="mx-auto mt-[3.0325rem] text-center text-[0.75rem] text-gray font-300 xl:max-w-[61.5rem] md:text-[0.8125rem] xl:text-[0.9rem] md:leading-[1.384375rem]">
         Upon supplying us with your e-mail, we will send you a link
         to download this PDF. We will also follow up with you within 5
         days to see if there is any way we can help you and we'll

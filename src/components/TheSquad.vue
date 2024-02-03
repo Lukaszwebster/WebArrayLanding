@@ -1,7 +1,7 @@
 <template>
   <section class="px-[0.9375rem] pt-[5.625rem] md:px-[2rem] xl:px-[7.5rem]">
     <AppPageHeader
-      title="Meet The Squad" title-class="!text-[2.1875rem] !lg:text-[3.25rem] mt-0" description="Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores" description-class="!max-w-[36.5625rem] !lg:text-center !leading-[1.7rem]"
+      title="Meet The Squad" title-class="!text-[2.1875rem] !lg:text-[3.25rem] mt-0" description="Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget." description-class="!xl:text-[1.2rem] !max-w-[36.5625rem] !lg:text-center !leading-[1.7rem] font-300 !xl:leading-[2.0375rem]"
     />
     <AppSwiper class="mt-[4.375rem] max-w-screen" autoplay-delay="2000" space-between="20" slides-per-view="1" pagination="true">
       <swiper-slide class="max-w-[360px] lg:max-w-[23.75rem] md:max-w-[330px]">

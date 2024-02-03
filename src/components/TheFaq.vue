@@ -22,21 +22,20 @@ const activeElement = ref()
 
 <template>
   <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[7.5rem]">
-    <div class="mx-auto max-w-[90rem] flex flex-col lg:flex-row">
+    <div class="mx-auto max-w-[90rem] flex flex-col lg:flex-row xl:justify-between">
       <div>
         <img src="/faq-img.png" alt="">
-        <h2 class="mt-[1.5625rem] text-center text-[2.1875rem] font-700 leading-[2.625rem] md:text-left md:text-[2.8125rem]">
+        <h2 class="mt-[1.5625rem] text-center text-[2.1875rem] font-700 leading-[2.625rem] xl:max-w-[31.4375rem] md:text-left md:text-[2.8125rem] xl:text-[3.25rem] xl:leading-[3.9rem]">
           All Your Questions Are Here
         </h2>
         <p class="mt-[2.45rem] text-center text-[1.5rem] font-500 md:mt-[1.25rem] md:text-left">
           & Knock Me Directly to Know More
         </p>
-        <p class="text-[#727272] md:mt-[1.125rem] md:leading-[1.7rem]">
-          Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed
-          laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer,
+        <p class="text-[#727272] md:mt-[1.125rem] xl:max-w-[29.25rem] xl:text-[1.2rem] md:leading-[1.7rem] xl:leading-[2.0375rem]">
+          Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh.
         </p>
       </div>
-      <ul class="md:mt-[3.125rem]">
+      <ul class="md:mt-[3.125rem] xl:mt-0 xl:max-w-[36.5625rem]">
         <li v-for="(item, index) in faqItems" :key="index" class="item-shadow mx-auto mb-[1rem] border border-[#F4F4F4] rounded-[1.25rem] py-[1.875rem] pb-4 pl-[0.875rem] pr-[2.9375rem] hover:cursor-pointer lg:py-[2.5rem]" @click="activeElement === index ? activeElement = null : activeElement = index">
           <div class="flex gap-[0.8125rem]">
             <button>
@@ -44,14 +43,14 @@ const activeElement = ref()
               <span class="sr-only">{{ activeElement === index ? 'schowaj pytanie' : 'pokaż pytanie' }}</span>
             </button>
             <div class="flex items-center justify-between">
-              <p class="font-bold">
+              <p class="font-bold xl:text-[1.125rem]">
                 {{ item.question }}
               </p>
             </div>
           </div>
           <div :class="activeElement === index ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'" class="will-change-grid-rows grid overflow-hidden transition-all duration-500">
             <div class="min-h-0">
-              <p class="mt-4 text-[0.8rem]">
+              <p class="mt-4 text-[0.8rem] xl:text-[1rem]">
                 {{ item.answer }}
               </p>
             </div>

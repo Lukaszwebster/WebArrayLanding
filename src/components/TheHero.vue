@@ -5,7 +5,7 @@ const icons = ['/linkedinIcon.png', '/facebookIcon.png', '/instagramIcon.png', '
 <template>
   <section class="mx-auto mt-[2.211875rem] flex flex-col justify-center px-[0.9375rem] pb-[10.57875rem] lg:flex-row md:px-[2rem] xl:px-[7.5rem] lg:pb-[12.4375rem] lg:pt-[1.81rem] md:pb-[11.1875rem] xl:pb-[13.73125rem]">
     <div class="relative max-w-[90rem] w-full flex items-center justify-between">
-      <img class="absolute hidden -left-[7.8rem] -top-[10rem] -z-10 lg:block" src="/vector-hero.png" alt="">
+      <img class="absolute hidden -left-[7.8rem] -top-[11rem] -z-10 lg:block" src="/vector-hero.png" alt="">
       <img class="absolute hidden md:left-[1rem] md:top-[0] md:block lg:-left-[1rem] lg:-top-[3rem] xl:-left-[5rem] xl:-top-[2rem]" src="/ball-pink-screen.png" alt="">
       <img class="absolute hidden lg:left-[7rem] md:left-[10rem] md:top-[0.4rem] -z-10 md:block lg:-top-[1rem]" src="/ball-purple-screen.png" alt="">
       <img class="absolute bottom-[5rem] -left-[0.4rem] lg:left-[1rem] lg:top-[32rem] md:bottom-[4rem] xl:top-[26.25rem] -z-10 md:-left-[1rem] xl:-left-[5rem]" src="/ball-white-screen.png" alt="">
