@@ -3,7 +3,7 @@ const firstListItems = ['Home', 'About', 'Contact', 'Service']
 </script>
 
 <template>
-  <div class="flex flex-col justify-between bg-[#1F1D28] px-[0.9375rem] pt-[6.25rem] md:flex-row lg:justify-center lg:gap-[6.3125rem] md:px-[2rem] xl:px-[7.5rem] md:pb-[3.203125rem] md:text-left">
+  <div class="flex flex-col justify-between bg-[#1F1D28] px-[0.9375rem] pb-[2.5rem] pt-[6.25rem] md:flex-row lg:justify-center lg:gap-[6.3125rem] md:px-[2rem] xl:px-[7.5rem] md:pb-[3.203125rem] md:text-left">
     <div class="lg:flex lg:gap-[6.3125rem]">
       <div>
         <div class="flex justify-center">
