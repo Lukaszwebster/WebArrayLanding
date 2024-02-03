@@ -25,19 +25,19 @@ const activeElement = ref()
     <div class="mx-auto max-w-[90rem] flex flex-col lg:flex-row">
       <div>
         <img src="/faq-img.png" alt="">
-        <h2 class="mt-[1.5625rem] text-center text-[2.1875rem] font-700 leading-[2.625rem]">
+        <h2 class="mt-[1.5625rem] text-center text-[2.1875rem] font-700 leading-[2.625rem] md:text-left md:text-[2.8125rem]">
           All Your Questions Are Here
         </h2>
-        <p class="mt-[2.45rem] text-center text-[1.5rem] font-500">
+        <p class="mt-[2.45rem] text-center text-[1.5rem] font-500 md:mt-[1.25rem] md:text-left">
           & Knock Me Directly to Know More
         </p>
-        <p class="text-[#727272]">
+        <p class="text-[#727272] md:mt-[1.125rem] md:leading-[1.7rem]">
           Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed
           laoreet, natoque ac eget imperdiet. Ac scelerisque nibh dolores consectetuer,
         </p>
       </div>
-      <ul>
-        <li v-for="(item, index) in faqItems" :key="index" class="item-shadow mx-auto mt-[1rem] border border-[#F4F4F4] rounded-[1.25rem] py-[1.875rem] pb-4 pl-[0.875rem] pr-[2.9375rem] hover:cursor-pointer lg:py-[2.5rem]" @click="activeElement === index ? activeElement = null : activeElement = index">
+      <ul class="md:mt-[3.125rem]">
+        <li v-for="(item, index) in faqItems" :key="index" class="item-shadow mx-auto mb-[1rem] border border-[#F4F4F4] rounded-[1.25rem] py-[1.875rem] pb-4 pl-[0.875rem] pr-[2.9375rem] hover:cursor-pointer lg:py-[2.5rem]" @click="activeElement === index ? activeElement = null : activeElement = index">
           <div class="flex gap-[0.8125rem]">
             <button>
               <img src="/plus.png" alt="">

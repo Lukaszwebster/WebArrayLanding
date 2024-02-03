@@ -171,7 +171,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
     </section>
-    <section class="floating-section px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[7.5rem] lg:pt-[6.88rem]">
+    <section class="floating-section px-[0.9375rem] pb-[4.345625rem] md:px-[2rem] xl:px-[7.5rem] md:pb-[7.5rem] md:pt-[6.88rem]">
       <div class="relative mx-auto max-w-[90rem] flex flex-col items-center justify-between lg:flex-row lg:gap-[6.875rem]">
         <img class="rotating-image absolute bottom-[8rem] left-[2rem] hidden lg:block" src="/small-line.png" alt="">
         <img class="rotating-image absolute hidden -right-[0.8rem] -top-[7rem] lg:block" src="/large-line.png" alt="">
@@ -183,18 +183,18 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         <div class="z-20 flex flex-col items-center lg:max-w-[32.8125rem] lg:items-start">
           <AppPageHeader
             subtitle-class="!text-[1.125rem]"
-            title-class="!text-[2rem] xs:!text-[2.1875rem] !lg:text-[2.8rem]  xl:!lg:text-[3.25rem] !md:text-center !lg:text-left"
-            wrapper-class="!lg:items-start"
+            title-class="!text-[2rem] !md:text-[2.8125rem] xs:!text-[2.1875rem] !lg:text-[2.8rem]  xl:!lg:text-[3.25rem] !md:text-center !lg:text-left !md:max-w-none !md:leading-[3.375rem]"
+            wrapper-class="!lg:items-start "
             subtitle="Keeping You Covered"
             title=" Social Gossiping
             Slowing You Down?"
           />
-          <p class="max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] lg:text-left">
+          <p class="max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 md:max-w-[42.3125rem] lg:text-left md:leading-[2.04rem]">
             Staying on top of how your brand is
             being used is an important aspect to
             <span class="text-[#191919] underline"> protect your identity and reputation.</span>
           </p>
-          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 lg:max-w-[31.3125rem] md:max-w-[42.3125rem] lg:text-left">
+          <p class="mt-[1.74625rem] max-w-[22.4375rem] text-center text-[1.2rem] text-[#727272] font-300 lg:max-w-[31.3125rem] md:max-w-[42.3125rem] md:text-left md:leading-[2.04rem]">
             Our sophisticated <span class="text-[#191919] underline"> threat monitoring</span>
             system enables us to <span class="text-[#191919] underline"> quickly identify threats</span> towards your brand and deal with them to <span class="text-[#191919] underline"> prevent damage</span> to your
             reputation.
@@ -206,18 +206,19 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           <div class="mt-[1.24rem] flex flex-wrap justify-center gap-[0.38rem] lg:justify-left">
             <TheBars v-for="(item, index) in bars" :key="index" class="z-20" :text="item.text" :bar-class="item.class" />
           </div>
-          <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+          <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white md:max-w-[16.399375rem]">
             Protect Your Brand
           </button>
         </div>
       </div>
     </section>
-    <section class="bg-[#292F3E] pb-[2.1875rem] pt-[7.490625rem] lg:pb-[6.91rem]">
+    <section class="bg-[#292F3E] pb-[2.1875rem] pt-[7.490625rem] lg:pb-[6.91rem] md:pb-[4.271875rem]">
       <div class="mx-auto max-w-[90rem] px-[0.9375rem] md:px-[2rem] xl:px-[7.5rem]">
         <AppPageHeader
           subtitle="Visually Impressive"
+          subtitle-class="!md:text-[1.125rem]"
           title="We Can't Wait To Redefine Your Brand"
-          title-class="text-white !text-[2.1875rem] !lg:text-[3.25rem] !text-center lg:max-w-[34rem]"
+          title-class="text-white !text-[2.1875rem] !md:text-[2.8125rem] !lg:text-[3.25rem] !text-center lg:max-w-[34rem] !md:max-w-[29.4375rem] !md:leading-[3.375rem]"
         />
       </div>
       <AppSwiper class="mt-[4.375rem] max-w-screen" autoplay-delay="2000" space-between="20" slides-per-view="auto">
@@ -253,10 +254,10 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </swiper-slide>
       </AppSwiper>
       <div class="flex flex-col items-center px-[0.9375rem] lg:items-start md:px-[2rem] xl:px-[7.5rem]">
-        <h2 class="mt-[1.4375rem] text-center text-[1.5rem] text-white font-700 lg:mt-[6.87rem] lg:text-left lg:text-[3.25rem]">
+        <h2 class="mt-[1.4375rem] text-center text-[1.5rem] text-white font-700 lg:mt-[6.87rem] lg:text-left lg:text-[3.25rem] md:text-[2.8125rem]">
           What Are You Waiting For?
         </h2>
-        <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white lg:hidden">
+        <button class="mt-[1.65rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white lg:hidden md:max-w-[16.42rem]">
           Protect Your Brand
         </button>
       </div>
@@ -266,13 +267,13 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         <div class="px-[0.9375rem] md:px-[2rem] xl:px-[7.5rem]">
           <img class="absolute right-0 top-[4rem] z-10 xl:-top-[2rem]" src="/company-shape.png" alt="">
           <AppPageHeader
-            title-class="!text-[2rem] !text-center !md:text-[2.5rem] !max-w-none !lg:text-[3.25rem]"
+            title-class="!text-[2rem] !text-center !md:text-[2.5rem] !max-w-none !lg:text-[3.25rem] !md:leading-[3rem]"
             subtitle-class="!text-[1.125rem]"
             subtitle="Our Company" title="We Create Creative Designs For Every Web Page"
             description-class="!mt-0 "
             wrapper-class="!lg:max-w-[54.375rem] lg:mx-auto"
           />
-          <p class="text-center text-[#727272] lg:mx-auto lg:max-w-[42rem] lg:text-[1.2rem]">
+          <p class="text-center text-[#727272] lg:mx-auto lg:max-w-[42rem] lg:text-[1.2rem] md:leading-[1.7rem]">
             Lorem Ipsum is simply dummy text of the
             printing and typesetting industry. Lorem
             Ipsum has been the industry's standard.
@@ -293,7 +294,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
                 {{ item }}
               </li>
             </ul>
-            <button class="z-20 mt-[3.70625rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+            <button class="z-20 mt-[3.70625rem] max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white md:max-w-[14.07125rem]">
               Discover More
             </button>
           </div>
@@ -302,15 +303,16 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
     </section>
     <section class="relative px-[0.9375rem] pt-[5.051875rem] md:px-[2rem] xl:px-[7.5rem]">
       <div class="z-20 mx-auto max-w-[90rem] lg:grid lg:grid-cols-2">
-        <div class="flex justify-center">
-          <img class="lg:hidden" src="/bakery2.png" alt="">
+        <div class="relative flex justify-center">
+          <img class="md:hidden" src="/bakery2.png" alt="">
+          <img class="md:block lg:hidden" src="/bakery2-tablet.png" alt="">
           <img class="hidden lg:flex" src="/bakery2-screen.png" alt="">
         </div>
         <div>
           <AppPageHeader
             class="mt-[3.125rem]"
-            title-class="!text-[2.1875rem] !leading-[2.625rem]"
-            wrapper-class="md:!items-start"
+            title-class="!text-[2.1875rem] !md:text-[2.8125rem] !md:max-w-none !leading-[2.625rem] !md:text-center !md:leading-[3.375rem]"
+            wrapper-class=""
             subtitle-class="!text-[1.125rem]"
             subtitle="What We Do" title="We design and develop web and mobile applications for our clients worldwide"
           />
@@ -325,7 +327,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       <div class="z-20 flex flex-col lg:flex-row md:flex-col-reverse lg:justify-between">
         <div class="mt-[8.724375rem] flex flex-col items-center lg:max-w-[522px] lg:items-start">
           <AppPageHeader
-            subtitle="95% Accuracy" title-class="!text-[2.1875rem] !leading-[2.4rem] !md:text-[2.5rem] !md:text-center !lg:text-left" subtitle-class="hidden lg:flex" title="Worldwide Best Digital Marketing Agency" wrapper-class="!lg:items-start"
+            subtitle="95% Accuracy" title-class="!md:leading-[3rem] !text-[2.1875rem] !md:max-w-none !leading-[2.4rem] !md:text-[2.5rem] !md:text-center !lg:text-left" subtitle-class="hidden lg:flex" title="Worldwide Best Digital Marketing Agency" wrapper-class="!lg:items-start"
             description=" Lorem Ipsum is simply dummy text of the
             printing and typesetting industry. Lorem
             Ipsum has been the industry's standard
@@ -344,7 +346,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
             </div>
           </div>
         </div>
-        <TheForm class="mx-auto max-w-[482px] w-full lg:mx-0 lg:w-full" />
+        <TheForm class="mx-auto max-w-[482px] w-full lg:mx-0 lg:w-full md:max-w-none" />
       </div>
     </section>
     <TheSquad />

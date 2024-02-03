@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="item-shadow mt-[3rem] rounded-[1.25rem] px-[1.625rem] py-[1.9375rem]">
+  <div class="item-shadow mt-[3rem] rounded-[1.25rem] px-[1.625rem] py-[1.9375rem] md:px-[2.875rem]">
     <h2 class="text-[1.5rem]">
       Free Consultation
     </h2>
@@ -14,7 +14,7 @@
       <select class="border border-[#D5D5D5] rounded-[0.8125rem] bg-[#FBFDFF] px-[1.8125rem] py-[1.40625rem] placeholder-[#0B0B0B]">
         <option>Subject</option>
       </select>
-      <button class="max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white">
+      <button class="max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white md:max-w-none">
         Consultation
       </button>
     </form>
