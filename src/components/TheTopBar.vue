@@ -8,6 +8,13 @@ const navItems = [
 ]
 
 const isHamburgerActive = ref(false)
+const isClicked = ref(false)
+const clickedIndex = ref(null)
+
+function toggleMenu(index) {
+  isClicked.value = !isClicked.value
+  clickedIndex.value = index
+}
 </script>
 
 <template>
@@ -33,10 +40,20 @@ const isHamburgerActive = ref(false)
           <nav class="flex items-center">
             <ul class="mr-[4.585rem] hidden gap-[0.8rem] gap-[1.5rem] lg:flex xl:gap-[2.190625rem] sm:text-[0.8rem] xl:text-[1rem]">
               <li v-for="(item, index) in navItems" :key="index" class="rounded-[8rem] font-700">
-                <a>
+                <a
+                  @click="toggleMenu(index)"
+                >
                   {{ item.name }}
                 </a>
                 <img class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
+                <div v-if="isClicked && clickedIndex === index">
+                  <div v-if="item.name === 'Services'">
+                    services test
+                  </div>
+                  <div v-if="item.name === 'Plans & Pricing'">
+                    Plans & Pricing test
+                  </div>
+                </div>
               </li>
             </ul>
             <button class="mr-[2.5rem] hidden rounded-[1.25rem] bg-[#F89E52] px-[1rem] py-[0.5rem] text-white lg:mr-0 md:flex xl:px-[2.0625rem] xl:py-[1.1875rem]">
