@@ -33,7 +33,7 @@ function toggleMenu(index) {
             </ul>
           </nav>
         </div>
-        <div class="relative mx-auto max-w-[90rem] flex items-center justify-between">
+        <div class="mx-auto max-w-[90rem] flex items-center justify-between">
           <a href="/" class="flex items-center gap-[0.2rem] font-extrabold sm:gap-[0.5rem]">
             <img class="" src="/logo.png" alt="logo">
           </a>
@@ -46,13 +46,11 @@ function toggleMenu(index) {
                   {{ item.name }}
                 </a>
                 <img class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
-                <div v-if="isClicked && clickedIndex === index">
-                  <div v-if="item.name === 'Services'">
-                    services test
-                  </div>
-                  <div v-if="item.name === 'Plans & Pricing'">
-                    Plans & Pricing test
-                  </div>
+                <div v-if="item.name === 'Services' && isClicked && clickedIndex === index " class="absolute left-0 top-[5.8rem] h-[500px] w-full bg-blue-200">
+                  services test
+                </div>
+                <div v-if="item.name === 'Plans & Pricing' && isClicked && clickedIndex === index" class="absolute left-0 top-[5.8rem] h-[500px] w-full bg-blue-200">
+                  Plans & Pricing test
                 </div>
               </li>
             </ul>
