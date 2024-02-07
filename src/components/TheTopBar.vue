@@ -24,20 +24,20 @@ const menuItemsServices = [
     title: 'Fundamentals',
     items: [
       {
-        itemName: 'Strategy Planning',
-        itemIcon: '',
+        name: 'Strategy Planning',
+        icon: '',
       },
       {
-        itemName: 'Profile Setup',
-        itemIcon: '',
+        name: 'Profile Setup',
+        icon: '',
       },
       {
-        itemName: 'Theming & Branding',
-        itemIcon: '',
+        name: 'Theming & Branding',
+        icon: '',
       },
       {
-        itemName: 'Training',
-        itemIcon: '',
+        name: 'Training',
+        icon: '',
       },
     ],
   },
@@ -45,20 +45,20 @@ const menuItemsServices = [
     title: 'Content',
     items: [
       {
-        itemName: 'Strategy Planning',
-        itemIcon: '',
+        name: 'Research & Planning',
+        icon: '',
       },
       {
-        itemName: 'Profile Setup',
-        itemIcon: '',
+        name: 'Post Creation',
+        icon: '',
       },
       {
-        itemName: 'Theming & Branding',
-        itemIcon: '',
+        name: 'Video Creation',
+        icon: '',
       },
       {
-        itemName: 'Training',
-        itemIcon: '',
+        name: 'Keyword Optimization',
+        icon: '',
       },
     ],
   },
@@ -66,20 +66,20 @@ const menuItemsServices = [
     title: 'Public Relations',
     items: [
       {
-        itemName: 'Strategy Planning',
-        itemIcon: '',
+        name: 'Inbox Management',
+        icon: '',
       },
       {
-        itemName: 'Profile Setup',
-        itemIcon: '',
+        name: 'Social Listening',
+        icon: '',
       },
       {
-        itemName: 'Theming & Branding',
-        itemIcon: '',
+        name: 'Brand Reputation',
+        icon: '',
       },
       {
-        itemName: 'Training',
-        itemIcon: '',
+        name: 'Crisis Management',
+        icon: '',
       },
     ],
   },
@@ -87,24 +87,23 @@ const menuItemsServices = [
     title: 'Market Growth',
     items: [
       {
-        itemName: 'Strategy Planning',
-        itemIcon: '',
+        name: 'Paid Advertising Setup',
+        icon: '',
       },
       {
-        itemName: 'Profile Setup',
-        itemIcon: '',
+        name: 'Campaign Management',
+        icon: '',
       },
       {
-        itemName: 'Theming & Branding',
-        itemIcon: '',
+        name: 'Strategy Optimization',
+        icon: '',
       },
       {
-        itemName: 'Training',
-        itemIcon: '',
+        name: 'Analytics & Reporting',
+        icon: '',
       },
     ],
   },
-
 ]
 
 const menuItemsPlansPricing = [
@@ -112,20 +111,16 @@ const menuItemsPlansPricing = [
     title: 'Management',
     items: [
       {
-        itemName: 'Strategy Planning',
-        itemIcon: '',
+        name: 'Rates',
+        icon: '',
       },
       {
-        itemName: 'Profile Setup',
-        itemIcon: '',
+        name: 'Features',
+        icon: '',
       },
       {
-        itemName: 'Theming & Branding',
-        itemIcon: '',
-      },
-      {
-        itemName: 'Training',
-        itemIcon: '',
+        name: 'Sign Up',
+        icon: '',
       },
     ],
   },
@@ -133,20 +128,16 @@ const menuItemsPlansPricing = [
     title: 'Growth Plans',
     items: [
       {
-        itemName: 'Strategy Planning',
-        itemIcon: '',
+        name: 'Rates',
+        icon: '',
       },
       {
-        itemName: 'Profile Setup',
-        itemIcon: '',
+        name: 'Features',
+        icon: '',
       },
       {
-        itemName: 'Theming & Branding',
-        itemIcon: '',
-      },
-      {
-        itemName: 'Training',
-        itemIcon: '',
+        name: 'Sign Up',
+        icon: '',
       },
     ],
   },
@@ -154,20 +145,20 @@ const menuItemsPlansPricing = [
     title: 'Custom Plans',
     items: [
       {
-        itemName: 'Strategy Planning',
-        itemIcon: '',
+        name: 'Inbox Management',
+        icon: '',
       },
       {
-        itemName: 'Profile Setup',
-        itemIcon: '',
+        name: 'Social Listening',
+        icon: '',
       },
       {
-        itemName: 'Theming & Branding',
-        itemIcon: '',
+        name: 'Brand Reputation',
+        icon: '',
       },
       {
-        itemName: 'Training',
-        itemIcon: '',
+        name: 'Crisis Management',
+        icon: '',
       },
     ],
   },
@@ -175,20 +166,20 @@ const menuItemsPlansPricing = [
     title: 'Growth',
     items: [
       {
-        itemName: 'Strategy Planning',
-        itemIcon: '',
+        name: 'Paid Advertising Setup',
+        icon: '',
       },
       {
-        itemName: 'Profile Setup',
-        itemIcon: '',
+        name: 'Campaign Management',
+        icon: '',
       },
       {
-        itemName: 'Theming & Branding',
-        itemIcon: '',
+        name: 'Strategy Optimization',
+        icon: '',
       },
       {
-        itemName: 'Training',
-        itemIcon: '',
+        name: 'Analytics & Reporting',
+        icon: '',
       },
     ],
   },
@@ -225,8 +216,7 @@ const menuItemsPlansPricing = [
                   {{ item.name }}
                 </a>
                 <img class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
-                <AppMenu v-if="item.name === 'Services' && isClicked && clickedIndex === index " :title="menuItemsServices" />
-                <AppMenu v-if="item.name === 'Plans & Pricing' && isClicked && clickedIndex === index " :title="menuItemsPlansPricing" />
+                <AppMenu v-if="isClicked && clickedIndex === index " :items="item.name === 'Services' ? menuItemsServices : menuItemsPlansPricing" />
               </li>
             </ul>
             <button class="mr-[2.5rem] hidden rounded-[1.25rem] bg-[#F89E52] px-[1rem] py-[0.5rem] text-white lg:mr-0 md:flex xl:px-[2.0625rem] xl:py-[1.1875rem]">

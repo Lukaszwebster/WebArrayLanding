@@ -1,16 +1,19 @@
 <script setup lang="ts">
+import type { MenuItem } from '~/types/menu'
+
 defineProps<{
   title: string
+  items: MenuItem[]
+
 }>()
 </script>
 
 <template>
-  <div class="flex justify-between">
-    <div v-for="(item, index) in title" :key="index">
-      {{ item.title }}
-      <div v-for="(secondItem, index) in title" :key="index">
-        {{ secondItem.items[index].itemName }}
-      </div>
+  <div class="flex">
+    <div> {{ title }}</div>
+    <div v-for="(item, index) in items" :key="index">
+      {{ item.name }}
+      {{ item.icon }}
     </div>
   </div>
 </template>
