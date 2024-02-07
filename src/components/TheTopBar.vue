@@ -19,8 +19,183 @@ function toggleMenu(index: number) {
     isClicked.value = false
 }
 
-const menuItemsServices = ['Fundamentals', 'Content', 'Public Relations', 'Market Growth']
-const menuItemsPlansPricing = ['Management', 'Growth Plans', 'Custom Plans', 'Growth']
+const menuItemsServices = [
+  {
+    title: 'Fundamentals',
+    items: [
+      {
+        itemName: 'Strategy Planning',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Profile Setup',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Theming & Branding',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Training',
+        itemIcon: '',
+      },
+    ],
+  },
+  {
+    title: 'Content',
+    items: [
+      {
+        itemName: 'Strategy Planning',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Profile Setup',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Theming & Branding',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Training',
+        itemIcon: '',
+      },
+    ],
+  },
+  {
+    title: 'Public Relations',
+    items: [
+      {
+        itemName: 'Strategy Planning',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Profile Setup',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Theming & Branding',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Training',
+        itemIcon: '',
+      },
+    ],
+  },
+  {
+    title: 'Market Growth',
+    items: [
+      {
+        itemName: 'Strategy Planning',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Profile Setup',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Theming & Branding',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Training',
+        itemIcon: '',
+      },
+    ],
+  },
+
+]
+
+const menuItemsPlansPricing = [
+  {
+    title: 'Management',
+    items: [
+      {
+        itemName: 'Strategy Planning',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Profile Setup',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Theming & Branding',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Training',
+        itemIcon: '',
+      },
+    ],
+  },
+  {
+    title: 'Growth Plans',
+    items: [
+      {
+        itemName: 'Strategy Planning',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Profile Setup',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Theming & Branding',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Training',
+        itemIcon: '',
+      },
+    ],
+  },
+  {
+    title: 'Custom Plans',
+    items: [
+      {
+        itemName: 'Strategy Planning',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Profile Setup',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Theming & Branding',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Training',
+        itemIcon: '',
+      },
+    ],
+  },
+  {
+    title: 'Growth',
+    items: [
+      {
+        itemName: 'Strategy Planning',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Profile Setup',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Theming & Branding',
+        itemIcon: '',
+      },
+      {
+        itemName: 'Training',
+        itemIcon: '',
+      },
+    ],
+  },
+]
+
+// const menuItemsServices = ['Fundamentals', 'Content', 'Public Relations', 'Market Growth']
+// const menuItemsPlansPricing = ['Management', 'Growth Plans', 'Custom Plans', 'Growth']
 </script>
 
 <template>
