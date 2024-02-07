@@ -3,18 +3,24 @@ const navItems = [
   { name: 'Management' },
   { name: 'Marketing' },
   { name: 'Increase Sales' },
-  { name: 'Services', iconSrc: '/arrow-icon.png' },
-  { name: 'Plans & Pricing', iconSrc: '/arrow-icon.png' },
+  { name: 'Services', iconSrc: '/arrow-icon.png', itemClass: 'cursor-pointer' },
+  { name: 'Plans & Pricing', iconSrc: '/arrow-icon.png', itemClass: 'cursor-pointer' },
 ]
 
 const isHamburgerActive = ref(false)
 const isClicked = ref(false)
-const clickedIndex = ref(null)
+const clickedIndex = ref()
 
-function toggleMenu(index) {
-  isClicked.value = !isClicked.value
+function toggleMenu(index: number) {
   clickedIndex.value = index
+  if (clickedIndex.value === 3 || clickedIndex.value === 4)
+    isClicked.value = !isClicked.value
+  else
+    isClicked.value = false
 }
+
+const menuItemsServices = ['Fundamentals', 'Content', 'Public Relations', 'Market Growth']
+const menuItemsPlansPricing = ['Management', 'Growth Plans', 'Custom Plans', 'Growth']
 </script>
 
 <template>
@@ -39,19 +45,13 @@ function toggleMenu(index) {
           </a>
           <nav class="flex items-center">
             <ul class="mr-[4.585rem] hidden gap-[0.8rem] gap-[1.5rem] lg:flex xl:gap-[2.190625rem] sm:text-[0.8rem] xl:text-[1rem]">
-              <li v-for="(item, index) in navItems" :key="index" class="rounded-[8rem] font-700">
-                <a
-                  @click="toggleMenu(index)"
-                >
+              <li v-for="(item, index) in navItems" :key="index" :class="item.itemClass" class="rounded-[8rem] font-700" @click="toggleMenu(index)">
+                <a>
                   {{ item.name }}
                 </a>
                 <img class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
-                <div v-if="item.name === 'Services' && isClicked && clickedIndex === index " class="absolute left-0 top-[5.8rem] h-[500px] w-full bg-blue-200">
-                  services test
-                </div>
-                <div v-if="item.name === 'Plans & Pricing' && isClicked && clickedIndex === index" class="absolute left-0 top-[5.8rem] h-[500px] w-full bg-blue-200">
-                  Plans & Pricing test
-                </div>
+                <AppMenu v-if="item.name === 'Services' && isClicked && clickedIndex === index " :title="menuItemsServices" />
+                <AppMenu v-if="item.name === 'Plans & Pricing' && isClicked && clickedIndex === index " :title="menuItemsPlansPricing" />
               </li>
             </ul>
             <button class="mr-[2.5rem] hidden rounded-[1.25rem] bg-[#F89E52] px-[1rem] py-[0.5rem] text-white lg:mr-0 md:flex xl:px-[2.0625rem] xl:py-[1.1875rem]">
