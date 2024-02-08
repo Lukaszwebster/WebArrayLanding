@@ -67,19 +67,19 @@ const menuItemsServices = [
     items: [
       {
         name: 'Inbox Management',
-        icon: '',
+        icon: 'menu-services/icon-menu9.png',
       },
       {
         name: 'Social Listening',
-        icon: '',
+        icon: 'menu-services/icon-menu10.png',
       },
       {
         name: 'Brand Reputation',
-        icon: '',
+        icon: 'menu-services/icon-menu11.png',
       },
       {
         name: 'Crisis Management',
-        icon: '',
+        icon: 'menu-services/icon-menu12.png',
       },
     ],
   },
@@ -88,19 +88,19 @@ const menuItemsServices = [
     items: [
       {
         name: 'Paid Advertising Setup',
-        icon: '',
+        icon: 'menu-services/icon-menu13.png',
       },
       {
         name: 'Campaign Management',
-        icon: '',
+        icon: 'menu-services/icon-menu14.png',
       },
       {
         name: 'Strategy Optimization',
-        icon: '',
+        icon: 'menu-services/icon-menu15.png',
       },
       {
         name: 'Analytics & Reporting',
-        icon: '',
+        icon: 'menu-services/icon-menu16.png',
       },
     ],
   },
@@ -112,15 +112,15 @@ const menuItemsPlansPricing = [
     items: [
       {
         name: 'Rates',
-        icon: '',
+        icon: 'menu-plans/route.svg',
       },
       {
         name: 'Features',
-        icon: '',
+        icon: 'menu-plans/magic-wand.svg',
       },
       {
         name: 'Sign Up',
-        icon: '',
+        icon: 'menu-plans/colors.svg',
       },
     ],
   },
@@ -129,15 +129,15 @@ const menuItemsPlansPricing = [
     items: [
       {
         name: 'Rates',
-        icon: '',
+        icon: 'menu-plans/search-lg.svg',
       },
       {
         name: 'Features',
-        icon: '',
+        icon: 'menu-plans/stars.svg',
       },
       {
         name: 'Sign Up',
-        icon: '',
+        icon: 'menu-plans/user-right.svg',
       },
     ],
   },
@@ -146,19 +146,19 @@ const menuItemsPlansPricing = [
     items: [
       {
         name: 'Inbox Management',
-        icon: '',
+        icon: 'menu-plans/inbox.svg',
       },
       {
         name: 'Social Listening',
-        icon: '',
+        icon: 'menu-plans/message.svg',
       },
       {
         name: 'Brand Reputation',
-        icon: '',
+        icon: 'menu-plans/activity-heart.svg',
       },
       {
         name: 'Crisis Management',
-        icon: '',
+        icon: 'menu-plans/announcement.svg',
       },
     ],
   },
@@ -167,19 +167,19 @@ const menuItemsPlansPricing = [
     items: [
       {
         name: 'Paid Advertising Setup',
-        icon: '',
+        icon: 'menu-plans/dataflow.svg',
       },
       {
         name: 'Campaign Management',
-        icon: '',
+        icon: 'menu-plans/shield-dollar.svg',
       },
       {
         name: 'Strategy Optimization',
-        icon: '',
+        icon: 'menu-plans/chart-breakout.svg',
       },
       {
         name: 'Analytics & Reporting',
-        icon: '',
+        icon: 'menu-plans/presentation.svg',
       },
     ],
   },

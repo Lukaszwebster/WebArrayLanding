@@ -14,8 +14,8 @@ defineProps<{
       {{ title }}
     </div>
     <div class="mb-[2rem] mt-[1.5rem] h-[1px] bg-[#E5E7EC]" />
-    <div v-for="(item, index) in items" :key="index" class="flex gap-[0.854rem]">
-      <img :src="item.icon" alt="" class="self-center">
+    <div v-for="(item, index) in items" :key="index" class="mt-[0.625rem] flex items-center gap-[0.854rem]">
+      <img :src="item.icon" alt="" class="">
       <div class="text-[1.2rem] text-[#727272] font-400 leading-[2rem]">
         {{ item.name }}
       </div>
