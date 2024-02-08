@@ -25,19 +25,19 @@ const menuItemsServices = [
     items: [
       {
         name: 'Strategy Planning',
-        icon: '',
+        icon: 'menu-services/icon-menu.png',
       },
       {
         name: 'Profile Setup',
-        icon: '',
+        icon: 'menu-services/icon-menu2.png',
       },
       {
         name: 'Theming & Branding',
-        icon: '',
+        icon: 'menu-services/icon-menu3.png',
       },
       {
         name: 'Training',
-        icon: '',
+        icon: 'menu-services/icon-menu4.png',
       },
     ],
   },
@@ -46,19 +46,19 @@ const menuItemsServices = [
     items: [
       {
         name: 'Research & Planning',
-        icon: '',
+        icon: 'menu-services/icon-menu5.png',
       },
       {
         name: 'Post Creation',
-        icon: '',
+        icon: 'menu-services/icon-menu6.png',
       },
       {
         name: 'Video Creation',
-        icon: '',
+        icon: 'menu-services/icon-menu7.png',
       },
       {
         name: 'Keyword Optimization',
-        icon: '',
+        icon: 'menu-services/icon-menu8.png',
       },
     ],
   },

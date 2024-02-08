@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
   <div class="item-shadow absolute left-0 top-[5.8rem] w-full flex flex-col gap-[2.75rem] bg-white px-[7.5rem] pb-[3.5rem]">
-    <div class="flex justify-between">
+    <div class="mx-auto max-w-[90rem] w-full flex justify-between gap-2">
       <AppMenuItems v-for="(item, index) in items " :key="index" :title="item.title" :items="item.items" class="" />
     </div>
     <button class="mx-auto border border-[#3482FF] rounded-[1.25rem] px-[3.4375rem] py-[1.75rem] text-[#3482FF] font-400">
