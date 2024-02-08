@@ -10,11 +10,12 @@ defineProps<{
 
 <template>
   <div class="pt-[2.6875rem]">
-    <div class="text-[1.75rem] font-300">
+    <div class="text-[1.75rem] text-[#252541] font-300 leading-[1rem]">
       {{ title }}
     </div>
+    <div class="mb-[2rem] mt-[1.5rem] h-[1px] bg-[#E5E7EC]" />
     <div v-for="(item, index) in items" :key="index" class="">
-      <div class="text-[1.2rem] text-[#727272] font-400">
+      <div class="text-[1.2rem] text-[#727272] font-400 leading-[2rem]">
         {{ item.name }}
       </div>
       {{ item.icon }}
