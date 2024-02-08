@@ -25,19 +25,19 @@ const menuItemsServices = [
     items: [
       {
         name: 'Strategy Planning',
-        icon: 'menu-services/icon-menu.png',
+        icon: 'menu/route.svg',
       },
       {
         name: 'Profile Setup',
-        icon: 'menu-services/icon-menu2.png',
+        icon: 'menu/magic-wand.svg',
       },
       {
         name: 'Theming & Branding',
-        icon: 'menu-services/icon-menu3.png',
+        icon: 'menu/colors.svg',
       },
       {
         name: 'Training',
-        icon: 'menu-services/icon-menu4.png',
+        icon: 'menu/award.svg',
       },
     ],
   },
@@ -46,19 +46,19 @@ const menuItemsServices = [
     items: [
       {
         name: 'Research & Planning',
-        icon: 'menu-services/icon-menu5.png',
+        icon: 'menu/search-lg.svg',
       },
       {
         name: 'Post Creation',
-        icon: 'menu-services/icon-menu6.png',
+        icon: 'menu/image.svg',
       },
       {
         name: 'Video Creation',
-        icon: 'menu-services/icon-menu7.png',
+        icon: 'menu/video.svg',
       },
       {
         name: 'Keyword Optimization',
-        icon: 'menu-services/icon-menu8.png',
+        icon: 'menu/line-chart-up.svg',
       },
     ],
   },
@@ -67,19 +67,19 @@ const menuItemsServices = [
     items: [
       {
         name: 'Inbox Management',
-        icon: 'menu-services/icon-menu9.png',
+        icon: 'menu/inbox.svg',
       },
       {
         name: 'Social Listening',
-        icon: 'menu-services/icon-menu10.png',
+        icon: 'menu/message.svg',
       },
       {
         name: 'Brand Reputation',
-        icon: 'menu-services/icon-menu11.png',
+        icon: 'menu/activity-heart.svg',
       },
       {
         name: 'Crisis Management',
-        icon: 'menu-services/icon-menu12.png',
+        icon: 'menu/announcement.svg',
       },
     ],
   },
@@ -88,19 +88,19 @@ const menuItemsServices = [
     items: [
       {
         name: 'Paid Advertising Setup',
-        icon: 'menu-services/icon-menu13.png',
+        icon: 'menu/dataflow.svg',
       },
       {
         name: 'Campaign Management',
-        icon: 'menu-services/icon-menu14.png',
+        icon: 'menu/shield-dollar.svg',
       },
       {
         name: 'Strategy Optimization',
-        icon: 'menu-services/icon-menu15.png',
+        icon: 'menu/chart-breakout.svg',
       },
       {
         name: 'Analytics & Reporting',
-        icon: 'menu-services/icon-menu16.png',
+        icon: 'menu/presentation.svg',
       },
     ],
   },
@@ -112,15 +112,15 @@ const menuItemsPlansPricing = [
     items: [
       {
         name: 'Rates',
-        icon: 'menu-plans/route.svg',
+        icon: 'menu/route.svg',
       },
       {
         name: 'Features',
-        icon: 'menu-plans/magic-wand.svg',
+        icon: 'menu/magic-wand.svg',
       },
       {
         name: 'Sign Up',
-        icon: 'menu-plans/colors.svg',
+        icon: 'menu/colors.svg',
       },
     ],
   },
@@ -129,15 +129,15 @@ const menuItemsPlansPricing = [
     items: [
       {
         name: 'Rates',
-        icon: 'menu-plans/search-lg.svg',
+        icon: 'menu/search-lg.svg',
       },
       {
         name: 'Features',
-        icon: 'menu-plans/stars.svg',
+        icon: 'menu/stars.svg',
       },
       {
         name: 'Sign Up',
-        icon: 'menu-plans/user-right.svg',
+        icon: 'menu/user-right.svg',
       },
     ],
   },
@@ -146,19 +146,19 @@ const menuItemsPlansPricing = [
     items: [
       {
         name: 'Inbox Management',
-        icon: 'menu-plans/inbox.svg',
+        icon: 'menu/inbox.svg',
       },
       {
         name: 'Social Listening',
-        icon: 'menu-plans/message.svg',
+        icon: 'menu/message.svg',
       },
       {
         name: 'Brand Reputation',
-        icon: 'menu-plans/activity-heart.svg',
+        icon: 'menu/activity-heart.svg',
       },
       {
         name: 'Crisis Management',
-        icon: 'menu-plans/announcement.svg',
+        icon: 'menu/announcement.svg',
       },
     ],
   },
@@ -167,19 +167,19 @@ const menuItemsPlansPricing = [
     items: [
       {
         name: 'Paid Advertising Setup',
-        icon: 'menu-plans/dataflow.svg',
+        icon: 'menu/dataflow.svg',
       },
       {
         name: 'Campaign Management',
-        icon: 'menu-plans/shield-dollar.svg',
+        icon: 'menu/shield-dollar.svg',
       },
       {
         name: 'Strategy Optimization',
-        icon: 'menu-plans/chart-breakout.svg',
+        icon: 'menu/chart-breakout.svg',
       },
       {
         name: 'Analytics & Reporting',
-        icon: 'menu-plans/presentation.svg',
+        icon: 'menu/presentation.svg',
       },
     ],
   },
