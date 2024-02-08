@@ -5,5 +5,6 @@ export interface MenuItem {
 
 export interface MenuItems {
   title: string
+  description?: string
   items: MenuItem[]
 }

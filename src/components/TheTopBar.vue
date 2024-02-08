@@ -109,6 +109,7 @@ const menuItemsServices = [
 const menuItemsPlansPricing = [
   {
     title: 'Management',
+    description: 'Great for those starting up in Social Media and looking for a regular management service to keep up.',
     items: [
       {
         name: 'Rates',
@@ -126,6 +127,7 @@ const menuItemsPlansPricing = [
   },
   {
     title: 'Growth Plans',
+    description: 'Great for those starting up in Social Media and looking for a regular management service to keep up.',
     items: [
       {
         name: 'Rates',
@@ -184,9 +186,6 @@ const menuItemsPlansPricing = [
     ],
   },
 ]
-
-// const menuItemsServices = ['Fundamentals', 'Content', 'Public Relations', 'Market Growth']
-// const menuItemsPlansPricing = ['Management', 'Growth Plans', 'Custom Plans', 'Growth']
 </script>
 
 <template>
