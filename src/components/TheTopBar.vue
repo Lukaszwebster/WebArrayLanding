@@ -211,11 +211,13 @@ const menuItemsPlansPricing = [
           </a>
           <nav class="flex items-center">
             <ul class="mr-[4.585rem] hidden gap-[0.8rem] gap-[1.5rem] lg:flex xl:gap-[2.190625rem] sm:text-[0.8rem] xl:text-[1rem]">
-              <li v-for="(item, index) in navItems" :key="index" :class="item.itemClass" class="rounded-[8rem] font-700" @click="toggleMenu(index)">
-                <a>
-                  {{ item.name }}
-                </a>
-                <img class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
+              <li v-for="(item, index) in navItems" :key="index" class="rounded-[8rem] font-700">
+                <div :class="item.itemClass" @click="toggleMenu(index)">
+                  <a>
+                    {{ item.name }}
+                  </a>
+                  <img class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
+                </div>
                 <AppMenu v-if="isClicked && clickedIndex === index " :items="item.name === 'Services' ? menuItemsServices : menuItemsPlansPricing" />
               </li>
             </ul>
