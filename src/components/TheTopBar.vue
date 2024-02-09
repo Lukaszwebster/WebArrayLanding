@@ -190,7 +190,8 @@ function handleNavItemClick(index: number) {
 </script>
 
 <template>
-  <div class="wrapper relative z-20">
+  <div v-show="activeItemIndex" :class="activeItemIndex ? 'bg-gray-200 opacity-40' : ''" class="fixed z-30 h-full w-full bg-blue-400" @click="activeItemIndex = null" />
+  <div class="wrapper relative z-40">
     <div class="item-shadow w-full !lg:shadow-none">
       <div class="relative mx-auto w-full px-[1rem] py-[0.8rem] lg:px-[2rem] lg:py-[1.46875rem] md:px-[2rem] xl:px-[7.5rem]">
         <div v-show="isHamburgerActive" class="item-shadow absolute right-0 top-14 max-w-[18.75rem] w-full bg-white py-[2rem] lg:hidden">
@@ -212,11 +213,13 @@ function handleNavItemClick(index: number) {
           <nav class="flex items-center">
             <ul class="mr-[4.585rem] hidden gap-[0.8rem] gap-[1.5rem] lg:flex xl:gap-[2.190625rem] sm:text-[0.8rem] xl:text-[1rem]">
               <li v-for="(item, index) in navItems" :key="index" class="rounded-[8rem] font-700">
-                <div class="cursor-pointer" :class="activeItemIndex === index ? 'text-#F89E52 ' : ''" @click="handleNavItemClick(index)">
+                <div class="cursor-pointer select-none" :class="activeItemIndex === index ? 'text-#F89E52 ' : ''" @click="handleNavItemClick(index)">
                   <a>
                     {{ item.name }}
                   </a>
-                  <img :class="activeItemIndex === index ? 'transform rotate-180 ' : ''" class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
+                  <svg v-if="item.items" :class="activeItemIndex === index ? 'transform rotate-180 transition-500 ' : 'transition-500'" class="ml-[0.57125rem] inline-block" width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path :class="activeItemIndex === index ? 'fill-[#F89E52]' : ''" d="M14.62 1.21875C14.7867 1.40625 14.7867 1.58333 14.62 1.75L8.05754 8.3125C7.89087 8.47917 7.72421 8.47917 7.55754 8.3125L0.995041 1.75C0.828374 1.58333 0.828374 1.40625 0.995041 1.21875L1.62004 0.625C1.78671 0.4375 1.96379 0.4375 2.15129 0.625L7.80754 6.25L13.4638 0.625C13.6513 0.4375 13.8284 0.4375 13.995 0.625L14.62 1.21875Z" fill="#252541" />
+                  </svg>
                 </div>
                 <AppMenu v-show="activeItemIndex === index" :items="item.items ? item.items : []" />
               </li>
