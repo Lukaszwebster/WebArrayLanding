@@ -1,15 +1,5 @@
 <script setup lang="ts">
 const isHamburgerActive = ref(false)
-// const isClicked = ref(false)
-// const clickedIndex = ref()
-
-// function toggleMenu(index: number) {
-//   clickedIndex.value = index
-//   if (clickedIndex.value === 3 || clickedIndex.value === 4)
-//     isClicked.value = !isClicked.value
-//   else
-//     isClicked.value = false
-// }
 const activeItemIndex = ref<number | null>(null)
 
 const menuItemsServices = [
@@ -222,13 +212,12 @@ function handleNavItemClick(index: number) {
           <nav class="flex items-center">
             <ul class="mr-[4.585rem] hidden gap-[0.8rem] gap-[1.5rem] lg:flex xl:gap-[2.190625rem] sm:text-[0.8rem] xl:text-[1rem]">
               <li v-for="(item, index) in navItems" :key="index" class="rounded-[8rem] font-700">
-                <div :class="item.itemClass" @click="handleNavItemClick(index)">
+                <div :class="activeItemIndex === index ? 'text-#F89E52 ' : ''" @click="handleNavItemClick(index)">
                   <a>
                     {{ item.name }}
                   </a>
-                  <img class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
+                  <img :class="activeItemIndex === index ? 'transform rotate-180' : ''" class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
                 </div>
-                <!-- <AppMenu v-if="isClicked && clickedIndex === index " :items="item.name === 'Services' ? menuItemsServices : menuItemsPlansPricing" /> -->
                 <AppMenu v-show="activeItemIndex === index" :items="item.items ? item.items : []" />
               </li>
             </ul>
