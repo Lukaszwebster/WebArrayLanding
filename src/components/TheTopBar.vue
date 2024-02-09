@@ -174,8 +174,8 @@ const navItems = [
   { name: 'Management' },
   { name: 'Marketing' },
   { name: 'Increase Sales' },
-  { name: 'Services', items: menuItemsServices, iconSrc: '/arrow-icon.png', itemClass: 'cursor-pointer' },
-  { name: 'Plans & Pricing', items: menuItemsPlansPricing, iconSrc: '/arrow-icon.png', itemClass: 'cursor-pointer' },
+  { name: 'Services', items: menuItemsServices, iconSrc: '/arrow-icon.svg', itemClass: 'cursor-pointer' },
+  { name: 'Plans & Pricing', items: menuItemsPlansPricing, iconSrc: '/arrow-icon.svg', itemClass: 'cursor-pointer' },
 ]
 
 function handleNavItemClick(index: number) {
@@ -212,11 +212,11 @@ function handleNavItemClick(index: number) {
           <nav class="flex items-center">
             <ul class="mr-[4.585rem] hidden gap-[0.8rem] gap-[1.5rem] lg:flex xl:gap-[2.190625rem] sm:text-[0.8rem] xl:text-[1rem]">
               <li v-for="(item, index) in navItems" :key="index" class="rounded-[8rem] font-700">
-                <div :class="activeItemIndex === index ? 'text-#F89E52 ' : ''" @click="handleNavItemClick(index)">
+                <div class="cursor-pointer" :class="activeItemIndex === index ? 'text-#F89E52 ' : ''" @click="handleNavItemClick(index)">
                   <a>
                     {{ item.name }}
                   </a>
-                  <img :class="activeItemIndex === index ? 'transform rotate-180' : ''" class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
+                  <img :class="activeItemIndex === index ? 'transform rotate-180 ' : ''" class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
                 </div>
                 <AppMenu v-show="activeItemIndex === index" :items="item.items ? item.items : []" />
               </li>
