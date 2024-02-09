@@ -1,23 +1,16 @@
 <script setup lang="ts">
-const navItems = [
-  { name: 'Management' },
-  { name: 'Marketing' },
-  { name: 'Increase Sales' },
-  { name: 'Services', iconSrc: '/arrow-icon.png', itemClass: 'cursor-pointer' },
-  { name: 'Plans & Pricing', iconSrc: '/arrow-icon.png', itemClass: 'cursor-pointer' },
-]
-
 const isHamburgerActive = ref(false)
-const isClicked = ref(false)
-const clickedIndex = ref()
+// const isClicked = ref(false)
+// const clickedIndex = ref()
 
-function toggleMenu(index: number) {
-  clickedIndex.value = index
-  if (clickedIndex.value === 3 || clickedIndex.value === 4)
-    isClicked.value = !isClicked.value
-  else
-    isClicked.value = false
-}
+// function toggleMenu(index: number) {
+//   clickedIndex.value = index
+//   if (clickedIndex.value === 3 || clickedIndex.value === 4)
+//     isClicked.value = !isClicked.value
+//   else
+//     isClicked.value = false
+// }
+const activeItemIndex = ref<number | null>(null)
 
 const menuItemsServices = [
   {
@@ -186,6 +179,24 @@ const menuItemsPlansPricing = [
     ],
   },
 ]
+
+const navItems = [
+  { name: 'Management' },
+  { name: 'Marketing' },
+  { name: 'Increase Sales' },
+  { name: 'Services', items: menuItemsServices, iconSrc: '/arrow-icon.png', itemClass: 'cursor-pointer' },
+  { name: 'Plans & Pricing', items: menuItemsPlansPricing, iconSrc: '/arrow-icon.png', itemClass: 'cursor-pointer' },
+]
+
+function handleNavItemClick(index: number) {
+  if (navItems[index].items) {
+    if (activeItemIndex.value === index)
+      activeItemIndex.value = null
+    else
+      activeItemIndex.value = index
+  }
+  else { activeItemIndex.value = null }
+}
 </script>
 
 <template>
@@ -211,13 +222,14 @@ const menuItemsPlansPricing = [
           <nav class="flex items-center">
             <ul class="mr-[4.585rem] hidden gap-[0.8rem] gap-[1.5rem] lg:flex xl:gap-[2.190625rem] sm:text-[0.8rem] xl:text-[1rem]">
               <li v-for="(item, index) in navItems" :key="index" class="rounded-[8rem] font-700">
-                <div :class="item.itemClass" @click="toggleMenu(index)">
+                <div :class="item.itemClass" @click="handleNavItemClick(index)">
                   <a>
                     {{ item.name }}
                   </a>
                   <img class="ml-[0.57125rem] inline-block" :src="item.iconSrc" alt="">
                 </div>
-                <AppMenu v-if="isClicked && clickedIndex === index " :items="item.name === 'Services' ? menuItemsServices : menuItemsPlansPricing" />
+                <!-- <AppMenu v-if="isClicked && clickedIndex === index " :items="item.name === 'Services' ? menuItemsServices : menuItemsPlansPricing" /> -->
+                <AppMenu v-show="activeItemIndex === index" :items="item.items ? item.items : []" />
               </li>
             </ul>
             <button class="mr-[2.5rem] hidden rounded-[1.25rem] bg-[#F89E52] px-[1rem] py-[0.5rem] text-white lg:mr-0 md:flex xl:px-[2.0625rem] xl:py-[1.1875rem]">
