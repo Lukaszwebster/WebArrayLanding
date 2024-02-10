@@ -364,7 +364,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </p>
       </div>
       <div class="justify-center md:hidden">
-        <div class="input-shadow mt-[3.48875rem]">
+        <div class="input-shadow mt-[3.48875rem] rounded-b-[1.25rem]">
           <form>
             <input class="w-full border rounded-t-[1.25rem] px-[1.14rem] py-[1.2rem] outline-none" type="text" placeholder="Enter your e-mail address">
           </form>
