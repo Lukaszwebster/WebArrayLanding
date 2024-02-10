@@ -366,7 +366,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       <div class="justify-center md:hidden">
         <div class="item-shadow mt-[3.48875rem]">
           <form>
-            <input class="w-full border rounded-t-[1.25rem] px-[1.14rem] py-[1.2rem]" type="text" placeholder="Enter your e-mail address">
+            <input class="w-full border rounded-t-[1.25rem] px-[1.14rem] py-[1.2rem] outline-none" type="text" placeholder="Enter your e-mail address">
           </form>
           <button type="button" class="mx-auto w-full rounded-b-[1.25rem] bg-[#3482FF] py-[1.4375rem] text-[1.25rem] text-white font-300">
             Download PDF
@@ -376,7 +376,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       <div class="item-shadow mx-auto mt-[4.3425rem] hidden max-w-[33.46875rem] items-center justify-between border border-[#EFEFEF] rounded-[1.5rem] py-[1rem] pl-[2rem] pr-[1rem] xl:max-w-[36.52375rem] md:flex">
         <img src="/label.png" alt="">
         <form>
-          <input type="text" placeholder="Enter your e-mail">
+          <input class="outline-none" type="text" placeholder="Enter your e-mail">
         </form>
         <button class="w-full rounded-[1.25rem] bg-[#3482FF] py-[1rem] text-[1.25rem] text-white font-300 lg:mx-0 sm:max-w-[14.4375rem]">
           Download PDF
