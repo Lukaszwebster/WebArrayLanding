@@ -364,6 +364,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </p>
       </div>
       <div class="justify-center md:hidden">
+        <img class="absolute -z-10" src="/form-img.png" alt="">
         <div class="input-shadow mt-[3.48875rem] rounded-b-[1.25rem]">
           <form>
             <input class="w-full border rounded-t-[1.25rem] px-[1.14rem] py-[1.2rem] outline-none" type="text" placeholder="Enter your e-mail address">
@@ -374,7 +375,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </div>
       </div>
       <div class="relative">
-        <img class="absolute left-[1rem] -top-[7rem] -z-10" src="/form-img.png" alt="">
+        <img class="absolute left-[1rem] hidden -top-[7rem] -z-10 md:block" src="/form-img.png" alt="">
         <div class="input-shadow z-10 mx-auto mt-[4.3425rem] hidden max-w-[33.46875rem] items-center justify-between border border-[#EFEFEF] rounded-[1.5rem] bg-white py-[1rem] pl-[2rem] pr-[1rem] xl:max-w-[36.52375rem] md:flex">
           <img src="/label.png" alt="">
           <form>
