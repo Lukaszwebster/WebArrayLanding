@@ -1,4 +1,52 @@
 <script setup lang="ts">
+import { onMounted, onUnmounted, ref } from 'vue'
+
+const scrollImage = ref<HTMLImageElement | null>(null)
+let initialScrollY = 0
+
+function handleScroll() {
+  if (scrollImage.value) {
+    const scrollY = window.scrollY || document.documentElement.scrollTop
+    const translateY = (scrollY - initialScrollY) * 0.1
+    scrollImage.value.style.transform = `translateY(${translateY}px)`
+  }
+}
+
+onMounted(() => {
+  initialScrollY = window.scrollY || document.documentElement.scrollTop
+  window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
+
+const parallaxContainer = ref<HTMLElement | null>(null)
+const parallaxImage = ref<HTMLImageElement | null>(null)
+const mouseX = ref(0)
+const mouseY = ref(0)
+
+function updateParallax(event: MouseEvent) {
+  mouseX.value = event.clientX
+  mouseY.value = event.clientY
+
+  if (parallaxImage.value && parallaxContainer.value) {
+    const boundingRect = parallaxContainer.value.getBoundingClientRect()
+    const offsetX = (mouseX.value - boundingRect.left) / boundingRect.width - 0.5
+    const offsetY = (mouseY.value - boundingRect.top) / boundingRect.height - 0.5
+
+    parallaxImage.value.style.transform = `translate(${offsetX * 200}px, ${offsetY * 10}px)`
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('mousemove', updateParallax)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('mousemove', updateParallax)
+})
+
 const bars = [
   {
     text: 'Brand Impersonation',
@@ -176,7 +224,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         <img class="rotating-image absolute bottom-[8rem] left-[2rem] hidden xl:bottom-[7rem] lg:block" src="/small-line.png" alt="">
         <img class="rotating-image absolute hidden -right-[0.8rem] -top-[7rem] lg:block" src="/large-line.png" alt="">
         <img src="/social-trolls.png" alt="">
-        <img class="absolute left-[8rem] top-[5rem] hidden lg:block" src="/exclamation.png" alt="">
+        <img ref="scrollImage" class="absolute left-[8rem] hidden transform transition -top-[10rem] lg:block" src="/exclamation.png" alt="">
         <img id="icon1" class="floating-icon absolute left-[30rem] z-10 hidden md:block" src="/purple-dot.png" alt="">
         <img id="icon2" class="floating-icon absolute top-[4rem] hidden md:block" src="/purple-robot.png" alt="">
 
@@ -374,8 +422,8 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           </button>
         </div>
       </div>
-      <div class="relative">
-        <img class="absolute hidden lg:left-[1rem] xxl:left-[40rem] -z-10 md:block lg:-top-[7rem] md:-left-[10rem] md:-top-[4rem]" src="/form-img.png" alt="">
+      <div ref="parallaxContainer" class="relative">
+        <img ref="parallaxImage" class="absolute hidden lg:left-[1rem] xxl:left-[20rem] -z-10 md:block lg:-top-[7rem] md:-left-[10rem] md:-top-[4rem]" src="/form-img.png" alt="">
         <div class="input-shadow z-10 mx-auto mt-[4.3425rem] hidden max-w-[33.46875rem] items-center justify-between border border-[#EFEFEF] rounded-[1.5rem] bg-white py-[1rem] pl-[2rem] pr-[1rem] xl:max-w-[36.52375rem] md:flex">
           <img src="/label.png" alt="">
           <form>
