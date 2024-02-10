@@ -283,7 +283,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           <img class="z-20 mt-[4.035rem] hidden md-block" src="/company-img-desktop.png" alt="">
           <img class="z-20 mt-[4.035rem] md:hidden" src="/company-img-mobile.png" alt="">
           <div class="flex flex-col items-center px-[0.9375rem] lg:items-start md:px-[2rem] xl:px-0">
-            <h2 class="mt-[3.125rem] text-center text-[3.125rem] font-700 leading-[3.75rem] lg:max-w-[19.875rem] md:max-w-[43.125rem] lg:text-left">
+            <h2 class="gradient-text mt-[3.125rem] text-center text-[3.125rem] font-700 leading-[3.75rem] lg:max-w-[19.875rem] md:max-w-[43.125rem] lg:text-left">
               All Your
               Questions Are
               Here
@@ -541,5 +541,19 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
 
 .item-shadow {
   box-shadow: 0px 15px 30px 0px rgba(61, 90, 125, 0.08);
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    90.71deg,
+    #6071d9 36.51%,
+    #aa676f 63.73%,
+    #ccb41a 97.49%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 </style>

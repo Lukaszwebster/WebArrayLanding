@@ -28,7 +28,7 @@ const activeElement = ref()
         <h2 class="mt-[1.5625rem] text-center text-[2.1875rem] font-700 leading-[2.625rem] xl:max-w-[31.4375rem] md:text-left md:text-[2.8125rem] xl:text-[3.25rem] xl:leading-[3.9rem]">
           All Your Questions Are Here
         </h2>
-        <p class="mt-[2.45rem] text-center text-[1.5rem] font-500 md:mt-[1.25rem] md:text-left">
+        <p class="gradient-text mt-[2.45rem] text-center text-[1.5rem] font-500 md:mt-[1.25rem] md:text-left">
           & Knock Me Directly to Know More
         </p>
         <p class="text-[#727272] md:mt-[1.125rem] xl:max-w-[29.25rem] xl:text-[1.2rem] md:leading-[1.7rem] xl:leading-[2.0375rem]">
@@ -64,5 +64,19 @@ const activeElement = ref()
 <style scoped>
 .item-shadow {
   box-shadow: 0px 15px 30px 0px rgba(61, 90, 125, 0.05);
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    90.71deg,
+    #6071d9 36.51%,
+    #aa676f 63.73%,
+    #ccb41a 97.49%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 </style>
