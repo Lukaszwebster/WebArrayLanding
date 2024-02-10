@@ -364,7 +364,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
         </p>
       </div>
       <div class="justify-center md:hidden">
-        <div class="item-shadow mt-[3.48875rem]">
+        <div class="input-shadow mt-[3.48875rem]">
           <form>
             <input class="w-full border rounded-t-[1.25rem] px-[1.14rem] py-[1.2rem] outline-none" type="text" placeholder="Enter your e-mail address">
           </form>
@@ -375,7 +375,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       </div>
       <div class="relative">
         <img class="absolute left-[1rem] -top-[7rem] -z-10" src="/form-img.png" alt="">
-        <div class="item-shadow z-10 mx-auto mt-[4.3425rem] hidden max-w-[33.46875rem] items-center justify-between border border-[#EFEFEF] rounded-[1.5rem] bg-white py-[1rem] pl-[2rem] pr-[1rem] xl:max-w-[36.52375rem] md:flex">
+        <div class="input-shadow z-10 mx-auto mt-[4.3425rem] hidden max-w-[33.46875rem] items-center justify-between border border-[#EFEFEF] rounded-[1.5rem] bg-white py-[1rem] pl-[2rem] pr-[1rem] xl:max-w-[36.52375rem] md:flex">
           <img src="/label.png" alt="">
           <form>
             <input class="outline-none" type="text" placeholder="Enter your e-mail">
@@ -558,5 +558,8 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+.input-shadow {
+  box-shadow: 0px 34px 64px 0px #141c311c;
 }
 </style>
