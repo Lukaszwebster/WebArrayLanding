@@ -190,7 +190,7 @@ function handleNavItemClick(index: number) {
 </script>
 
 <template>
-  <div v-show="activeItemIndex" :class="activeItemIndex ? 'bg-gray-200 opacity-40' : ''" class="fixed z-30 h-full w-full bg-blue-400" @click="activeItemIndex = null" />
+  <div v-show="activeItemIndex" :class="activeItemIndex ? 'bg-gray-200 opacity-40' : ''" class="fixed z-30 h-full w-full" @click="activeItemIndex = null" />
   <div class="wrapper relative z-40">
     <div class="item-shadow w-full !lg:shadow-none">
       <div class="relative mx-auto w-full px-[1rem] py-[0.8rem] lg:px-[2rem] lg:py-[1.46875rem] md:px-[2rem] xl:px-[7.5rem]">
