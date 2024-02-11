@@ -424,14 +424,14 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
       </div>
       <div ref="parallaxContainer" class="relative">
         <img ref="parallaxImage" class="absolute hidden lg:left-[1rem] xxl:left-[20rem] -z-10 md:block lg:-top-[7rem] md:-left-[10rem] md:-top-[4rem]" src="/form-img.png" alt="">
-        <div class="input-shadow z-10 mx-auto mt-[4.3425rem] hidden max-w-[33.46875rem] items-center justify-between border border-[#EFEFEF] rounded-[1.5rem] bg-white py-[1rem] pl-[2rem] pr-[1rem] xl:max-w-[36.52375rem] md:flex">
+        <div class="input-shadow z-10 mx-auto mt-[4.3425rem] hidden max-w-[33.46875rem] items-center justify-between gap-[1.5625rem] border border-[#EFEFEF] rounded-[1.5rem] bg-white py-[1rem] pl-[2rem] pr-[1rem] xl:max-w-[36.52375rem] md:flex">
           <img src="/label.png" alt="">
-          <form>
+          <form class="w-full flex justify-between">
             <input class="outline-none" type="text" placeholder="Enter your e-mail">
+            <button class="w-full rounded-[1.25rem] bg-[#3482FF] py-[1rem] text-[1.25rem] text-white font-300 lg:mx-0 sm:max-w-[14.4375rem]">
+              Download PDF
+            </button>
           </form>
-          <button class="w-full rounded-[1.25rem] bg-[#3482FF] py-[1rem] text-[1.25rem] text-white font-300 lg:mx-0 sm:max-w-[14.4375rem]">
-            Download PDF
-          </button>
         </div>
       </div>
       <p class="mx-auto mt-[3.0325rem] text-center text-[0.75rem] text-gray font-300 xl:max-w-[61.5rem] md:text-[0.8125rem] xl:text-[0.9rem] md:leading-[1.384375rem]">
