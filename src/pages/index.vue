@@ -3,6 +3,25 @@ import { onMounted, onUnmounted, ref } from 'vue'
 
 // api POST
 const formData = ref('')
+async function submitForm() {
+  try {
+    const response = await fetch('https://dev.faster.ws/demo/socialseal/download', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ data: formData.value }),
+    })
+    if (!response.ok)
+      throw new Error('Network response was not ok')
+
+    const result = await response.json()
+    console.log(result)
+  }
+  catch (e) {
+    console.error('error', e)
+  }
+}
 // scroll image
 const scrollImage = ref<HTMLImageElement | null>(null)
 let initialScrollY = 0
@@ -23,6 +42,7 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
 })
+
 // parallax image
 const parallaxContainer = ref<HTMLElement | null>(null)
 const parallaxImage = ref<HTMLImageElement | null>(null)
