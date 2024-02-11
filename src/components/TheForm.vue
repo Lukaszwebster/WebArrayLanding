@@ -27,13 +27,13 @@ const isActive = ref()
     </h2>
     <form class="mt-[1.5625rem] flex flex-col gap-[1.25rem]" action="">
       <select class="border border-[#D5D5D5] rounded-[0.8125rem] bg-[#FBFDFF] px-[1.8125rem] py-[1.40625rem] placeholder-[#0B0B0B]">
-        <option>Select a time</option>
+        <option>Select a day</option>
       </select>
       <select class="border border-[#D5D5D5] rounded-[0.8125rem] bg-[#FBFDFF] px-[1.8125rem] py-[1.40625rem] placeholder-[#0B0B0B]">
         <option>Select a time</option>
       </select>
       <button class="max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white md:max-w-none">
-        Consultation
+        Schedule Appointment
       </button>
     </form>
   </div>
