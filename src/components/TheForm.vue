@@ -3,6 +3,7 @@ const isActive = ref()
 </script>
 
 <template>
+  <div v-show="isActive" class="fixed left-0 top-0 z-30 h-full w-full bg-gray-500 opacity-40" />
   <div class="item-shadow mt-[3rem] w-full rounded-[1.25rem] px-[1.625rem] py-[1.9375rem] xl:mt-0 xl:max-w-[30.15625rem] md:px-[2.875rem]">
     <h2 class="text-[1.5rem]">
       Free Consultation
@@ -20,7 +21,7 @@ const isActive = ref()
     </form>
   </div>
 
-  <div v-if="isActive" class="item-shadow absolute bottom-[4rem] left-[50%] w-full translate-x--50 rounded-[1.25rem] bg-white px-[1.625rem] py-[1.9375rem] xl:mt-0 xl:max-w-[31.25rem] md:px-[2.875rem]">
+  <div v-if="isActive" class="item-shadow absolute bottom-[4rem] left-[50%] z-40 w-full translate-x--50 rounded-[1.25rem] bg-white px-[1.625rem] py-[1.9375rem] xl:mt-0 xl:max-w-[31.25rem] md:px-[2.875rem]">
     <h2 class="text-center text-[1.875rem] font-500">
       What’s Your Availability
     </h2>
