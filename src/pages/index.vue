@@ -15,10 +15,9 @@ async function submitForm() {
     if (!response.ok)
       throw new Error('Network response was not ok')
     const result = await response.json()
-    console.log(result)
   }
   catch (e) {
-    console.log('error', e)
+    console.error('error', e)
   }
 }
 // scroll image
@@ -32,7 +31,6 @@ function handleScroll() {
     scrollImage.value.style.transform = `translateY(${translateY}px)`
   }
 }
-
 onMounted(() => {
   initialScrollY = window.scrollY || document.documentElement.scrollTop
   window.addEventListener('scroll', handleScroll)
@@ -60,7 +58,6 @@ function updateParallax(event: MouseEvent) {
     parallaxImage.value.style.transform = `translate(${offsetX * 200}px, ${offsetY * 10}px)`
   }
 }
-
 onMounted(() => {
   window.addEventListener('mousemove', updateParallax)
 })
@@ -119,7 +116,6 @@ const bars = [
     class: 'border-#FFB6FF bg-#FFF6FF ',
   },
 ]
-
 const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to double your business', 'Free page speed insights tool to find out exactly', 'Seo quotes to inspire your campaign']
 </script>
 
@@ -323,7 +319,7 @@ const questionsList = ['Seo quotes to inspire your campaign', 'Much easier to do
           <img src="/swiper5.png" alt="">
         </swiper-slide>
       </AppSwiper>
-      <div class="flex flex-col items-center px-[0.9375rem] lg:items-start md:px-[2rem] xl:px-[7.5rem]">
+      <div class="flex flex-col items-center px-[0.9375rem] lg:items-start xxl:items-center md:px-[2rem] xl:px-[7.5rem]">
         <h2 class="mt-[1.4375rem] text-center text-[1.5rem] text-white font-700 lg:mt-[6.87rem] lg:text-left lg:text-[3.25rem] md:text-[2.8125rem]">
           What Are You Waiting For?
         </h2>
