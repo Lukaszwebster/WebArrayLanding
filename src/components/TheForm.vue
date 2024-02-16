@@ -4,7 +4,7 @@ const isActive = ref()
 
 <template>
   <div v-show="isActive" class="fixed left-0 top-0 z-30 h-full w-full bg-gray-500 opacity-40" />
-  <div class="item-shadow mt-[3rem] w-full rounded-[1.25rem] px-[1.625rem] py-[1.9375rem] xl:mt-0 xl:max-w-[30.15625rem] md:px-[2.875rem]">
+  <div class="item-shadow mt-[3rem] w-full rounded-[1.25rem] px-[1.625rem] py-[1.9375rem] xl:mt-0 lg:max-w-[30.15625rem] md:px-[2.875rem]">
     <h2 class="text-[1.5rem]">
       Free Consultation
     </h2>
