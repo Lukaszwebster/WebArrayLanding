@@ -22,7 +22,7 @@ const activeElement = ref()
 
 <template>
   <section class="px-[0.9375rem] pt-[10.4675rem] md:px-[2rem] xl:px-[7.5rem]">
-    <div class="mx-auto max-w-[90rem] flex flex-col lg:flex-row xl:justify-between">
+    <div class="mx-auto max-w-[90rem] flex flex-col gap-[2rem] lg:flex-row xl:justify-between">
       <div>
         <img src="/faq-img.png" alt="">
         <h2 class="mt-[1.5625rem] text-center text-[2.1875rem] font-700 leading-[2.625rem] xl:max-w-[31.4375rem] md:text-left md:text-[2.8125rem] xl:text-[3.25rem] xl:leading-[3.9rem]">
@@ -35,7 +35,7 @@ const activeElement = ref()
           Lorem ipsum dolor sit amet, sed nulla ante amet, elementum tincidunt arcu sed laoreet, natoque ac eget imperdiet. Ac scelerisque nibh.
         </p>
       </div>
-      <ul class="md:mt-[3.125rem] xl:mt-0 xl:max-w-[36.5625rem]">
+      <ul class="mx-auto max-w-[36.5625rem] xxl:mx-0 md:mt-[3.125rem] xl:mt-0">
         <li v-for="(item, index) in faqItems" :key="index" class="item-shadow mx-auto mb-[1rem] border border-[#F4F4F4] rounded-[1.25rem] py-[1.875rem] pb-4 pl-[0.875rem] pr-[2.9375rem] hover:cursor-pointer lg:py-[2.5rem]" @click="activeElement === index ? activeElement = null : activeElement = index">
           <div class="flex gap-[0.8125rem]">
             <button>
