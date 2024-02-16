@@ -5,7 +5,7 @@
         <AppMarquee />
       </div>
     </div>
-    <div class="max-w-[90rem] w-full flex flex-col items-center justify-center lg:grid lg:grid-cols-2 lg:flex-row-reverse">
+    <div class="max-w-[90rem] w-full flex flex-col items-center justify-center lg:grid lg:grid-cols-2 lg:flex-row-reverse lg:gap-[2rem]">
       <TheInfoSquares />
       <div class="mx-auto flex flex-col lg:mx-0">
         <div class="lg:max-w-[24rem] xl:max-w-none">
