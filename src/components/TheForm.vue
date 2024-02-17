@@ -4,7 +4,7 @@ const isActive = ref()
 
 <template>
   <div v-show="isActive" class="fixed left-0 top-0 z-30 h-full w-full bg-gray-500 opacity-40" />
-  <div class="item-shadow mt-[3rem] max-w-[30.15625rem] w-full rounded-[1.25rem] px-[1.625rem] py-[1.9375rem] md:mx-auto xxl:mx-0 xl:mt-0 md:px-[2.875rem]">
+  <div class="item-shadow mx-auto mt-[3rem] max-w-[30.15625rem] w-full rounded-[1.25rem] px-[1.625rem] py-[1.9375rem] lg:mx-0 md:mx-auto xl:mt-0 md:px-[2.875rem]">
     <h2 class="text-[1.5rem]">
       Free Consultation
     </h2>
@@ -18,7 +18,7 @@ const isActive = ref()
         </option>
         <option>Subject</option>
       </select>
-      <button type="button" class="max-w-[22.5rem] w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white md:max-w-none" @click="isActive = !isActive">
+      <button type="button" class="w-full flex justify-center rounded-[1.25rem] bg-[#3482FF] px-[3.4375rem] py-[1.43rem] text-white md:max-w-[22.5rem] md:max-w-none" @click="isActive = !isActive">
         Consultation
       </button>
     </form>
