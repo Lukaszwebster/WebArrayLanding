@@ -36,7 +36,7 @@ const activeElement = ref()
         </p>
       </div>
       <ul class="mx-auto max-w-[36.5625rem] xxl:mx-0 md:mt-[3.125rem] xl:mt-0">
-        <li v-for="(item, index) in faqItems" :key="index" class="item-shadow mx-auto mb-[1rem] border border-[#F4F4F4] rounded-[1.25rem] py-[1.875rem] pb-4 pl-[0.875rem] pr-[2.9375rem] hover:cursor-pointer lg:py-[2.5rem]" @click="activeElement === index ? activeElement = null : activeElement = index">
+        <li v-for="(item, index) in faqItems" :key="index" class="item-shadow mx-auto mb-[1rem] border border-[#F4F4F4] rounded-[1.25rem] py-[1.875rem] pl-[0.875rem] pr-[2.9375rem] hover:cursor-pointer lg:py-[2.5rem]" @click="activeElement === index ? activeElement = null : activeElement = index">
           <div class="flex gap-[0.8125rem]">
             <button>
               <img src="/plus.png" alt="">
