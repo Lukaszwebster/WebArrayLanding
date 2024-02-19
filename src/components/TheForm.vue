@@ -9,10 +9,10 @@ const isActive = ref()
       Free Consultation
     </h2>
     <form class="mt-[1.5625rem] flex flex-col gap-[1.25rem]" action="">
-      <input class="border border-[#D5D5D5] rounded-[0.8125rem] bg-[#FBFDFF] px-[1.8125rem] py-[1.40625rem] placeholder-[#0B0B0B]" type="text" placeholder="Name">
-      <input class="border border-[#D5D5D5] rounded-[0.8125rem] bg-[#FBFDFF] px-[1.8125rem] py-[1.40625rem] placeholder-[#0B0B0B]" type="text" placeholder="Email Address">
-      <input class="border border-[#D5D5D5] rounded-[0.8125rem] bg-[#FBFDFF] px-[1.8125rem] py-[1.40625rem] placeholder-[#0B0B0B]" type="text" placeholder="Phone Number">
-      <select class="border border-[#D5D5D5] rounded-[0.8125rem] bg-[#FBFDFF] px-[1.8125rem] py-[1.40625rem] placeholder-[#0B0B0B]">
+      <input class="border border-[#D5D5D5] rounded-[0.8125rem] bg-[#FBFDFF] px-[1.8125rem] py-[1.40625rem] outline-none placeholder-[#0B0B0B]" type="text" placeholder="Name">
+      <input class="border border-[#D5D5D5] rounded-[0.8125rem] bg-[#FBFDFF] px-[1.8125rem] py-[1.40625rem] outline-none placeholder-[#0B0B0B]" type="text" placeholder="Email Address">
+      <input class="border border-[#D5D5D5] rounded-[0.8125rem] bg-[#FBFDFF] px-[1.8125rem] py-[1.40625rem] outline-none placeholder-[#0B0B0B]" type="text" placeholder="Phone Number">
+      <select class="border border-[#D5D5D5] rounded-[0.8125rem] bg-[#FBFDFF] px-[1.8125rem] py-[1.40625rem] outline-none placeholder-[#0B0B0B]">
         <option>
           Subject
         </option>

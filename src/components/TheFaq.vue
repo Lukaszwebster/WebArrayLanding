@@ -50,7 +50,8 @@ const activeElement = ref()
           </div>
           <div :class="activeElement === index ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'" class="will-change-grid-rows grid overflow-hidden transition-all duration-500">
             <div class="min-h-0">
-              <p class="mt-4 text-[0.8rem] xl:text-[1rem]">
+              <div class="mt-[2.536875rem] h-[1px] w-full bg-gray-200" />
+              <p class="mt-4 text-[0.8rem] text-gray-400 leading-[1.7rem] xl:text-[1rem]">
                 {{ item.answer }}
               </p>
             </div>
